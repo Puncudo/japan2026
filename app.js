@@ -88,6 +88,7 @@ function renderMajor(item) {
       <div class="tl-major-name">${item.name}</div>
       <div class="tl-major-dates">${fmtDateShort(item.arrival)}${arrTime} → ${fmtDateShort(item.departure)}</div>
       <span class="tl-nights">${nLabel}</span>
+      ${item.transit ? `<div class="tl-transit">${item.transit}</div>` : ''}
     </div>
   `;
   wrap.addEventListener('click', () => openStop(item));
@@ -102,11 +103,17 @@ function renderWaypoints(item) {
   const body = el('div', 'tl-body');
   const row  = el('div', 'tl-wps-row');
 
+  if (item.transit) {
+    const transitEl = el('div', 'tl-wp-transit-group', item.transit);
+    body.appendChild(transitEl);
+  }
+
   item.items.forEach(wp => {
     const wpEl = el('div', 'tl-wp');
     wpEl.innerHTML = `
       <div class="tl-wp-ring"><div class="tl-wp-inner">${placeCircle(wp.image)}</div></div>
       <div class="tl-wp-name">${wp.name}</div>
+      ${wp.transit ? `<div class="tl-wp-transit">${wp.transit}</div>` : ''}
     `;
     wpEl.addEventListener('click', () => openWaypoint(wp));
     row.appendChild(wpEl);
@@ -165,7 +172,7 @@ async function init() {
   initTabs();
   registerSW();
   try {
-    const res  = await fetch('./data/trip.json');
+    const res  = await fetch(`./data/trip.json?_=${Date.now()}`);
     const data = await res.json();
     window._tripData = data;
     buildTimeline(data);

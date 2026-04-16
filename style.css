@@ -205,6 +205,40 @@ body {
   margin-top: 4px;
 }
 
+.tl-transit {
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 5px;
+  padding: 3px 8px;
+  background: var(--surface2);
+  border-left: 2px solid var(--border);
+  border-radius: 0 6px 6px 0;
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* Waypoint group transit label */
+.tl-wp-transit-group {
+  font-size: 10px;
+  color: var(--muted);
+  margin-bottom: 6px;
+  padding: 2px 8px;
+  background: var(--surface2);
+  border-left: 2px solid var(--border);
+  border-radius: 0 6px 6px 0;
+  display: inline-block;
+}
+
+/* Per-waypoint transit (cost/duration under city name) */
+.tl-wp-transit {
+  font-size: 9px;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 1px;
+  opacity: 0.75;
+  line-height: 1.2;
+}
+
 /* ── Flight dot ──────────────────────────────────── */
 .tl-dot-flight {
   width: 34px;
