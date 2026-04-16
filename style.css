@@ -717,7 +717,41 @@ body {
   padding: 10px 14px 6px;
   flex-shrink: 0;
   border-bottom: 1px solid rgba(0,0,0,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
 }
+
+/* ── Compact toggle button ────────────────── */
+.act-compact-btn {
+  flex-shrink: 0;
+  background: rgba(255,255,255,0.55);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  width: 26px;
+  height: 22px;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .15s, color .15s, border-color .15s;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.act-compact-btn:hover { background: rgba(255,255,255,0.9); color: var(--pink); border-color: var(--pink); }
+
+/* ── Compact mode — header only ──────────── */
+.acts-compact .act-notes  { display: none; }
+.acts-compact .act-foot   { display: none; }
+.acts-compact .act-links  { display: none; }
+.acts-compact .act-photo-col { display: none; }
+.acts-compact .act-card   { padding: 5px 8px; margin-bottom: 4px; }
+.acts-compact .act-time   { margin-bottom: 0; }
+.acts-compact .act-name   { margin-bottom: 0; }
 
 .act-list {
   flex: 1;

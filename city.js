@@ -139,11 +139,17 @@ async function openCity(stopItem) {
   document.getElementById('city-overlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 
-  requestAnimationFrame(() => setTimeout(() => {
+  /* Wait for slide-up transition (350ms) to finish before init-ing the map,
+     otherwise Leaflet measures wrong container dimensions on mobile */
+  const overlay = document.getElementById('city-overlay');
+  const onTransitionEnd = e => {
+    if (e.propertyName !== 'transform') return;
+    overlay.removeEventListener('transitionend', onTransitionEnd);
     initMap(data);
     const first = data.days.find(d => d.activities?.length);
     if (first) selectDay(first.date);
-  }, 80));
+  };
+  overlay.addEventListener('transitionend', onTransitionEnd);
 }
 
 /* ── Close city ─────────────────────────────────────── */
@@ -226,7 +232,10 @@ function buildCityDOM(data) {
             </div>
           </div>
 
-          <div class="act-panel-title" id="act-panel-title">— select a day —</div>
+          <div class="act-panel-title" id="act-panel-title">
+            <span id="act-panel-date">— select a day —</span>
+            <button class="act-compact-btn" id="act-compact-btn" onclick="toggleCompact()" title="Compact view">⊟</button>
+          </div>
           <div class="act-list" id="act-list"></div>
         </div>
       </div>
@@ -378,10 +387,10 @@ async function selectDay(dateStr) {
   }
 
   const day     = currentCity.days.find(d => d.date === dateStr);
-  const titleEl = document.getElementById('act-panel-title');
   const listEl  = document.getElementById('act-list');
 
-  titleEl.textContent = fmtDate(dateStr);
+  const dateSpan = document.getElementById('act-panel-date');
+  if (dateSpan) dateSpan.textContent = fmtDate(dateStr);
 
   if (!day?.activities?.length) {
     listEl.innerHTML = `<p class="act-empty">${day?.note || 'No activities planned for this day yet.'}</p>`;
@@ -1225,6 +1234,20 @@ document.addEventListener('paste', e => {
   const imgItem = Array.from(e.clipboardData?.items || []).find(i => i.type.startsWith('image/'));
   if (imgItem) { e.preventDefault(); _setPhotoBlob(imgItem.getAsFile()); }
 });
+
+/* ══════════════════════════════════════════════════════
+   COMPACT / EXPAND TOGGLE
+══════════════════════════════════════════════════════ */
+function toggleCompact() {
+  const list = document.getElementById('act-list');
+  const btn  = document.getElementById('act-compact-btn');
+  if (!list) return;
+  const isCompact = list.classList.toggle('acts-compact');
+  if (btn) {
+    btn.textContent = isCompact ? '⊞' : '⊟';
+    btn.title       = isCompact ? 'Full view' : 'Compact view';
+  }
+}
 
 /* ══════════════════════════════════════════════════════
    MOBILE BOTTOM SHEET

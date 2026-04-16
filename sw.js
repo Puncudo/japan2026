@@ -1,4 +1,4 @@
-const CACHE_NAME = 'japan-trip-v13';
+const CACHE_NAME = 'japan-trip-v14';
 const ASSETS = [
   '/',
   '/index.html',
@@ -35,17 +35,30 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
-  // Never intercept POST requests or API calls — let them go straight to network
-  if (e.request.method !== 'GET' || e.request.url.includes('/api/')) {
+  // Never intercept POST requests or API calls
+  if (e.request.method !== 'GET' || e.request.url.includes('/api/')) return;
+
+  // HTML navigations — network first so updates are picked up immediately
+  if (e.request.mode === 'navigate' || e.request.url.endsWith('.html')) {
+    e.respondWith(
+      fetch(e.request)
+        .then(res => {
+          const clone = res.clone();
+          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+          return res;
+        })
+        .catch(() => caches.match(e.request))
+    );
     return;
   }
 
+  // Everything else — cache first, fall back to network
   e.respondWith(
     caches.match(e.request).then(cached => {
       if (cached) return cached;
       return fetch(e.request).then(res => {
         const clone = res.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+        caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
         return res;
       }).catch(() => caches.match('/index.html'));
     })
