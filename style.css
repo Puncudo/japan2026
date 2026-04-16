@@ -216,6 +216,17 @@ body {
   display: inline-block;
   max-width: 100%;
 }
+.tl-book-badge {
+  font-size: 10px;
+  color: #92400e;
+  background: #fef3c7;
+  border: 1px solid #fcd34d;
+  border-radius: 20px;
+  padding: 2px 8px;
+  display: inline-block;
+  margin-top: 4px;
+  max-width: 100%;
+}
 
 /* Waypoint group transit label */
 .tl-wp-transit-group {

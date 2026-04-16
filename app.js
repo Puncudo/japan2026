@@ -89,6 +89,7 @@ function renderMajor(item) {
       <div class="tl-major-dates">${fmtDateShort(item.arrival)}${arrTime} → ${fmtDateShort(item.departure)}</div>
       <span class="tl-nights">${nLabel}</span>
       ${item.transit ? `<div class="tl-transit">${item.transit}</div>` : ''}
+      ${item.transitBook ? `<div class="tl-book-badge">📅 Book ${item.transitBook.days} days ahead · ${item.transitBook.note}</div>` : ''}
     </div>
   `;
   wrap.addEventListener('click', () => openStop(item));

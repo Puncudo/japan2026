@@ -25,7 +25,8 @@
       "image": "fuji",
       "arrival": "2026-05-14",
       "departure": "2026-05-15",
-      "transit": "🚌 Highway bus from Shinjuku · ~2h · ¥1,750"
+      "transit": "🚌 Highway bus from Shinjuku · ~2h · ¥1,750",
+      "transitBook": { "days": 7, "note": "Book online — Willer Express or Keio Bus. Sells out." }
     },
     {
       "type": "major",
@@ -69,7 +70,8 @@
       "image": "hiroshima",
       "arrival": "2026-05-22",
       "departure": "2026-05-25",
-      "transit": "🚄 Shinkansen Hikari from Himeji · 50 min · ¥5,500"
+      "transit": "🚄 Shinkansen Hikari from Himeji · 50 min · ¥5,500",
+      "transitBook": { "days": 4, "note": "Friday arrival — book Shinkansen ahead" }
     },
     {
       "type": "major",
