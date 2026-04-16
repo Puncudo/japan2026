@@ -1,0 +1,223 @@
+{
+  "id": "osaka",
+  "name": "Osaka",
+  "center": [
+    34.6937,
+    135.5023
+  ],
+  "hotel": {
+    "name": "Hotel Forza Osaka Namba",
+    "coords": [
+      34.6681,
+      135.5019
+    ],
+    "place": "Hotel Forza Osaka Namba, Namba, Osaka, Japan"
+  },
+  "days": [
+    {
+      "date": "2026-05-19",
+      "note": "Arrival via Nara & Uji",
+      "activities": [
+        {
+          "time": "13:00",
+          "timeEnd": "14:30",
+          "name": "Nara Day Stop",
+          "type": "sightseeing",
+          "notes": "Take JR Nara Line from Kyoto (~45 min). Todai-ji Temple (giant Buddha), feed the deer in Nara Park, Kasuga Taisha Shrine.",
+          "place": "Nara Park, Nara, Japan",
+          "coords": [
+            34.6851,
+            135.8399
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nara+Park+Nara+Japan",
+          "photo": "photos/osaka/nara-day-stop.jpg"
+        },
+        {
+          "time": "08:00",
+          "timeEnd": "12:00",
+          "name": "Uji Day Stop",
+          "type": "sightseeing",
+          "notes": "JR Nara Line from Nara to Uji (~30 min). Byodoin Temple (on the 10-yen coin), Uji Bridge, matcha everything.",
+          "place": "Byodoin Temple, Uji, Kyoto, Japan",
+          "coords": [
+            34.8884,
+            135.8072
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Byodoin+Temple+Uji",
+          "photo": "photos/osaka/uji-day-stop.jpg"
+        },
+        {
+          "time": "17:00",
+          "name": "Check in — Hotel Forza Osaka Namba",
+          "type": "transport",
+          "notes": "JR from Uji to Osaka (~1h). Check in, drop bags, explore Dotonbori.",
+          "place": "Hotel Forza Osaka Namba, Namba, Osaka, Japan",
+          "coords": [
+            34.6681,
+            135.5019
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Forza+Osaka+Namba"
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Dotonbori",
+          "type": "food",
+          "notes": "Takoyaki, okonomiyaki, kushikatsu, ramen. Walk the iconic canal-side strip under the Glico Running Man sign.",
+          "place": "Dotonbori, Namba, Osaka, Japan",
+          "coords": [
+            34.6687,
+            135.5014
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Dotonbori/@34.6687,135.5014,17z",
+          "photo": "photos/osaka/dotonbori.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "12:00",
+          "name": "Osaka Castle",
+          "type": "sightseeing",
+          "notes": "One of Japan's most famous landmarks. Museum inside the tower, great views from top. Walk the moat and gardens.",
+          "place": "Osaka Castle, Osaka, Japan",
+          "coords": [
+            34.6873,
+            135.5262
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Osaka+Castle/@34.6873,135.5262,17z",
+          "photo": "photos/osaka/osaka-castle.jpg"
+        },
+        {
+          "time": "12:30",
+          "timeEnd": "13:30",
+          "name": "🍴 Kuromon Ichiba Market",
+          "type": "food",
+          "notes": "Osaka's 'kitchen' — 180 stalls of fresh seafood, wagyu, street snacks. Great for lunch on the go.",
+          "place": "Kuromon Ichiba Market, Osaka, Japan",
+          "coords": [
+            34.6702,
+            135.5065
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Kuromon+Ichiba+Market/@34.6702,135.5065,17z",
+          "photo": "photos/osaka/kuromon-ichiba-market.jpg"
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "16:00",
+          "name": "Shinsaibashi & Amerika-Mura",
+          "type": "shopping",
+          "notes": "Shinsaibashi-suji covered shopping arcade. Nearby Amerika-Mura for vintage/streetwear.",
+          "place": "Shinsaibashi, Osaka, Japan",
+          "coords": [
+            34.674,
+            135.5006
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Shinsaibashi/@34.6740,135.5006,17z",
+          "photo": "photos/osaka/shinsaibashi-amerika-mura.webp"
+        },
+        {
+          "time": "17:00",
+          "timeEnd": "19:00",
+          "name": "Tsutenkaku Tower & Shinsekai",
+          "type": "sightseeing",
+          "notes": "Retro tower in the old-school Shinsekai neighbourhood. Great kushikatsu joints all around.",
+          "place": "Tsutenkaku Tower, Osaka, Japan",
+          "coords": [
+            34.6527,
+            135.5064
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Tsutenkaku/@34.6527,135.5064,17z",
+          "photo": "photos/osaka/tsutenkaku-tower-shinsekai.jpg"
+        },
+        {
+          "time": "19:30",
+          "name": "🍴 Kushikatsu Daruma",
+          "type": "food",
+          "notes": "Osaka's most famous kushikatsu chain. Breaded & deep-fried skewers — no double-dipping rule!",
+          "place": "Kushikatsu Daruma Shinsekai, Osaka, Japan",
+          "coords": [
+            34.6522,
+            135.5059
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kushikatsu+Daruma+Shinsekai+Osaka",
+          "photo": "photos/osaka/kushikatsu-daruma.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "activities": [
+        {
+          "time": "10:00",
+          "timeEnd": "13:00",
+          "name": "Universal Studios Japan",
+          "type": "sightseeing",
+          "notes": "Super Nintendo World! Book express pass if possible. From Namba, take JR Loop Line to Nishikujo → JR Yumesaki Line to USJ (~25 min).",
+          "place": "Universal Studios Japan, Osaka, Japan",
+          "coords": [
+            34.6654,
+            135.4323
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Universal+Studios+Japan/@34.6654,135.4323,17z",
+          "photo": "photos/osaka/universal-studios-japan.jpg"
+        },
+        {
+          "time": "15:00",
+          "timeEnd": "17:00",
+          "name": "Tempozan & Osaka Aquarium Kaiyukan",
+          "type": "sightseeing",
+          "notes": "One of the world's largest aquariums. Whale sharks, manta rays. Near USJ — combine the trip.",
+          "place": "Osaka Aquarium Kaiyukan, Osaka, Japan",
+          "coords": [
+            34.6546,
+            135.4281
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Osaka+Aquarium+Kaiyukan/@34.6546,135.4281,17z",
+          "photo": "photos/osaka/tempozan-osaka-aquarium-kaiyukan.jpg"
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Namba Parks / Hozenji Yokocho",
+          "type": "food",
+          "notes": "End the night at Hozenji Yokocho — mossy lantern-lit alley with traditional Osaka dining.",
+          "place": "Hozenji Yokocho, Namba, Osaka, Japan",
+          "coords": [
+            34.669,
+            135.503
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Hozenji+Yokocho/@34.6690,135.5030,17z",
+          "photo": "photos/osaka/namba-parks-hozenji-yokocho.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "note": "Departure via Himeji → Hiroshima",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "13:00",
+          "name": "Himeji Castle Day Stop",
+          "type": "sightseeing",
+          "notes": "Shinkansen Osaka → Himeji (~30 min). Japan's finest original castle — UNESCO listed. Walk the bailey and gardens.",
+          "place": "Himeji Castle, Himeji, Hyogo, Japan",
+          "coords": [
+            34.8394,
+            134.6939
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Himeji+Castle/@34.8394,134.6939,17z",
+          "photo": "photos/osaka/himeji-castle-day-stop.jpg"
+        },
+        {
+          "time": "14:00",
+          "name": "Shinkansen: Himeji → Hiroshima",
+          "type": "transport",
+          "notes": "Shinkansen Nozomi or Hikari from Himeji to Hiroshima (~50 min)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "fujikawaguchiko",
+  "name": "Fujikawaguchiko",
+  "center": [
+    35.4937,
+    138.7631
+  ],
+  "hotel": {
+    "name": "Hotel Koryu",
+    "coords": [
+      35.5012,
+      138.7535
+    ],
+    "place": "Hotel Koryu, Fujikawaguchiko, Yamanashi, Japan"
+  },
+  "days": [
+    {
+      "date": "2026-05-14",
+      "note": "Arrival from Tokyo",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "10:30",
+          "name": "Bus: Shinjuku → Kawaguchiko",
+          "type": "transport",
+          "notes": "Keio or Fujikyu Highway Bus from Shinjuku Bus Terminal (Busta Shinjuku). ~2h direct but can take up to 2.5h with traffic — stay flexible with lunch timing."
+        },
+        {
+          "time": "11:00",
+          "timeEnd": "12:30",
+          "name": "🍴 Houtou Fudou",
+          "type": "food",
+          "notes": "Famous local houtou (flat noodle miso stew) — the must-eat dish of Yamanashi. Great Mt Fuji views from the riverside branch.",
+          "place": "Houtou Fudou Kawaguchiko, Fujikawaguchiko, Yamanashi, Japan",
+          "coords": [
+            35.505,
+            138.7617
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Houtou+Fudou+Kawaguchiko",
+          "photo": "photos/fujikawaguchiko/houtou-fudou.jpg"
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "15:00",
+          "name": "Mt Fuji Panoramic Ropeway",
+          "type": "sightseeing",
+          "notes": "Short gondola up Mt Tenjo. Stunning views of Mt Fuji and Lake Kawaguchi from the summit. Return by ropeway or hike down.",
+          "place": "Mt. Fuji Panoramic Ropeway, Fujikawaguchiko, Yamanashi, Japan",
+          "coords": [
+            35.5096,
+            138.7598
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mt+Fuji+Panoramic+Ropeway+Kawaguchiko",
+          "photo": "photos/fujikawaguchiko/mt-fuji-panoramic-ropeway.jpg"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "17:00",
+          "name": "Itchiku Kubota Art Museum",
+          "type": "sightseeing",
+          "notes": "Stunning kimono art museum on the lake shore. The architect's collection of Tsujigahana dyed silk kimonos is world-class.",
+          "place": "Itchiku Kubota Art Museum, Fujikawaguchiko, Yamanashi, Japan",
+          "coords": [
+            35.5141,
+            138.7281
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Itchiku+Kubota+Art+Museum",
+          "photo": "photos/fujikawaguchiko/itchiku-kubota-art-museum.jpg"
+        },
+        {
+          "time": "17:30",
+          "timeEnd": "18:30",
+          "name": "Oishi Park",
+          "type": "sightseeing",
+          "notes": "Lakeside park — best spot on Lake Kawaguchi for Mt Fuji views, especially at golden hour. Mid-May = tulips & canola flowers (lavender blooms late June–July).",
+          "place": "Oishi Park, Fujikawaguchiko, Yamanashi, Japan",
+          "coords": [
+            35.5231,
+            138.7416
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oishi+Park+Kawaguchiko",
+          "photo": "photos/fujikawaguchiko/oishi-park.jpg"
+        },
+        {
+          "time": "18:30",
+          "timeEnd": "19:00",
+          "name": "♨️ Hotel Koryu Onsen",
+          "type": "sightseeing",
+          "notes": "⚡ ADDED: Soak in the hotel's hot spring bath after a full day. Perfect wind-down before dinner.",
+          "place": "Hotel Koryu, Fujikawaguchiko, Yamanashi, Japan",
+          "coords": [35.5012, 138.7535]
+        },
+        {
+          "time": "19:00",
+          "timeEnd": "",
+          "name": "Relax and food",
+          "type": "food",
+          "notes": "Dinner around Kawaguchiko town.",
+          "place": "fujikawaguchiko",
+          "coords": [
+            35.501967,
+            138.75213
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=restaurants+Kawaguchiko",
+          "links": [
+            {
+              "text": "🍜 Kawaguchiko food guide",
+              "url": "https://slowtripjapan.com/kawaguchiko-local-food-guide/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "note": "Departure to Kyoto",
+      "activities": [
+        {
+          "time": "06:30",
+          "timeEnd": "09:00",
+          "name": "Chureito Pagoda",
+          "type": "sightseeing",
+          "notes": "The iconic 5-storey pagoda with Mt Fuji behind it. 400 stone steps up — go early before crowds. 15-min train to Fujiyoshida.",
+          "place": "Chureito Pagoda, Fujiyoshida, Yamanashi, Japan",
+          "coords": [
+            35.4948,
+            138.7918
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chureito+Pagoda+Fujiyoshida",
+          "photo": "photos/fujikawaguchiko/chureito-pagoda.jpg"
+        },
+        {
+          "time": "10:00",
+          "timeEnd": "13:30",
+          "name": "Train: Kawaguchiko → Kyoto",
+          "type": "transport",
+          "notes": "Primary: Bus to Mishima Station (~1h) → Shinkansen Hikari to Kyoto (~2h). Backup: Fujikyu to Otsuki → JR Chuo Line to Shinjuku → Shinkansen (longer, backtracks through Tokyo)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "hiroshima",
+  "name": "Hiroshima",
+  "center": [
+    34.3853,
+    132.4553
+  ],
+  "hotel": {
+    "name": "Hotel Granvia Hiroshima South Gate",
+    "place": "Hotel Granvia Hiroshima South Gate",
+    "coords": [
+      34.3990512,
+      132.4755043
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Granvia%20Hiroshima%20South%20Gate"
+  },
+  "days": [
+    {
+      "date": "2026-05-22",
+      "note": "Arrival from Himeji — evening in Hiroshima",
+      "activities": [
+        {
+          "time": "17:30",
+          "name": "Check in — Hotel Granvia Hiroshima",
+          "type": "transport",
+          "notes": "Arrive from Himeji. Check in, freshen up.",
+          "place": "Hotel Granvia Hiroshima South Gate, Hiroshima, Japan",
+          "coords": [
+            34.3990512,
+            132.4755043
+          ]
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Dinner — Nagarekawa district",
+          "type": "food",
+          "notes": "Hiroshima's lively izakaya district — packed lanes of local bars, yakitori, and Japanese pub food. Great first-night spot to get a feel for the city. 10-min walk from hotel.",
+          "place": "Nagarekawa, Naka Ward, Hiroshima, Japan",
+          "coords": [
+            34.3916,
+            132.4595
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagarekawa+izakaya+Hiroshima",
+          "photo": "photos/hiroshima/dinner-nagarekawa-district.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "note": "🎂 Birthday! Hiroshima city day",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "10:00",
+          "name": "Shukkeien Garden",
+          "type": "sightseeing",
+          "notes": "Beautiful 17th-century Japanese garden, 10-min walk from hotel. Peaceful birthday morning — ponds, stone bridges, traditional tea house. ¥260 at gate.",
+          "place": "Shukkeien Garden, Hiroshima, Japan",
+          "coords": [
+            34.3989,
+            132.4676
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shukkeien+Garden+Hiroshima"
+        },
+        {
+          "time": "10:30",
+          "timeEnd": "12:30",
+          "name": "Peace Memorial Park & Museum",
+          "type": "sightseeing",
+          "notes": "A-Bomb Dome, Peace Memorial Museum, Children's Peace Monument. Very moving — allow 2 hours minimum. Book web ticket in advance, queues can exceed 45 min without.",
+          "place": "Hiroshima Peace Memorial Park, Hiroshima, Japan",
+          "coords": [
+            34.3955,
+            132.4533
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Hiroshima+Peace+Memorial+Park/@34.3955,132.4533,17z",
+          "photo": "photos/hiroshima/peace-memorial-park-museum.jpg",
+          "links": [
+            {
+              "text": "🎫 Book web ticket",
+              "url": "https://hpmmuseum.jp/?lang=eng"
+            }
+          ]
+        },
+        {
+          "time": "12:30",
+          "timeEnd": "13:30",
+          "name": "Hiroshima Orizuru Tower",
+          "type": "sightseeing",
+          "notes": "Open-air observation deck with panoramic views over the city and the Atomic Bomb Dome right below.",
+          "place": "1-chome-2-1 Otemachi, Naka Ward, Hiroshima",
+          "coords": [
+            34.3956,
+            132.4547
+          ],
+          "photo": "photos/hiroshima/hiroshima-orizuru-tower.jpg"
+        },
+        {
+          "time": "13:30",
+          "timeEnd": "15:00",
+          "name": "🍴 Lunch: Okonomiyaki",
+          "type": "food",
+          "notes": "Hiroshima-style layered savoury pancakes — completely different from Tokyo-style. Okonomimura is a food building with multiple stalls, pick whichever has the shortest queue.",
+          "place": "Okonomimura, 5-13 Shintenchi, Naka Ward, Hiroshima",
+          "coords": [
+            34.3916,
+            132.463
+          ],
+          "photo": "photos/hiroshima/lunch-okonomiyaki.jpg"
+        },
+        {
+          "time": "15:00",
+          "timeEnd": "16:30",
+          "name": "Hiroshima Castle Grounds & Sannomaru",
+          "type": "sightseeing",
+          "notes": "Castle keep closed since March 2026 for structural safety. Walk the moat and grounds (free). Sannomaru area (opened 2025) has archery and samurai tea ceremony experiences.",
+          "place": "Hiroshima Castle, Hiroshima, Japan",
+          "coords": [
+            34.4022,
+            132.4593
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hiroshima+Castle+Sannomaru",
+          "photo": "photos/hiroshima/hiroshima-castle.jpg"
+        },
+        {
+          "time": "19:00",
+          "timeEnd": "19:45",
+          "name": "A-Bomb Dome at night",
+          "type": "sightseeing",
+          "notes": "The dome is illuminated at night and looks completely different — stark silhouette against the dark sky, almost total silence. A quiet, moving moment before dinner. Free.",
+          "place": "Atomic Bomb Dome, Hiroshima, Japan",
+          "coords": [
+            34.3955,
+            132.4534
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Atomic+Bomb+Dome+Hiroshima",
+          "photo": "photos/hiroshima/a-bomb-dome-at-night.png"
+        },
+        {
+          "time": "20:00",
+          "name": "🎂 Birthday Dinner — Steak Kaiseki Miyako Kasuga",
+          "type": "food",
+          "notes": "Special occasion teppanyaki — steak and sautéed lobster courses surrounded by a Japanese garden with antique European interior. One of Hiroshima's best special-occasion restaurants. Book in advance and mention it's your birthday.",
+          "place": "Hiroshima, Japan",
+          "coords": [
+            34.3853,
+            132.4553
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Steak+Kaiseki+Miyako+Kasuga+Hiroshima"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "activities": [
+        {
+          "time": "09:30",
+          "timeEnd": "11:30",
+          "name": "Itsukushima Shrine",
+          "type": "sightseeing",
+          "notes": "Iconic shrine known for its 'floating' Torii gate during high tide.",
+          "place": "Itsukushima Jinja",
+          "coords": [
+            34.2965418,
+            132.3190077
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Itsukushima%20Jinja",
+          "photo": "photos/hiroshima/itsukushima-shrine.jpg"
+        },
+        {
+          "time": "11:30",
+          "timeEnd": "13:00",
+          "name": "Omotesando Street & O-Shakushi",
+          "type": "dining",
+          "notes": "Explore street food stalls (grilled oysters are the specialty) and see the World's Largest Rice Scoop (Mega Spoon).",
+          "place": "Miyajimacho, Hatsukaichi, Hiroshima",
+          "coords": [
+            34.2982,
+            132.3216
+          ],
+          "photo": "photos/hiroshima/omotesando-street-o-shakushi.jpg"
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "14:30",
+          "name": "Daisho-in Temple",
+          "type": "sightseeing",
+          "notes": "Historic Shingon Buddhist temple complex located at the base of Mount Misen.",
+          "place": "210 Miyajimacho, Hatsukaichi, Hiroshima",
+          "coords": [
+            34.2936,
+            132.3168
+          ],
+          "photo": "photos/hiroshima/daisho-in-temple.webp"
+        },
+        {
+          "time": "14:30",
+          "timeEnd": "15:30",
+          "name": "Henjokutsu Cave",
+          "type": "sightseeing",
+          "notes": "Located on the grounds of Daisho-in. Houses 88 Buddhist statues illuminated by lanterns.",
+          "place": "210 Miyajimacho, Hatsukaichi, Hiroshima",
+          "coords": [
+            34.2936,
+            132.3168
+          ],
+          "photo": "photos/hiroshima/henjokutsu-cave.jpg"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "17:00",
+          "name": "Mount Misen Ropeway",
+          "type": "sightseeing",
+          "notes": "⚡ ADDED: Sacred mountain on Miyajima — ropeway to the top for panoramic views of the Seto Inland Sea. Station is near Daisho-in. ~30 min up + 30 min to explore summit + 30 min down. ¥1,100 one-way / ¥2,000 round trip.",
+          "place": "Miyajima Ropeway, Hatsukaichi, Hiroshima, Japan",
+          "coords": [
+            34.293,
+            132.312
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Miyajima+Ropeway",
+          "photo": "photos/hiroshima/mount-misen-ropeway.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "note": "⚡ CHANGED: Departure to Onomichi (overnight stop), then Tokyo next day",
+      "activities": [
+        {
+          "time": "09:00",
+          "name": "Check out & travel to Onomichi",
+          "type": "transport",
+          "notes": "⚡ CHANGED: Was direct to Tokyo. Now stopping in Onomichi for an overnight countryside experience. Shinkansen Hiroshima → Mihara (~25 min), then JR to Onomichi (~15 min)."
+        }
+      ]
+    }
+  ]
+}

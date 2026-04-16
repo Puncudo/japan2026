@@ -1,0 +1,146 @@
+{
+  "id": "onomichi",
+  "name": "Onomichi",
+  "center": [
+    34.4089,
+    133.2051
+  ],
+  "hotel": {
+    "name": "Beacon Hotel Onomichi",
+    "coords": [
+      34.4089,
+      133.2051
+    ],
+    "place": "Beacon Hotel Onomichi, Onomichi, Hiroshima, Japan",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beacon+Hotel+Onomichi"
+  },
+  "days": [
+    {
+      "date": "2026-05-25",
+      "note": "Arrival from Hiroshima — overnight countryside stop",
+      "activities": [
+        {
+          "time": "10:00",
+          "timeEnd": "10:40",
+          "name": "Shinkansen: Hiroshima → Mihara + Transfer to Onomichi",
+          "type": "transport",
+          "notes": "Shinkansen Hiroshima → Mihara (~25 min), then JR Sanyo Line Mihara → Onomichi (~15 min). Or direct JR Sanyo Line from Hiroshima (~1.5h, no transfer but slower)."
+        },
+        {
+          "time": "11:00",
+          "name": "Check in & drop bags",
+          "type": "transport",
+          "notes": "Beacon Hotel is right at Onomichi Station. Drop bags, grab a map at the station."
+        },
+        {
+          "time": "11:30",
+          "timeEnd": "12:30",
+          "name": "🍴 Onomichi Ramen",
+          "type": "food",
+          "notes": "Onomichi is famous for its local ramen — soy sauce-based with pork back fat floating on top. Try shops along the Hondori Shopping Arcade near the station.",
+          "place": "Onomichi Ramen, Onomichi, Hiroshima, Japan",
+          "coords": [
+            34.4089,
+            133.204
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onomichi+Ramen",
+          "photo": "photos/onomichi/onomichi-ramen.png"
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "14:00",
+          "name": "Cat Alley (Neko no Hosomichi)",
+          "type": "sightseeing",
+          "notes": "Narrow stone-paved lane with 108 hand-painted lucky stone cats, real cats lounging around, quirky art galleries and cafés. Stroke a stone cat's head 3 times for good luck.",
+          "place": "Neko no Hosomichi, Onomichi, Hiroshima, Japan",
+          "coords": [
+            34.407,
+            133.203
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Neko+no+Hosomichi+Cat+Alley+Onomichi",
+          "photo": "photos/onomichi/cat-alley-neko-no-hosomichi.png"
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "15:00",
+          "name": "Senkoji Temple & Observatory",
+          "type": "sightseeing",
+          "notes": "Walk up from Cat Alley (15 min) or take the ropeway (¥500 one-way). Panoramic views of Onomichi, the Seto Inland Sea, and surrounding islands from the observation deck. Senkoji Temple dates to 806 AD.",
+          "place": "Senkoji Park, Onomichi, Hiroshima, Japan",
+          "coords": [
+            34.4055,
+            133.201
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Senkoji+Temple+Onomichi",
+          "photo": "photos/onomichi/senkoji-temple-observatory.png"
+        },
+        {
+          "time": "15:00",
+          "timeEnd": "17:00",
+          "name": "Temple Walk (partial)",
+          "type": "sightseeing",
+          "notes": "Walk downhill from Senkoji through the hillside lanes connecting ancient temples. The full route is 2.5km / 25 temples — do as much as you like. Highlights: Tenneiji (3-tier pagoda with sea backdrop), Jodoji (oldest temple). Winding alleys through residential areas with daily life scenes.",
+          "place": "Onomichi Temple Walk, Onomichi, Hiroshima, Japan",
+          "coords": [
+            34.406,
+            133.21
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onomichi+Temple+Walk",
+          "photo": "photos/onomichi/temple-walk-partial.png"
+        },
+        {
+          "time": "17:00",
+          "timeEnd": "18:00",
+          "name": "Onomichi Waterfront & Hondori Arcade",
+          "type": "sightseeing",
+          "notes": "Stroll the waterfront with views of Mukaishima Island across the narrow channel. Browse the retro Hondori Shopping Arcade — old-school covered shopping street.",
+          "place": "Onomichi Waterfront, Onomichi, Hiroshima, Japan",
+          "coords": [
+            34.4095,
+            133.205
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onomichi+Hondori+Shopping+Arcade",
+          "photo": "photos/onomichi/onomichi-waterfront-hondori-arcade.png"
+        },
+        {
+          "time": "18:30",
+          "name": "🍴 Dinner — Onomichi Yokocho or Waterfront Izakaya",
+          "type": "food",
+          "notes": "Try local seafood — Onomichi is a port town. Onomichi Yokocho is a fun izakaya alley. Fresh sashimi, grilled fish, local sake.",
+          "place": "Onomichi, Hiroshima, Japan",
+          "coords": [
+            34.4089,
+            133.2051
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onomichi+Yokocho+izakaya"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "note": "Morning in Onomichi → Travel to Tokyo",
+      "activities": [
+        {
+          "time": "08:00",
+          "timeEnd": "09:00",
+          "name": "Morning waterfront coffee",
+          "type": "food",
+          "notes": "POUR Specialty Coffee opens at 7 AM — grab a coffee by the waterside. Or try the hotel breakfast at Beacon.",
+          "place": "POUR Specialty Coffee, Onomichi",
+          "coords": [
+            34.409,
+            133.2045
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=POUR+Specialty+Coffee+Onomichi",
+          "photo": "photos/onomichi/morning-waterfront-coffee.png"
+        },
+        {
+          "time": "09:30",
+          "name": "Train: Onomichi → Tokyo",
+          "type": "transport",
+          "notes": "JR Onomichi → Mihara (~15 min) → Shinkansen Mihara → Tokyo (~3.5h). Arrive Tokyo early afternoon."
+        }
+      ]
+    }
+  ]
+}

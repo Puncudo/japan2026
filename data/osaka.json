@@ -1,0 +1,265 @@
+{
+  "id": "osaka",
+  "name": "Osaka",
+  "center": [
+    34.6937,
+    135.5023
+  ],
+  "hotel": {
+    "name": "Hotel Forza Osaka Namba",
+    "coords": [
+      34.6681,
+      135.5019
+    ],
+    "place": "Hotel Forza Osaka Namba, Namba, Osaka, Japan"
+  },
+  "days": [
+    {
+      "date": "2026-05-19",
+      "note": "⚡ CHANGED: Arrival from Kyoto (Nara/Uji moved to Kyoto May 18)",
+      "activities": [
+        {
+          "time": "12:00",
+          "name": "Arrive in Osaka",
+          "type": "transport",
+          "notes": "⚡ CHANGED: Direct from Kyoto after Kinkakuji/Ryoanji morning. JR Special Rapid Kyoto → Osaka (~30 min). Drop bags at Hotel Forza Osaka Namba.",
+          "place": "Hotel Forza Osaka Namba, Namba, Osaka, Japan",
+          "coords": [
+            34.6681,
+            135.5019
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Forza+Osaka+Namba"
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "14:30",
+          "name": "🍴 Kuromon Ichiba Market",
+          "type": "food",
+          "notes": "⚡ MOVED from May 20 (was Wednesday — some stalls closed). Tuesday = all stalls open. Osaka's 'kitchen' — 180 stalls of fresh seafood, wagyu, street snacks. 10-min walk from hotel.",
+          "place": "Kuromon Ichiba Market, Osaka, Japan",
+          "coords": [
+            34.6702,
+            135.5065
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Kuromon+Ichiba+Market/@34.6702,135.5065,17z",
+          "photo": "photos/osaka/kuromon-ichiba-market.jpg"
+        },
+        {
+          "time": "16:00",
+          "timeEnd": "18:00",
+          "name": "Osaka Aquarium Kaiyukan",
+          "type": "sightseeing",
+          "notes": "⚡ MOVED from May 21. After 4 PM = least crowded + 'Sea at Night' mode starts at 5 PM (lighting & sound shift). Takes ~90-120 min. Book advance e-ticket online to skip queue.",
+          "place": "Osaka Aquarium Kaiyukan, Osaka, Japan",
+          "coords": [
+            34.6546,
+            135.4281
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Osaka+Aquarium+Kaiyukan/@34.6546,135.4281,17z",
+          "photo": "photos/osaka/tempozan-osaka-aquarium-kaiyukan.jpg",
+          "links": [
+            {
+              "text": "🎫 Buy advance e-ticket",
+              "url": "https://www.klook.com/en-US/activity/598-osaka-aquarium-kaiyukan-japan/"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Dotonbori",
+          "type": "food",
+          "notes": "Takoyaki, okonomiyaki, kushikatsu, ramen. Walk the iconic canal-side strip under the Glico Running Man sign.",
+          "place": "Dotonbori, Namba, Osaka, Japan",
+          "coords": [
+            34.6687,
+            135.5014
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Dotonbori/@34.6687,135.5014,17z",
+          "photo": "photos/osaka/dotonbori.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "12:00",
+          "name": "Osaka Castle",
+          "type": "sightseeing",
+          "notes": "One of Japan's most famous landmarks. Museum inside the tower, great views from top. Walk the moat and gardens.",
+          "place": "Osaka Castle, Osaka, Japan",
+          "coords": [
+            34.6873,
+            135.5262
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Osaka+Castle/@34.6873,135.5262,17z",
+          "photo": "photos/osaka/osaka-castle.jpg"
+        },
+        {
+          "time": "12:30",
+          "timeEnd": "14:00",
+          "name": "🍴 Lunch near Osaka Castle",
+          "type": "food",
+          "notes": "⚡ CHANGED: Kuromon moved to May 19. Grab lunch near the castle — plenty of options in Osaka Business Park or head back toward Namba.",
+          "place": "Osaka, Japan",
+          "coords": [
+            34.6873,
+            135.5262
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "15:30",
+          "name": "Shinsaibashi & Amerika-Mura + Nintendo OSAKA",
+          "type": "shopping",
+          "notes": "Shinsaibashi-suji covered shopping arcade and Amerika-Mura for vintage/streetwear. Nintendo OSAKA is inside Daimaru Shinsaibashi — the only Nintendo store in western Japan. JP-exclusive merch, in-store experiences, items not sold anywhere else in the region.",
+          "place": "Shinsaibashi, Osaka, Japan",
+          "coords": [
+            34.674,
+            135.5006
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Shinsaibashi/@34.6740,135.5006,17z",
+          "photo": "photos/osaka/shinsaibashi-amerika-mura.webp"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "17:00",
+          "name": "Den Den Town / Nipponbashi",
+          "type": "shopping",
+          "notes": "Osaka's Akihabara — 10-min walk south from Shinsaibashi. Main stop: Animate Nipponbashi (multi-floor anime/manga merch). Also Amenity Dream (serious TCG singles shop, Osaka's competitive player community), Hobby Station (TCG-focused, loyal local playerbase). Like Akihabara: the real finds are one block off the main drag — look for staircase signs on building facades, no English, owner-operated card and hobby shops.",
+          "place": "Den Den Town, Nipponbashi, Osaka, Japan",
+          "coords": [
+            34.662,
+            135.5065
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Den+Den+Town+Nipponbashi+Osaka",
+          "photo": "photos/osaka/den-den-town-nipponbashi.png"
+        },
+        {
+          "time": "17:00",
+          "timeEnd": "18:00",
+          "name": "Abeno Harukas 300",
+          "type": "sightseeing",
+          "notes": "Tallest building in Japan (300m). Observation deck with panoramic views — great for pre-sunset views. 10-min walk to Shinsekai after. ¥1,500 at gate or book online.",
+          "place": "Abeno Harukas, Tennoji, Osaka, Japan",
+          "coords": [
+            34.6463,
+            135.5138
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Abeno+Harukas+300+Osaka",
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Abeno+Harukas+300+Osaka"
+            }
+          ],
+          "photo": "photos/osaka/abeno-harukas-300.png"
+        },
+        {
+          "time": "18:30",
+          "timeEnd": "19:30",
+          "name": "Tsutenkaku Tower & Shinsekai",
+          "type": "sightseeing",
+          "notes": "Retro tower in the old-school Shinsekai neighbourhood. Neon lights come alive at night — linger and soak it in. Great kushikatsu joints all around.",
+          "place": "Tsutenkaku Tower, Osaka, Japan",
+          "coords": [
+            34.6527,
+            135.5064
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Tsutenkaku/@34.6527,135.5064,17z",
+          "photo": "photos/osaka/tsutenkaku-tower-shinsekai.jpg"
+        },
+        {
+          "time": "20:00",
+          "name": "🍴 Kushikatsu Daruma",
+          "type": "food",
+          "notes": "Osaka's most famous kushikatsu chain. Breaded & deep-fried skewers — no double-dipping rule!",
+          "place": "Kushikatsu Daruma Shinsekai, Osaka, Japan",
+          "coords": [
+            34.6522,
+            135.5059
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kushikatsu+Daruma+Shinsekai+Osaka",
+          "photo": "photos/osaka/kushikatsu-daruma.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "20:00",
+          "name": "Universal Studios Japan",
+          "type": "sightseeing",
+          "notes": "⚡ CHANGED: Full day (was 10:00-13:00). Tickets already booked. Super Nintendo World + Donkey Kong Country + Harry Potter + more. Download the USJ app before arriving for Area Timed Entry to Super Nintendo World. Arrive at opening for shortest queues.",
+          "place": "Universal Studios Japan, Osaka, Japan",
+          "coords": [
+            34.6654,
+            135.4323
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Universal+Studios+Japan/@34.6654,135.4323,17z",
+          "photo": "photos/osaka/universal-studios-japan.jpg"
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Namba Parks / Hozenji Yokocho",
+          "type": "food",
+          "notes": "End the night at Hozenji Yokocho — mossy lantern-lit alley with traditional Osaka dining.",
+          "place": "Hozenji Yokocho, Namba, Osaka, Japan",
+          "coords": [
+            34.669,
+            135.503
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Hozenji+Yokocho/@34.6690,135.5030,17z",
+          "photo": "photos/osaka/namba-parks-hozenji-yokocho.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "note": "Relaxed morning → afternoon Himeji → Hiroshima",
+      "activities": [
+        {
+          "time": "10:00",
+          "timeEnd": "12:00",
+          "name": "Relaxed morning & checkout",
+          "type": "transport",
+          "notes": "Late checkout from Hotel Forza Osaka Namba. Grab breakfast, pack up. No rush — Himeji is this afternoon."
+        },
+        {
+          "time": "12:30",
+          "name": "Shinkansen: Osaka → Himeji",
+          "type": "transport",
+          "notes": "JR Special Rapid or Shinkansen from Shin-Osaka to Himeji (~30 min). Arrive ~13:00.",
+          "place": "Himeji Station, Himeji, Japan",
+          "coords": [
+            34.826,
+            134.6936
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "16:00",
+          "name": "Himeji Castle",
+          "type": "sightseeing",
+          "notes": "Japan's finest original castle — UNESCO listed, National Treasure. Afternoon is less crowded as day-trippers leave by 15:30. Last entry 16:00, closes 17:00. Walk the bailey, moat and gardens.",
+          "place": "Himeji Castle, Himeji, Hyogo, Japan",
+          "coords": [
+            34.8394,
+            134.6939
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Himeji+Castle/@34.8394,134.6939,17z",
+          "photo": "photos/osaka/himeji-castle-day-stop.jpg"
+        },
+        {
+          "time": "16:30",
+          "name": "Shinkansen: Himeji → Hiroshima",
+          "type": "transport",
+          "notes": "Shinkansen Nozomi or Hikari from Himeji to Hiroshima (~50 min). Arrive Hiroshima ~17:30."
+        }
+      ]
+    }
+  ]
+}

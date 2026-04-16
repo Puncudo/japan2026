@@ -1,0 +1,399 @@
+{
+  "id": "tokyo-1",
+  "name": "Tokyo",
+  "center": [
+    35.6896,
+    139.7006
+  ],
+  "hotel": {
+    "name": "Kadoya Hotel",
+    "coords": [
+      35.6907,
+      139.6957
+    ],
+    "place": "Kadoya Hotel, Nishi-Shinjuku 1-23-1, Tokyo, Japan"
+  },
+  "days": [
+    {
+      "date": "2026-05-10",
+      "activities": [
+        {
+          "time": "00:00",
+          "timeEnd": "21:00",
+          "name": "Flight & Airport Transfer",
+          "type": "transport",
+          "notes": "Arrives 17:35. Take Narita Express (NEX) to Shinjuku Station. ~1h 30min."
+        },
+        {
+          "time": "21:00",
+          "name": "🍴 Omoide Yokocho Memory Lane",
+          "type": "food",
+          "notes": "Tiny yakitori stalls packed into a narrow alley near Shinjuku Station West exit.",
+          "place": "Omoide Yokocho, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.6916,
+            139.6999
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Omoide+Yokocho/@35.6916,139.6999,17z",
+          "photo": "photos/tokyo-1/omoide-yokocho.jpg"
+        },
+        {
+          "time": "22:00",
+          "name": "🍴 Ichiran Nishi-Shinjuku",
+          "type": "food",
+          "notes": "Solo-booth ramen — perfect for late arrival. 5-min walk from hotel.",
+          "place": "Ichiran Nishi-Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.6907,
+            139.6904
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ichiran+Nishi-Shinjuku",
+          "photo": "photos/tokyo-1/ichiran-nishi-shinjuku.jpeg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "activities": [
+        {
+          "time": "09:30",
+          "timeEnd": "10:30",
+          "name": "Hanazono Shrine",
+          "type": "sightseeing",
+          "notes": "5-min walk from Shinjuku Station East Exit. Walk through the vermilion torii gates.",
+          "place": "Hanazono Shrine, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.6946,
+            139.7042
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Hanazono+Shrine/@35.6946,139.7042,17z",
+          "photo": "photos/tokyo-1/hanazono-shrine.jpg"
+        },
+        {
+          "time": "10:30",
+          "timeEnd": "11:00",
+          "name": "Cross Shinjuku Vision (3D Cat)",
+          "type": "sightseeing",
+          "notes": "The iconic giant 3D cat billboard. Best viewed from across the street.",
+          "place": "Cross Shinjuku Vision, Tokyo, Japan",
+          "coords": [
+            35.6942,
+            139.7016
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cross+Shinjuku+Vision",
+          "photo": "photos/tokyo-1/cross-shinjuku-vision.jpg"
+        },
+        {
+          "time": "11:30",
+          "timeEnd": "12:30",
+          "name": "🍴 Tokyo Mentsu-dan",
+          "type": "food",
+          "notes": "Ramen restaurant near Shinjuku. 10-min walk.",
+          "place": "Tokyo Mentsu-dan, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.6951,
+            139.7009
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Mentsu-dan+Shinjuku",
+          "photo": "photos/tokyo-1/tokyo-mentsu-dan.jpg"
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "14:30",
+          "name": "Shin-Okubo (Korea Town)",
+          "type": "sightseeing",
+          "notes": "Walk 10 min north from Shinjuku Station. Tokyo's Korea Town — street food, K-pop shops, bubble tea.",
+          "place": "Shin-Okubo, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.701,
+            139.7007
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Shin-Okubo+Station/@35.7010,139.7007,17z",
+          "photo": "photos/tokyo-1/shin-okubo-korea-town.jpg"
+        },
+        {
+          "time": "15:00",
+          "timeEnd": "16:30",
+          "name": "Isetan Shinjuku",
+          "type": "shopping",
+          "notes": "Tokyo's most famous department store. Great for Japanese cosmetics, food hall in the basement.",
+          "place": "Isetan Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.6937,
+            139.703
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Isetan+Shinjuku/@35.6937,139.7030,17z",
+          "photo": "photos/tokyo-1/isetan-shinjuku.jpg"
+        },
+        {
+          "time": "17:00",
+          "timeEnd": "17:35",
+          "name": "Shinjuku Central Park",
+          "type": "sightseeing",
+          "notes": "15-min walk or 'We Bus' from West Exit. Nice breather before the observation deck.",
+          "place": "Shinjuku Central Park, Tokyo, Japan",
+          "coords": [
+            35.6921,
+            139.6889
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Shinjuku+Central+Park/@35.6921,139.6889,17z",
+          "photo": "photos/tokyo-1/shinjuku-central-park.jpg"
+        },
+        {
+          "time": "17:45",
+          "timeEnd": "18:45",
+          "name": "Tokyo Metropolitan Government Building",
+          "type": "sightseeing",
+          "notes": "Free observation deck on the 45th floor. South Tower open this day (North closed — 2nd Monday). Incredible city views.",
+          "place": "Tokyo Metropolitan Government Building, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.6895,
+            139.6917
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Tokyo+Metropolitan+Government+Building/@35.6895,139.6917,17z",
+          "photo": "photos/tokyo-1/tokyo-metropolitan-government-building.jpg"
+        },
+        {
+          "time": "19:15",
+          "timeEnd": "20:30",
+          "name": "🍴 Kabukicho Izakaya Dinner",
+          "type": "food",
+          "notes": "⚡ CHANGED: Was Omoide Yokocho again — swapped to avoid repeat. Try Torikizoku (cheap yakitori chain, fun vibe) or explore the izakaya alleys around Kabukicho for a different atmosphere than night 1.",
+          "place": "Kabukicho, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.6948,
+            139.7035
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kabukicho+Shinjuku+izakaya",
+          "photo": "photos/tokyo-1/kabukicho-izakaya.jpg"
+        },
+        {
+          "time": "20:45",
+          "name": "Godzilla Head & Arcade",
+          "type": "sightseeing",
+          "notes": "Godzilla head on the Gracery Shinjuku hotel, then dive into Kabukicho arcades.",
+          "place": "Godzilla Head, Kabukicho, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.6943,
+            139.7038
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Godzilla+Head+Shinjuku+Gracery",
+          "photo": "photos/tokyo-1/godzilla-head-arcade.jpg"
+        },
+        {
+          "name": "Golden-Gai",
+          "type": "sightseeing",
+          "notes": "Maze of tiny bars seating 5–8 people. Each has its own vibe. Perfect for a nightcap.",
+          "place": "Golden Gai, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.693,
+            139.7026
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Shinjuku+Golden+Gai/@35.6930,139.7026,17z",
+          "photo": "photos/tokyo-1/golden-gai.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "note": "PokéPark Kanto day + Shimokitazawa evening",
+      "activities": [
+        {
+          "time": "08:30",
+          "timeEnd": "09:30",
+          "name": "Travel to PokéPark Kanto",
+          "type": "transport",
+          "notes": "⚡ ADDED: Keio Line from Shinjuku → Keio Yomiuriland Station (~25 min), then Sky Shuttle gondola up to the park. Total ~45-60 min door-to-door."
+        },
+        {
+          "time": "10:00",
+          "timeEnd": "15:00",
+          "name": "PokéPark Kanto",
+          "type": "sightseeing",
+          "notes": "Tickets in mail. Check confirmation for exact entry time. Park opens 10:00, plan ~5 hours: Pokémon Forest trail (~500m walk with 600+ Pokémon), Sedge Town (Pokémon Center, Gym, shops), Pika Pika Sparks show (must-see!), parades (15:55 one is less crowded than 13:20). Grab the starter character drinks early — they sell out by afternoon. No lockers inside PokéPark, travel light. Download the official PokéPark app before arriving. Your ticket includes Yomiuriland admission too.",
+          "place": "PokéPark Kanto, Yomiuriland, Inagi, Tokyo",
+          "coords": [
+            35.6261573,
+            139.5203964
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pok%C3%A9Park%20Kanto",
+          "photo": "photos/tokyo-1/pokemon-park.jpg"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "16:15",
+          "name": "Travel to Shimokitazawa",
+          "type": "transport",
+          "notes": "⚡ ADDED: Keio Line from Keio Yomiuriland → Shimokitazawa (~20 min, transfer at Meidaimae to Keio Inokashira Line). Conveniently on the way back toward Shinjuku."
+        },
+        {
+          "time": "16:30",
+          "timeEnd": "18:30",
+          "name": "Shimokitazawa — Vintage & Thrift Shopping",
+          "type": "shopping",
+          "notes": "⚡ ADDED: Tokyo's bohemian neighborhood, 7 min from Shinjuku by train. Over 200 thrift/vintage shops — try New York Joe Exchange (in a former bathhouse), Chicago, Flamingo, or Stick Out (everything ¥800). Also check out Bonus Track and Mikan Shimokita complex near the station for indie cafés and restaurants.",
+          "place": "Shimokitazawa",
+          "coords": [
+            35.6616779,
+            139.6663345
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shimokitazawa",
+          "photo": "photos/tokyo-1/shimokitazawa-vintage-thrift-shopping.jpg"
+        },
+        {
+          "time": "18:30",
+          "timeEnd": "19:30",
+          "name": "🍴 Dinner in Shimokitazawa",
+          "type": "food",
+          "notes": "⚡ ADDED: The area is famous for curry (try Nijiiro Curry Shokudo or Curry Spice Gelateria KALPASI) and has great izakaya options. Also check Shirohige's Cream Puff Factory for Totoro-shaped cream puffs for dessert (official Studio Ghibli spot).",
+          "place": "Shimokitazawa, Setagaya, Tokyo, Japan",
+          "coords": [
+            35.661,
+            139.6685
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shimokitazawa+restaurants",
+          "photo": "photos/tokyo-1/dinner-in-shimokitazawa.jpg"
+        },
+        {
+          "time": "20:00",
+          "name": "Return to hotel",
+          "type": "transport",
+          "notes": "⚡ ADDED: Odakyu Line from Shimokitazawa → Shinjuku Station (~7 min). Short walk back to Kadoya Hotel."
+        }
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "activities": [
+        {
+          "time": "08:30",
+          "timeEnd": "10:00",
+          "name": "Shinjuku Gyoen National Garden",
+          "type": "sightseeing",
+          "notes": "⚡ CHANGED: Moved 30 min earlier (was 09:00–10:15). Opens at 9:00, arrive early to beat crowds. 15-min walk from hotel. Beautiful mix of French, English and Japanese garden styles. Exit via Sendagaya Gate to head toward Meiji Jingu.",
+          "place": "Shinjuku Gyoen National Garden, Tokyo, Japan",
+          "coords": [
+            35.6851,
+            139.71
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Shinjuku+Gyoen+National+Garden/@35.6851,139.7100,17z",
+          "photo": "photos/tokyo-1/shinjuku-gyoen.jpg"
+        },
+        {
+          "time": "10:00",
+          "timeEnd": "10:30",
+          "name": "Walk: Sendagaya Gate → Meiji Jingu",
+          "type": "transport",
+          "notes": "⚡ ADDED: The walk from Gyoen's Sendagaya Gate to Meiji Jingu entrance is ~15-20 min, then another 10 min through the forested approach path to the main shrine. Enjoy the transition from garden to forest."
+        },
+        {
+          "time": "10:30",
+          "timeEnd": "12:00",
+          "name": "⛩ Meiji Jingu",
+          "type": "sightseeing",
+          "notes": "⚡ CHANGED: Extended to 1.5 hours (was 1 hour). The walk through the torii gates and forest path to the main shrine takes 15-20 min each way. Serene forest shrine in the middle of the city — take your time here.",
+          "place": "Meiji Jingu, Harajuku, Tokyo, Japan",
+          "coords": [
+            35.6763,
+            139.6993
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Meiji+Jingu/@35.6763,139.6993,17z",
+          "photo": "photos/tokyo-1/meiji-jingu.jpg"
+        },
+        {
+          "time": "12:00",
+          "timeEnd": "13:00",
+          "name": "Takeshita Street",
+          "type": "shopping",
+          "notes": "⚡ CHANGED: Shifted later (was 11:30). Cross from Harajuku Station. Harajuku fashion — crepes, candy floss, quirky stores.",
+          "place": "Takeshita Street, Harajuku, Tokyo, Japan",
+          "coords": [
+            35.6702,
+            139.7029
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Takeshita+Street/@35.6702,139.7029,17z",
+          "photo": "photos/tokyo-1/takeshita-street.jpg"
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "14:00",
+          "name": "🍴 Lunch in Harajuku",
+          "type": "food",
+          "notes": "Option A (3D Latte Art): Reissue. Option B (Dumplings): Harajuku Gyozaro.",
+          "place": "Harajuku, Tokyo, Japan",
+          "coords": [
+            35.6715,
+            139.7026
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "15:30",
+          "name": "Cat Street",
+          "type": "shopping",
+          "notes": "Connects Harajuku to Shibuya. Boutiques, vintage shops, cafés — less crowded than Takeshita.",
+          "place": "Cat Street, Harajuku, Tokyo, Japan",
+          "coords": [
+            35.6647,
+            139.7052
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cat+Street+Harajuku+Tokyo",
+          "photo": "photos/tokyo-1/cat-street.jpg"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "16:30",
+          "name": "Miyashita Park",
+          "type": "sightseeing",
+          "notes": "End of Cat Street as you enter Shibuya. Rooftop park, skate park, shops and restaurants on multiple levels.",
+          "place": "Miyashita Park, Shibuya, Tokyo, Japan",
+          "coords": [
+            35.661,
+            139.699
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/MIYASHITA+PARK/@35.6610,139.6990,17z",
+          "photo": "photos/tokyo-1/miyashita-park.jpg"
+        },
+        {
+          "time": "17:00",
+          "timeEnd": "18:30",
+          "name": "SHIBUYA SKY",
+          "type": "sightseeing",
+          "notes": "Book 4 weeks in advance! Open-air rooftop observation deck on top of Shibuya Scramble Square. Perfect timing for sunset (~18:30-18:45 in mid-May). NEEDS TICKET IF WANT TO GO.",
+          "place": "SHIBUYA SKY, Shibuya Scramble Square, Tokyo, Japan",
+          "coords": [
+            35.6582,
+            139.7024
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/SHIBUYA+SKY/@35.6582,139.7024,17z",
+          "photo": "photos/tokyo-1/shibuya-sky.jpg"
+        },
+        {
+          "time": "18:30",
+          "timeEnd": "19:30",
+          "name": "Shibuya Crossing",
+          "type": "sightseeing",
+          "notes": "The world's busiest pedestrian crossing. Best viewed from Mag's Park rooftop (less crowded than the Starbucks).",
+          "place": "Shibuya Scramble Crossing, Tokyo, Japan",
+          "coords": [
+            35.6595,
+            139.7004
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Shibuya+Scramble+Crossing/@35.6595,139.7004,17z",
+          "photo": "photos/tokyo-1/shibuya-crossing.jpg"
+        },
+        {
+          "time": "20:00",
+          "name": "🍴 Dinner",
+          "type": "food",
+          "notes": "Option A: Shibuya Hikarie food floors. Option B: Shibuya Yokocho alley.",
+          "place": "Shibuya, Tokyo, Japan",
+          "coords": [
+            35.659,
+            139.7022
+          ]
+        }
+      ]
+    }
+  ]
+}

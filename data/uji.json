@@ -1,0 +1,104 @@
+{
+  "id": "uji",
+  "name": "Uji",
+  "hotel": null,
+  "center": [
+    34.8891,
+    135.8046
+  ],
+  "zoom": 15,
+  "days": [
+    {
+      "date": "2026-05-18",
+      "note": "Afternoon stop — arriving from Nara, back to Kyoto",
+      "activities": [
+        {
+          "time": "13:15",
+          "name": "Train: Nara → Uji",
+          "type": "transport",
+          "notes": "JR Nara Line from Nara Station to Uji Station — ~28 min, ¥420. Direct, no transfer. Uji sits between Nara and Kyoto on the same line — no backtracking.",
+          "place": "Uji Station, Uji, Kyoto, Japan",
+          "coords": [
+            34.8841,
+            135.7988
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Uji+Station+Kyoto+Japan"
+        },
+        {
+          "time": "13:45",
+          "timeEnd": "15:15",
+          "name": "Byodoin Temple — Phoenix Hall",
+          "type": "sightseeing",
+          "notes": "One of Japan's most iconic buildings — the Phoenix Hall sits on a small island reflected in the pond, exactly as depicted on the 10-yen coin. UNESCO World Heritage. The interior holds a large gilded Amitabha Buddha flanked by 52 flying bodhisattvas. ¥700 entry (grounds) + ¥300 for the hall interior. Afternoon is quieter than morning.",
+          "place": "Byodoin Temple, Uji, Kyoto, Japan",
+          "coords": [
+            34.8878,
+            135.807
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Byodoin+Temple+Uji+Japan",
+          "links": [
+            {
+              "text": "🎫 Reserve hall entry",
+              "url": "https://www.byodoin.or.jp/en/visit/"
+            }
+          ],
+          "photo": "photos/uji/byodoin-temple-phoenix-hall.png"
+        },
+        {
+          "time": "15:15",
+          "timeEnd": "16:00",
+          "name": "Ujigami Shrine",
+          "type": "sightseeing",
+          "notes": "The oldest surviving Shinto shrine in Japan (late Heian period, around 1060 AD) — a 10-min walk across the river from Byodoin. Modest and quiet, a stark contrast to Byodoin's grandeur. UNESCO World Heritage. Free entry.",
+          "place": "Ujigami Shrine, Uji, Kyoto, Japan",
+          "coords": [
+            34.8912,
+            135.8099
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ujigami+Shrine+Uji+Japan",
+          "photo": "photos/uji/ujigami-shrine.png"
+        },
+        {
+          "time": "16:00",
+          "timeEnd": "17:15",
+          "name": "🍵 Matcha at Tsuen Tea & Uji riverside",
+          "type": "food",
+          "notes": "Uji is the matcha capital of Japan — the finest ceremonial-grade tea in the country comes from here. Tsuen Tea (通圓) has been operating since 1160 AD, making it one of the oldest tea houses in the world. Try matcha soba, matcha ice cream, and a proper bowl of whisked ceremonial matcha. Walk the riverside Tachibana-dori for street food and matcha-everything stalls.",
+          "place": "Tsuen Tea, Uji, Kyoto, Japan",
+          "coords": [
+            34.8899,
+            135.804
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tsuen+Tea+Uji+Japan",
+          "photo": "photos/uji/matcha-lunch-tsuen-tea-uji-riverside.png"
+        },
+        {
+          "time": "17:15",
+          "timeEnd": "17:45",
+          "name": "Uji River Walk",
+          "type": "sightseeing",
+          "notes": "Stroll along the Uji River between the two bridges — one of the most scenic river walks in the Kyoto region. In May, fresh green (新緑) covers the hillsides. The river is famous for ancient cormorant fishing (Ukai) which runs June–September.",
+          "place": "Uji River, Uji, Kyoto, Japan",
+          "coords": [
+            34.8892,
+            135.8035
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Uji+River+Kyoto+Japan",
+          "photo": "photos/uji/uji-river-walk.png"
+        },
+        {
+          "time": "18:00",
+          "name": "Train: Uji → Kyoto",
+          "type": "transport",
+          "notes": "JR Nara Line from Uji Station back to Kyoto Station — ~17 min, ¥240.",
+          "place": "Uji Station, Uji, Kyoto, Japan",
+          "coords": [
+            34.8841,
+            135.7988
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Uji+Station+Kyoto+Japan"
+        }
+      ]
+    }
+  ]
+}

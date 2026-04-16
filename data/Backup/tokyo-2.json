@@ -1,0 +1,113 @@
+{
+  "id": "tokyo-2",
+  "name": "Tokyo",
+  "center": [35.6762, 139.6503],
+  "hotel": {
+    "name": "Hotel (TBD)",
+    "place": "Tokyo, Japan"
+  },
+  "days": [
+    {
+      "date": "2026-05-25",
+      "note": "Arrival from Hiroshima",
+      "activities": []
+    },
+    {
+      "date": "2026-05-26",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "11:00",
+          "name": "Imperial Palace East Gardens",
+          "type": "sightseeing",
+          "notes": "Free entry to the East Gardens of the Imperial Palace. Beautiful traditional Japanese garden in the heart of Tokyo.",
+          "place": "Imperial Palace East Garden, Tokyo, Japan",
+          "coords": [35.6862, 139.7569],
+          "mapsUrl": "https://www.google.com/maps/place/Imperial+Palace+East+Gardens/@35.6862,139.7569,17z"
+        },
+        {
+          "time": "11:30",
+          "timeEnd": "13:30",
+          "name": "Ginza",
+          "type": "shopping",
+          "notes": "Tokyo's most upscale shopping district. Apple Store, flagship boutiques, great architecture. Wako department store at Ginza crossing.",
+          "place": "Ginza, Tokyo, Japan",
+          "coords": [35.6714, 139.7671],
+          "mapsUrl": "https://www.google.com/maps/place/Ginza,+Chuo+City,+Tokyo,+Japan/@35.6714,139.7671,17z"
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "16:30",
+          "name": "Tsukiji Outer Market",
+          "type": "food",
+          "notes": "The famous market's outer section is still bustling with sushi, tamagoyaki, street food. 10-min walk from Ginza.",
+          "place": "Tsukiji Outer Market, Tokyo, Japan",
+          "coords": [35.6654, 139.7707],
+          "mapsUrl": "https://www.google.com/maps/place/Tsukiji+Market/@35.6654,139.7707,17z"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "12:00",
+          "name": "Senso-ji Temple & Nakamise",
+          "type": "sightseeing",
+          "notes": "Tokyo's oldest temple. Kaminarimon Gate, Nakamise shopping street. Go early to beat crowds.",
+          "place": "Senso-ji Temple, Asakusa, Tokyo, Japan",
+          "coords": [35.7148, 139.7967],
+          "mapsUrl": "https://www.google.com/maps/place/Senso-ji/@35.7148,139.7967,17z"
+        },
+        {
+          "time": "12:00",
+          "timeEnd": "13:30",
+          "name": "🍴 Asakusa Lunch",
+          "type": "food",
+          "notes": "Try Asakusa Imahan for sukiyaki/shabu-shabu, or Daikokuya for the famous tempura don.",
+          "place": "Asakusa, Tokyo, Japan",
+          "coords": [35.7121, 139.7958]
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "16:00",
+          "name": "Tokyo Skytree",
+          "type": "sightseeing",
+          "notes": "World's tallest tower (634m). Two observation decks — Tembo Deck (350m) and Tembo Galleria (450m). Book online.",
+          "place": "Tokyo Skytree, Sumida, Tokyo, Japan",
+          "coords": [35.7101, 139.8107],
+          "mapsUrl": "https://www.google.com/maps/place/Tokyo+Skytree/@35.7101,139.8107,17z"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "activities": []
+    },
+    {
+      "date": "2026-05-29",
+      "activities": []
+    },
+    {
+      "date": "2026-05-30",
+      "activities": []
+    },
+    {
+      "date": "2026-05-31",
+      "activities": []
+    },
+    {
+      "date": "2026-06-01",
+      "note": "Departure — Return Flight 03:05",
+      "activities": [
+        {
+          "time": "00:00",
+          "name": "Transfer to Narita Airport",
+          "type": "transport",
+          "notes": "Flight departs 03:05. Take last Narita Express or arrange private transfer the night before."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "title": "Japan 2026",
+  "timeline": [
+    {
+      "type": "flight",
+      "label": "Departure",
+      "date": "2026-05-09",
+      "time": "23:30",
+      "note": "Flight to Tokyo"
+    },
+    {
+      "type": "major",
+      "id": "tokyo-1",
+      "name": "Tokyo",
+      "image": "tokyo",
+      "arrival": "2026-05-10",
+      "arrivalTime": "17:35",
+      "departure": "2026-05-14"
+    },
+    {
+      "type": "major",
+      "id": "fujikawaguchiko",
+      "name": "Fujikawaguchiko",
+      "image": "fuji",
+      "arrival": "2026-05-14",
+      "departure": "2026-05-15"
+    },
+    {
+      "type": "major",
+      "id": "kyoto",
+      "name": "Kyoto",
+      "image": "kyoto",
+      "arrival": "2026-05-15",
+      "departure": "2026-05-19"
+    },
+    {
+      "type": "waypoints",
+      "label": "Day stops en route to Osaka",
+      "items": [
+        { "id": "nara", "name": "Nara", "image": "nara" },
+        { "id": "uji", "name": "Uji", "image": "uji" }
+      ]
+    },
+    {
+      "type": "major",
+      "id": "osaka",
+      "name": "Osaka",
+      "image": "osaka",
+      "arrival": "2026-05-19",
+      "departure": "2026-05-22"
+    },
+    {
+      "type": "waypoints",
+      "label": "Day stop en route to Hiroshima",
+      "items": [
+        { "id": "himeji", "name": "Himeji", "image": "himeji" }
+      ]
+    },
+    {
+      "type": "major",
+      "id": "hiroshima",
+      "name": "Hiroshima",
+      "image": "hiroshima",
+      "arrival": "2026-05-22",
+      "departure": "2026-05-25"
+    },
+    {
+      "type": "major",
+      "id": "tokyo-2",
+      "name": "Tokyo",
+      "image": "tokyo",
+      "arrival": "2026-05-25",
+      "departure": "2026-06-01"
+    },
+    {
+      "type": "flight",
+      "label": "Return Flight",
+      "date": "2026-06-01",
+      "time": "03:05",
+      "note": "Flight home"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "nara",
+  "name": "Nara",
+  "hotel": null,
+  "center": [
+    34.6851,
+    135.8327
+  ],
+  "zoom": 14,
+  "days": [
+    {
+      "date": "2026-05-18",
+      "note": "Day trip from Kyoto — morning Nara, afternoon Uji",
+      "activities": [
+        {
+          "time": "08:00",
+          "name": "Train: Kyoto → Nara",
+          "type": "transport",
+          "notes": "JR Nara Line from Kyoto Station to Nara Station — ~45 min, ¥720. Depart early to beat tour groups at Todai-ji. Kintetsu Limited Express is faster (35 min, ¥1,130) but JR pass covers the regular train.",
+          "place": "Nara Station, Nara, Japan",
+          "coords": [
+            34.6853,
+            135.8328
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nara+Station+Japan"
+        },
+        {
+          "time": "08:45",
+          "timeEnd": "09:15",
+          "name": "Kofuku-ji & Sarusawa Pond",
+          "type": "sightseeing",
+          "notes": "First stop after the station — the five-story pagoda is immediately visible. Sarusawa Pond reflects the pagoda perfectly. Kofuku-ji is a UNESCO World Heritage Site, free to walk the grounds.",
+          "place": "Kofuku-ji, Nara, Japan",
+          "coords": [
+            34.6814,
+            135.8281
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kofukuji+Nara+Japan",
+          "photo": "photos/nara/kofuku-ji-sarusawa-pond.png"
+        },
+        {
+          "time": "09:15",
+          "timeEnd": "11:30",
+          "name": "Nara Park — Deer & Todai-ji",
+          "type": "sightseeing",
+          "notes": "Over 1,000 wild sika deer roam freely — they bow for deer crackers (shika senbei, ¥200/pack sold by vendors). Walk through the park to Todai-ji: the world's largest wooden building, housing a 15m bronze Great Buddha. ¥600 entry. Arriving before 10am means you beat the tour groups.",
+          "place": "Todai-ji Temple, Nara, Japan",
+          "coords": [
+            34.6887,
+            135.8399
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Todaiji+Temple+Nara+Japan",
+          "photo": "photos/nara/nara-park-deer-todai-ji.png"
+        },
+        {
+          "time": "11:30",
+          "timeEnd": "12:15",
+          "name": "🍴 Lunch — Kakinoha-zushi",
+          "type": "food",
+          "notes": "Nara's signature dish: small pressed sushi wrapped in persimmon leaves, which act as a natural preservative and add a subtle fragrance. Try Hiraso (near Kintetsu Nara Station) — one of the most respected kakinoha-zushi shops, established 1861.",
+          "place": "Kintetsu Nara Station area, Nara, Japan",
+          "coords": [
+            34.6851,
+            135.8327
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=kakinoha+zushi+Nara"
+        },
+        {
+          "time": "12:15",
+          "timeEnd": "13:00",
+          "name": "Kasuga-taisha Shrine",
+          "type": "sightseeing",
+          "notes": "One of Japan's most celebrated Shinto shrines, deep in a primeval forest. Famous for thousands of bronze and stone lanterns lining the approach. UNESCO World Heritage. ¥500 entry to inner precinct.",
+          "place": "Kasuga-taisha Shrine, Nara, Japan",
+          "coords": [
+            34.6813,
+            135.849
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kasuga+Taisha+Shrine+Nara+Japan",
+          "photo": "photos/nara/kasuga-taisha-shrine.png"
+        },
+        {
+          "time": "13:15",
+          "name": "Train: Nara → Uji",
+          "type": "transport",
+          "notes": "JR Nara Line from Nara Station to Uji Station — ~28 min, ¥420. Direct — no transfer needed. Uji is on the same line between Nara and Kyoto.",
+          "place": "Nara Station, Nara, Japan",
+          "coords": [
+            34.6853,
+            135.8328
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nara+Station+Japan"
+        }
+      ]
+    }
+  ]
+}

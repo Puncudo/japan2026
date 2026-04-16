@@ -1,0 +1,539 @@
+{
+  "id": "kyoto",
+  "name": "Kyoto",
+  "center": [
+    35.0116,
+    135.7681
+  ],
+  "hotel": {
+    "name": "KOKO HOTEL Kyoto Sanjo",
+    "place": "KOKO HOTEL Kyoto Sanjo",
+    "bookingUrl": "https://secure.booking.com/confirmation.en-us.html?label=gen173nr-10CAEoggI46AdIM1gEaGqIAQGYATO4ARfIARXYAQPoAQH4AQGIAgGoAgG4AprI6M4GwAIB0gIkYjFkN2JlNmMtM2M2MC00OTA5LWEwNTUtOThlMjQ3MjhlNGRj2AIB4AIB&sid=37fb3e0caa2f85c26399d55245ac882f&aid=304142&auth_key=mMGRas03YjvQzHAX&source=mytrips",
+    "coords": [
+      35.000255,
+      135.7585288
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KOKO%20HOTEL%20Kyoto%20Sanjo"
+  },
+  "days": [
+    {
+      "date": "2026-05-15",
+      "note": "Arrival from Fujikawaguchiko",
+      "activities": [
+        {
+          "time": "13:30",
+          "name": "Check in — Kyoto Hotel",
+          "type": "transport",
+          "notes": "Drop bags, freshen up."
+        },
+        {
+          "time": "15:00",
+          "timeEnd": "16:30",
+          "name": "Nishiki Market",
+          "type": "food",
+          "notes": "Kyoto's 'Kitchen' — narrow covered market with tofu, pickles, street snacks, and local ingredients. 5 blocks long.",
+          "place": "Nishiki Market, Kyoto, Japan",
+          "coords": [
+            35.005,
+            135.7654
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Nishiki+Market/@35.0050,135.7654,17z",
+          "photo": "photos/kyoto/nishiki-market.jpg"
+        },
+        {
+          "time": "16:30",
+          "timeEnd": "17:30",
+          "name": "Weekenders Coffee",
+          "type": "food",
+          "notes": "One of Kyoto's best specialty coffee spots. Small, cozy, excellent pour-overs.",
+          "place": "Weekenders Coffee Tominokoji, Kyoto, Japan",
+          "coords": [
+            35.0054,
+            135.7631
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Weekenders+Coffee+Tominokoji+Kyoto",
+          "photo": "photos/kyoto/weekenders-coffee.jpg"
+        },
+        {
+          "time": "18:00",
+          "timeEnd": "19:00",
+          "name": "Pontocho Alley Stroll",
+          "type": "sightseeing",
+          "notes": "Narrow lantern-lit alley along the Kamo River. One of Kyoto's most atmospheric streets.",
+          "place": "Pontocho Alley, Kyoto, Japan",
+          "coords": [
+            35.0065,
+            135.7693
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Pontocho/@35.0065,135.7693,17z",
+          "photo": "photos/kyoto/pontocho-alley-stroll.jpg"
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Option A: Honke Daiichi-Asahi",
+          "type": "food",
+          "notes": "Legendary Kyoto ramen — shoyu broth, thin noodles, char siu. Near Kyoto Station (20 min south from hotel — requires detour).",
+          "place": "Honke Daiichi Asahi, Kyoto Station, Kyoto, Japan",
+          "coords": [
+            34.9877,
+            135.7584
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Honke+Daiichi+Asahi+Kyoto+Station",
+          "photo": "photos/kyoto/honke-daiichi-asahi.jpg",
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Honke+Daiichi+Asahi+Kyoto+Station"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Option B: Ramen Kairikiya Kawaramachi Sanjo",
+          "type": "food",
+          "notes": "⚡ ADDED: Kyoto-style shoyu ramen — light transparent chicken broth with Kujo green onions. On your street, open until 3 AM. ~¥800.",
+          "place": "Ramen Kairikiya, Kawaramachi Sanjo, Kyoto, Japan",
+          "coords": [
+            35.0088,
+            135.769
+          ],
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Kairikiya+Kawaramachi+Sanjo+Kyoto"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Option C: Mendokoro Janomeya",
+          "type": "food",
+          "notes": "⚡ ADDED: Rich chicken paitan ramen topped with karaage fried chicken. Michelin Guide listed. 1-min walk from Kawaramachi Station.",
+          "place": "Mendokoro Janomeya, Kyoto, Japan",
+          "coords": [
+            35.004,
+            135.7685
+          ],
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Mendokoro+Janomeya+Kyoto"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Option D: Wajoryomen Sugari",
+          "type": "food",
+          "notes": "⚡ ADDED: Refined Japanese-style ramen with delicate broth. Slightly upscale feel, highly rated. Near hotel.",
+          "place": "Wajoryomen Sugari, Kyoto, Japan",
+          "coords": [
+            35.0055,
+            135.766
+          ],
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Wajoryomen+Sugari+Kyoto"
+            }
+          ]
+        },
+        {
+          "time": "21:00",
+          "name": "🍴 Chao Chao Gyoza",
+          "type": "food",
+          "notes": "Late-night gyoza spot near Gion. Crispy pan-fried dumplings, cold beer.",
+          "place": "Chao Chao Gyoza, Gion, Kyoto, Japan",
+          "coords": [
+            35.0036,
+            135.7748
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chao+Chao+Gyoza+Kyoto",
+          "photo": "photos/kyoto/chao-chao-gyoza.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "note": "⚡ SWAPPED with May 17: Moved to Saturday, all spots open",
+      "activities": [
+        {
+          "time": "07:00",
+          "timeEnd": "09:00",
+          "name": "⛩ Fushimi Inari Taisha",
+          "type": "sightseeing",
+          "notes": "⚡ CHANGED: Moved to 07:00 (was 09:00). Open 24/7, free entry. Arrive early to hike the thousands of vermilion torii gates before tour buses arrive at 9. The full loop is 2-3 hours but you can turn back at the viewpoint (~1h).",
+          "place": "Fushimi Inari Taisha, Kyoto, Japan",
+          "photo": "photos/kyoto/fushimi-inari-taisha.jpg"
+        },
+        {
+          "time": "09:30",
+          "timeEnd": "11:00",
+          "name": "Tofuku-ji Temple",
+          "type": "sightseeing",
+          "notes": "⚡ CHANGED: 09:30 start (was 11:00). 15-min walk from Fushimi Inari. Zen gardens, Tsutenkyo Bridge, Hojo garden — allow 1–1.5 hours. ¥1,000 combo ticket for everything. May = green maples, peaceful without autumn crowds.",
+          "place": "Tōfuku-ji Temple",
+          "coords": [
+            34.9771706,
+            135.7745754
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=T%C5%8Dfuku-ji%20Temple",
+          "photo": "photos/kyoto/tofuku-ji-temple.jpg"
+        },
+        {
+          "time": "11:00",
+          "name": "🍴 Lunch Option A: Kendonya",
+          "type": "food",
+          "notes": "⚡ ADDED: Hearty handmade udon & soba. Popular with locals, short walk from Keihan Fushimi Inari Station.",
+          "place": "Kendonya, Fushimi, Kyoto, Japan",
+          "coords": [
+            34.9672,
+            135.7726
+          ],
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kendonya+udon+Fushimi+Inari+Kyoto"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "name": "🍴 Lunch Option B: Dragon Burger Tofukuji",
+          "type": "food",
+          "notes": "⚡ ADDED: Kyoto-inspired gourmet burgers by London competition winner. 1-min walk from Tofukuji Station. Closed Wednesdays.",
+          "place": "Dragon Burger Tofukuji, Kyoto, Japan",
+          "coords": [
+            34.98,
+            135.773
+          ],
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Dragon+Burger+Tofukuji+Kyoto"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "name": "🍴 Lunch Option C: Vermillion Café",
+          "type": "food",
+          "notes": "⚡ ADDED: Cozy café near Fushimi Inari JR station. Coffee, pastries, light meals. Nice outdoor back deck for warm weather.",
+          "place": "Vermillion Café, Fushimi, Kyoto, Japan",
+          "coords": [
+            34.9673,
+            135.7713
+          ],
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Vermillion+Cafe+Fushimi+Inari+Kyoto"
+            }
+          ]
+        },
+        {
+          "time": "12:30",
+          "timeEnd": "14:00",
+          "name": "Kiyomizu-dera",
+          "type": "sightseeing",
+          "notes": "⚡ CHANGED: Moved earlier (was 14:00). Views from the massive wooden stage. Walk downhill through Sannenzaka and Ninenzaka streets after.",
+          "place": "Kiyomizudera, Kyoto, Japan",
+          "coords": [
+            34.9951021,
+            135.7843257
+          ],
+          "mapsUrl": "https://www.google.com/maps?q=34.9951021,135.7843257",
+          "photo": "photos/kyoto/kiyomizu-dera.jpg"
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "15:30",
+          "name": "Sannenzaka & Ninenzaka Streets",
+          "type": "sightseeing",
+          "notes": "⚡ ADDED: Beautifully preserved stone-paved lanes downhill from Kiyomizu. Traditional shops, tea houses, Yasaka Pagoda views. Flows naturally into Gion.",
+          "place": "Sannenzaka, Higashiyama, Kyoto, Japan",
+          "coords": [
+            34.9983,
+            135.7808
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sannenzaka+Ninenzaka+Kyoto"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "16:30",
+          "name": "Kennin-ji Temple",
+          "type": "sightseeing",
+          "notes": "⚡ ADDED: Oldest Zen temple in Kyoto (founded 1202), right inside Gion. Stunning twin dragons ceiling painting, beautiful raked gravel gardens, and screen paintings. ¥800 at gate, no reservation needed.",
+          "place": "Kennin-ji Temple, Gion, Kyoto, Japan",
+          "coords": [
+            35.0008,
+            135.7738
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kennin-ji+Temple+Kyoto",
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kennin-ji+Temple+Kyoto"
+            }
+          ],
+          "photo": "photos/kyoto/kennin-ji-temple.jpg"
+        },
+        {
+          "time": "16:30",
+          "timeEnd": "18:00",
+          "name": "Gion District",
+          "type": "sightseeing",
+          "notes": "⚡ CHANGED: Starts after Kennin-ji (was 16:00). Stroll down Hanamikoji Street — best chance to spot a geisha or maiko heading to evening appointments around dusk.",
+          "place": "Gion, Kyoto",
+          "coords": [
+            35.0046897,
+            135.778403
+          ],
+          "photo": "photos/kyoto/gion-district.jpg"
+        },
+        {
+          "time": "18:30",
+          "name": "🍴 Dinner Option A: Pontocho Alley Izakaya",
+          "type": "food",
+          "notes": "⚡ ADDED: Pick any riverside izakaya along the lantern-lit alley. Yakitori, tempura, Kyoto cuisine with Kamo River views.",
+          "place": "Pontocho Alley, Kyoto, Japan",
+          "coords": [
+            35.0065,
+            135.7693
+          ],
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Pontocho+Alley+izakaya+Kyoto"
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "name": "🍴 Dinner Option B: Gion Duck Noodles",
+          "type": "food",
+          "notes": "⚡ ADDED: Popular duck ramen spot right in Gion. Rich duck broth, always has a queue but worth the wait.",
+          "place": "Gion Duck Noodles, Kyoto, Japan",
+          "coords": [
+            35.004,
+            135.7755
+          ],
+          "links": [
+            {
+              "text": "📍 Google Maps",
+              "url": "https://www.google.com/maps/search/?api=1&query=Gion+Duck+Noodles+Kyoto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "note": "⚡ SWAPPED with May 16: Otagi Nenbutsuji is closed Saturdays, moved Arashiyama to Sunday",
+      "activities": [
+        {
+          "time": "06:15",
+          "name": "Travel to Arashiyama",
+          "type": "transport",
+          "notes": "⚡ CHANGED: Earlier start to catch Bamboo Grove empty at 7 AM. Walk to Sanjo Keihan Station → Subway Tozai Line West to Uzumasa Tenjingawa → Randen Tram to Arashiyama. (~35 mins)"
+        },
+        {
+          "time": "07:00",
+          "timeEnd": "08:00",
+          "name": "🎍 Arashiyama Bamboo Grove",
+          "type": "sightseeing",
+          "notes": "⚡ ADDED: Moved from old May 18. 7 AM gives a magical, empty window. Right next door: Tenryu-ji Temple stunning gardens.",
+          "place": "Arashiyama Bamboo Grove, Kyoto, Japan",
+          "photo": "photos/kyoto/arashiyama-bamboo-grove.jpg"
+        },
+        {
+          "time": "08:00",
+          "timeEnd": "08:45",
+          "name": "Katsura River & Togetsukyo Bridge",
+          "type": "sightseeing",
+          "notes": "⚡ ADDED: Moved from old May 18. Cross the scenic Togetsukyo Bridge. Grab a coffee at % ARABICA Kyoto Arashiyama and enjoy the waterfront views.",
+          "place": "Arashiyama, Kyoto, Japan",
+          "coords": [
+            35.0090473,
+            135.6744961
+          ],
+          "photo": "photos/kyoto/katsura-river-togetsukyo-bridge.jpg"
+        },
+        {
+          "time": "09:15",
+          "timeEnd": "10:45",
+          "name": "Arashiyama Monkey Park Iwatayama",
+          "type": "sightseeing",
+          "notes": "Hike up (20 mins), see monkeys, view the city. Walk 5 mins from station to entrance.",
+          "place": "Iwatayama Monkey Park, Arashiyama, Kyoto, Japan",
+          "photo": "photos/kyoto/arashiyama-monkey-park-iwatayama.png"
+        },
+        {
+          "time": "11:00",
+          "timeEnd": "12:30",
+          "name": "🍴 Arashiyama Yoshimura",
+          "type": "food",
+          "notes": "Soba with river view, or street food near the bridge.",
+          "place": "Yoshimura Arashiyama, Kyoto, Japan",
+          "photo": "photos/kyoto/arashiyama-yoshimura.jpg"
+        },
+        {
+          "time": "12:30",
+          "timeEnd": "13:00",
+          "name": "Taxi to Otagi Nenbutsu-ji",
+          "type": "transport",
+          "notes": "Taxi approx ¥1,500 from Arashiyama main street. Walking takes 45 mins uphill — taxi is better."
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "14:00",
+          "name": "Otagi Nenbutsuji Temple",
+          "type": "sightseeing",
+          "notes": "Hidden gem with 1,200 statues. Quiet and atmospheric.",
+          "place": "Otagi Nenbutsu-ji, Sagadaikakujimonzen Toriimoto, Ukyo Ward, Kyoto, Japan",
+          "photo": "photos/kyoto/otagi-nenbutsuji-temple.jpg"
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "15:00",
+          "name": "Saga-Toriimoto",
+          "type": "sightseeing",
+          "notes": "Walk downhill from Otagi back through the Saga-Toriimoto preserved street. Beautiful and far less crowded than the Bamboo Grove.",
+          "place": "Saga Toriimoto, Kyoto, Japan",
+          "photo": "photos/kyoto/saga-toriimoto.webp"
+        },
+        {
+          "time": "15:00",
+          "timeEnd": "15:45",
+          "name": "JR to Kyoto Station + quick bite",
+          "type": "transport",
+          "notes": "JR Saga-Arashiyama → Kyoto Station (~17 min). Grab something to eat before teamLab — Kyoto Station Ramen Koji (10th floor) or convenience store bento on the platform. teamLab is a 10-min walk from Hachijo East Gate.",
+          "place": "Kyoto Station, Kyoto, Japan",
+          "coords": [34.9858, 135.7588]
+        },
+        {
+          "time": "16:00",
+          "timeEnd": "19:00",
+          "name": "teamLab Biovortex Kyoto",
+          "type": "sightseeing",
+          "notes": "Japan's largest teamLab — opened Oct 2025. 10,000 sqm, 50+ artworks. Much bigger and newer than anything in Tokyo. 10-min walk from Kyoto Station Hachijo East Gate. Book in advance, sells out. Allow 3 hours.",
+          "place": "teamLab Biovortex Kyoto, Japan",
+          "coords": [34.9978, 135.7585],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=teamLab+Biovortex+Kyoto",
+          "links": [
+            {
+              "text": "🎫 Book tickets",
+              "url": "https://www.teamlab.art/e/kyoto/"
+            }
+          ]
+        },
+        {
+          "time": "19:30",
+          "name": "🍴 Dinner",
+          "type": "food",
+          "notes": "Head back toward the hotel — Pontocho, Nishiki area, or Kawaramachi for dinner. Plenty of options within 5-min walk of the hotel.",
+          "place": "Pontocho Alley, Kyoto, Japan",
+          "coords": [35.0065, 135.7693]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "note": "⚡ CHANGED: Nara & Uji day trip (moved from May 19 for more time)",
+      "activities": [
+        {
+          "time": "08:00",
+          "timeEnd": "13:00",
+          "name": "Nara Day Trip",
+          "type": "sightseeing",
+          "notes": "⚡ MOVED from May 19. JR Nara Line from Kyoto (~45 min). Todai-ji (giant Buddha), deer in Nara Park, Kasuga Taisha Shrine. Full morning = no rushing.",
+          "place": "Nara Park, Nara, Japan",
+          "coords": [
+            34.6851,
+            135.8399
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nara+Park+Nara+Japan",
+          "photo": "photos/kyoto/nara-day-stop.jpg"
+        },
+        {
+          "time": "13:30",
+          "timeEnd": "16:00",
+          "name": "Uji Day Trip",
+          "type": "sightseeing",
+          "notes": "⚡ MOVED from May 19. JR Nara Line from Nara to Uji (~30 min). Byodoin Temple (10-yen coin), Uji Bridge, matcha street, matcha ice cream. More relaxed than the original 1.5h slot.",
+          "place": "Byodoin Temple, Uji, Kyoto, Japan",
+          "coords": [
+            34.8884,
+            135.8072
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Byodoin+Temple+Uji",
+          "photo": "photos/kyoto/uji-day-stop.jpg"
+        },
+        {
+          "time": "17:00",
+          "name": "Return to Kyoto",
+          "type": "transport",
+          "notes": "JR from Uji back to Kyoto (~20 min). Last evening in Kyoto — relax and enjoy."
+        },
+        {
+          "time": "18:00",
+          "timeEnd": "19:30",
+          "name": "Kamo River sunset stroll",
+          "type": "sightseeing",
+          "notes": "Locals sit along the Kamo River banks at dusk — one of Kyoto's most beloved free experiences. Grab a convenience store drink, find a spot on the steps, and watch the city wind down. Completely free, completely local.",
+          "place": "Kamo River, Kyoto, Japan",
+          "coords": [35.0065, 135.7714],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kamo+River+Kyoto"
+        },
+        {
+          "time": "19:30",
+          "name": "🍴 Last dinner in Kyoto",
+          "type": "food",
+          "notes": "Last night — make it count. Revisit a favorite from earlier in the trip, or try somewhere new in Pontocho or Gion.",
+          "place": "Pontocho Alley, Kyoto, Japan",
+          "coords": [35.0065, 135.7693]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "note": "⚡ CHANGED: Kinkakuji/Ryoanji morning → Departure to Osaka",
+      "activities": [
+        {
+          "time": "08:30",
+          "timeEnd": "09:30",
+          "name": "Kinkaku-ji (Golden Pavilion)",
+          "type": "sightseeing",
+          "notes": "⚡ MOVED from May 18. Iconic gold-leaf Zen temple on a reflective pond. ~30-45 min visit. Opens 9:00.",
+          "place": "Kinkakuji, Kyoto, Japan",
+          "coords": [
+            35.0394,
+            135.7292
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Kinkaku-ji/@35.0394,135.7292,17z",
+          "photo": "photos/kyoto/kinkaku-ji-golden-pavilion.jpg"
+        },
+        {
+          "time": "09:45",
+          "timeEnd": "10:30",
+          "name": "Ryoan-ji Temple",
+          "type": "sightseeing",
+          "notes": "⚡ ADDED: Famous Zen rock garden — 15 rocks on raked white gravel, designed so you can never see all 15 at once. Quieter and more meditative than Kinkakuji. 15 min walk or short bus from Kinkakuji.",
+          "place": "Ryoan-ji Temple, Kyoto, Japan",
+          "coords": [
+            35.0345,
+            135.7184
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ryoanji+Temple+Kyoto",
+          "photo": "photos/kyoto/ryoan-ji-temple.jpg"
+        },
+        {
+          "time": "11:30",
+          "name": "Travel to Osaka",
+          "type": "transport",
+          "notes": "⚡ CHANGED: Now departing from Kyoto (was via Uji). JR Special Rapid from Kyoto Station to Osaka (~30 min). Check in to Hotel Forza Osaka Namba."
+        }
+      ]
+    }
+  ]
+}

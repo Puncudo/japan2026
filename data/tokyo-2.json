@@ -1,0 +1,589 @@
+{
+  "id": "tokyo-2",
+  "name": "Tokyo (Return)",
+  "center": [
+    35.695,
+    139.765
+  ],
+  "zoom": 12,
+  "hotel": {
+    "name": "Hotel Gracery Asakusa",
+    "coords": [
+      35.7116,
+      139.7963
+    ],
+    "place": "Hotel Gracery Asakusa, 2-12-4 Asakusa, Taito, Tokyo",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Gracery+Asakusa+Tokyo"
+  },
+  "days": [
+    {
+      "date": "2026-05-26",
+      "note": "Arrival from Onomichi — Akihabara afternoon + evening",
+      "activities": [
+        {
+          "time": "14:00",
+          "name": "Arrive Tokyo & Check in",
+          "type": "transport",
+          "notes": "Arrive Tokyo Station from Onomichi (Shinkansen). Check in to Hotel Gracery Asakusa. Drop bags.",
+          "place": "Hotel Gracery Asakusa, 2-12-4 Asakusa, Taito, Tokyo",
+          "coords": [
+            35.7116,
+            139.7963
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Gracery+Asakusa+Tokyo"
+        },
+        {
+          "time": "14:30",
+          "timeEnd": "15:30",
+          "name": "Yodobashi Akiba",
+          "type": "shopping",
+          "notes": "9-floor electronics megastore right at Akihabara Station. Gaming hardware, retro consoles, components, cameras, and a basement full of capsule machines. Good warm-up before diving into the back streets.",
+          "place": "Yodobashi Akiba, Akihabara, Tokyo, Japan",
+          "coords": [
+            35.6992,
+            139.7736
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi+Akiba+Akihabara+Tokyo"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "16:30",
+          "name": "Super Potato + Kotobukiya",
+          "type": "shopping",
+          "notes": "Super Potato: 3-floor retro game shop — Famicom to PS2, all original hardware and cartridges, fairly priced. A pilgrimage for any gamer. Kotobukiya next: model kits, figures, Star Wars/Marvel JP exclusives and limited collabs. Both on the main strip (Chuo-dori), a 5-min walk apart.",
+          "place": "Super Potato, Akihabara, Tokyo, Japan",
+          "coords": [
+            35.7004,
+            139.7729
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Super+Potato+Akihabara+Tokyo"
+        },
+        {
+          "time": "16:30",
+          "timeEnd": "17:15",
+          "name": "TCG Shops — Hareruya · Amenity Dream · Yellow Submarine",
+          "type": "shopping",
+          "notes": "Three of Akihabara's best card and hobby shops, all close together. Hareruya (晴れる屋): Japan's most respected competitive TCG store — serious singles inventory, fair prices, locals' home base, not a tourist spot. Amenity Dream: multi-floor institution predating the Pokemon boom, better prices on singles than any chain. Yellow Submarine: long-running hobby chain for TCGs, board games, and miniatures — trusted by locals for decades.",
+          "place": "Hareruya Akihabara, Tokyo, Japan",
+          "coords": [
+            35.7013,
+            139.7735
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hareruya+Akihabara+Tokyo"
+        },
+        {
+          "time": "17:15",
+          "timeEnd": "17:30",
+          "name": "Back-street card shop wander",
+          "type": "shopping",
+          "notes": "The real hidden gems are one block off Chuo-dori heading east toward Kanda. Look for staircase signs going up or down on building facades — no English signage, no Google presence, small owner-operated card and hobby shops. This is where Card Shop Spiral and similar locals-only places live. Wander 15 min and you will find something no tourist finds by accident.",
+          "place": "Akihabara, Tokyo, Japan",
+          "coords": [
+            35.7023,
+            139.7745
+          ]
+        },
+        {
+          "time": "17:30",
+          "timeEnd": "18:30",
+          "name": "Kanda Myojin Shrine",
+          "type": "sightseeing",
+          "notes": "5-min walk from Akihabara. One of Tokyo's oldest shrines, beautifully lit at night. Beloved by anime fans — shrine of Fate/Grand Order and Love Live. The stone torii and vermilion main hall glow at dusk. Free entry.",
+          "place": "Kanda Myojin Shrine, Chiyoda, Tokyo, Japan",
+          "coords": [
+            35.7021,
+            139.7658
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kanda+Myojin+Shrine+Tokyo"
+        },
+        {
+          "time": "19:00",
+          "timeEnd": "20:30",
+          "name": "🍴 Dinner in Akihabara",
+          "type": "food",
+          "notes": "Plenty of ramen, curry, and izakaya options around the station. Try Akihabara's hidden gem: small izakayas under the train tracks along the Kanda River — tables alongside the water, local vibe.",
+          "place": "Akihabara, Tokyo, Japan",
+          "coords": [
+            35.7023,
+            139.7745
+          ]
+        },
+        {
+          "time": "20:30",
+          "timeEnd": "22:30",
+          "name": "Hey Arcade",
+          "type": "sightseeing",
+          "notes": "Akihabara's legendary 6-floor retro arcade — classic fighting games, rhythm games, claw machines, and UFO catchers. Open until midnight. The ultimate Akihabara evening experience.",
+          "place": "Hey Arcade, Akihabara, Tokyo, Japan",
+          "coords": [
+            35.7008,
+            139.7729
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hey+Arcade+Akihabara+Tokyo"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "note": "Asakusa & East Tokyo",
+      "activities": [
+        {
+          "time": "07:30",
+          "timeEnd": "08:00",
+          "name": "Asakusa Cultural Center Viewpoint",
+          "type": "sightseeing",
+          "notes": "Hidden gem — free rooftop-style viewpoint on the upper floor of the tourist info center across from Kaminarimon. Most tourists walk right past it. Dead quiet at 7:30 AM, perfect crowd-free view of Senso-ji and Nakamise Dori before the day begins.",
+          "place": "Asakusa Culture Tourist Information Center, Asakusa, Tokyo",
+          "coords": [
+            35.7113,
+            139.7944
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Asakusa+Culture+Tourist+Information+Center"
+        },
+        {
+          "time": "08:00",
+          "timeEnd": "10:00",
+          "name": "⛩ Senso-ji Temple & Nakamise Street",
+          "type": "sightseeing",
+          "notes": "Tokyo's oldest and most famous temple. Go early (opens at 6 AM) to avoid crowds. Walk through the Kaminarimon gate and Nakamise shopping street. Also explore Denboin Street — a quieter parallel lane with traditional shops and old Tokyo atmosphere, often missed by tourists.",
+          "place": "Senso-ji Temple, Asakusa, Tokyo, Japan",
+          "coords": [
+            35.7148,
+            139.7967
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sensoji+Temple+Asakusa+Tokyo"
+        },
+        {
+          "time": "10:00",
+          "timeEnd": "11:00",
+          "name": "Kappabashi — Plastic Food Street",
+          "type": "shopping",
+          "notes": "10-min walk from Senso-ji toward Tawaramachi. An 800m street of restaurant supply shops — the food sample section is unmissable. Ganso Shokuhin Sample-ya (since 1932) and Sato Sample (~2,500 plastic food items to browse). Do the make-your-own tempura workshop: ¥2,500 / 40 min — you dip plastic shrimp in wax yourself. Almost no Western tourists.",
+          "place": "Kappabashi Dogu-gai, Taito, Tokyo, Japan",
+          "coords": [
+            35.7168,
+            139.791
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kappabashi+Street+Tokyo"
+        },
+        {
+          "time": "11:00",
+          "timeEnd": "12:00",
+          "name": "Asakusa backstreets + Sumida Park",
+          "type": "sightseeing",
+          "notes": "Wander behind Senso-ji through Hoppy Street (tiny izakaya alley, old Tokyo energy). Then stroll Sumida Park along the river toward Skytree — great views of both the temple district behind you and the tower ahead.",
+          "place": "Sumida Park, Asakusa, Tokyo, Japan",
+          "coords": [
+            35.713,
+            139.795
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sumida+Park+Asakusa+Tokyo"
+        },
+        {
+          "time": "12:00",
+          "timeEnd": "13:00",
+          "name": "Tokyo Skytree",
+          "type": "sightseeing",
+          "notes": "Tallest tower in Japan (634m). 15-min walk from Asakusa across the Sumida River. Observation decks at 350m and 450m. Buy tickets online to skip queue (~¥2,100–3,400).",
+          "place": "Tokyo Skytree, Tokyo, Japan",
+          "coords": [
+            35.7101,
+            139.8107
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Skytree",
+          "links": [
+            {
+              "text": "🎫 Buy tickets",
+              "url": "https://www.tokyo-skytree.jp/en/"
+            }
+          ]
+        },
+        {
+          "time": "13:30",
+          "timeEnd": "15:00",
+          "name": "🍴 Tsukiji Outer Market",
+          "type": "food",
+          "notes": "The original fish market area — outer market still thriving with sushi lunch stalls, tamagoyaki, fresh seafood on sticks. From Skytree take subway to Tsukiji (~20 min).",
+          "place": "Tsukiji Outer Market, Tokyo, Japan",
+          "coords": [
+            35.6654,
+            139.7707
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tsukiji+Outer+Market+Tokyo"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "17:00",
+          "name": "Hamarikyu Gardens",
+          "type": "sightseeing",
+          "notes": "Hidden gem — a 300-year-old feudal shogun's garden right on Tokyo Bay, surrounded by skyscrapers. Tidal ponds, pine trees, a traditional tea house on a lake. One of Tokyo's best and least-visited traditional gardens. 5-min walk from Tsukiji. Closes at 17:00, ¥300 entry.",
+          "place": "Hamarikyu Gardens, Chuo, Tokyo, Japan",
+          "coords": [
+            35.6594,
+            139.7634
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hamarikyu+Gardens+Tokyo"
+        },
+        {
+          "time": "17:00",
+          "timeEnd": "18:30",
+          "name": "Ginza",
+          "type": "shopping",
+          "notes": "10-min walk from Hamarikyu. Tokyo's upscale shopping district. Uniqlo Ginza flagship (world's largest, 12 floors) — Japan-only colorways, Uniqlo U by Lemaire line, UT collab drops before they go online. Also Itoya stationery store (12 floors of beautiful Japanese stationery and gifts). Great for quality souvenirs.",
+          "place": "Ginza, Tokyo, Japan",
+          "coords": [
+            35.6717,
+            139.765
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ginza+Tokyo"
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Dinner — Ginza or Tsukiji",
+          "type": "food",
+          "notes": "Ginza has high-end options. Or head back to Tsukiji area for more casual sushi and seafood at local prices.",
+          "place": "Ginza, Tokyo, Japan",
+          "coords": [
+            35.6717,
+            139.765
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "note": "Ueno & Yanaka — old Tokyo vibes",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "11:00",
+          "name": "Ueno Park & Museums",
+          "type": "sightseeing",
+          "notes": "Huge park with multiple museums. Tokyo National Museum (Japan's largest, ¥1,000) is the highlight. Also inside the park: Ueno Toshogu Shrine — a golden Edo-period shrine that survived earthquakes and WWII, incredibly ornate and often overlooked. And Shinobazu Pond — a giant lotus pond with a small Buddhist temple on an island in the middle.",
+          "place": "Ueno Park, Tokyo, Japan",
+          "coords": [
+            35.7146,
+            139.7732
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ueno+Park+Tokyo"
+        },
+        {
+          "time": "11:00",
+          "timeEnd": "12:00",
+          "name": "Ameyoko Market",
+          "type": "shopping",
+          "notes": "Bustling outdoor market street under the JR tracks. Cheap street food, dried fish, candy, clothing. Old-school Tokyo energy.",
+          "place": "Ameyoko Market, Ueno, Tokyo, Japan",
+          "coords": [
+            35.7092,
+            139.7748
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ameyoko+Market+Ueno+Tokyo"
+        },
+        {
+          "time": "12:00",
+          "timeEnd": "12:30",
+          "name": "Mita Sneakers",
+          "type": "shopping",
+          "notes": "2-min walk from Ameyoko. A legacy sneaker institution doing exclusive Nike and New Balance collabs since the early 2000s — NB 997 and 1300 exclusive colorways, Asics Gel-Lyte collabs, Nike Dunk exclusives. Small, serious, no tourist pricing. Check @mita_sneakers on Instagram before visiting for current stock.",
+          "place": "Mita Sneakers, 3-2-8 Ueno, Taito, Tokyo, Japan",
+          "coords": [
+            35.709,
+            139.7748
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mita+Sneakers+Ueno+Tokyo"
+        },
+        {
+          "time": "12:30",
+          "timeEnd": "14:30",
+          "name": "Yanaka District",
+          "type": "sightseeing",
+          "notes": "One of Tokyo's last old-school neighborhoods — survived WWII bombing. Yanaka Ginza shopping street (retro snack shops), Yanaka Cemetery (peaceful walk, cherry trees), temple-lined streets, cats everywhere. This is what most of Tokyo looked like before the 1964 Olympics.",
+          "place": "Yanaka, Tokyo, Japan",
+          "coords": [
+            35.725,
+            139.767
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yanaka+Ginza+Tokyo"
+        },
+        {
+          "time": "14:30",
+          "timeEnd": "15:30",
+          "name": "Miyano-Yu Bathhouse Café",
+          "type": "food",
+          "notes": "Hidden gem in Yanaka — a neighborhood sento (public bathhouse) turned into a charming café. Original colorful mosaic tiles, old faucets, sitting area on the old bath floor. Very local, very photogenic, almost no tourists know it exists.",
+          "place": "Miyano-Yu, Yanaka, Tokyo, Japan",
+          "coords": [
+            35.724,
+            139.7663
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Miyano-Yu+Yanaka+Tokyo"
+        },
+        {
+          "time": "15:30",
+          "timeEnd": "16:00",
+          "name": "Yuyake Dandan (Sunset Steps)",
+          "type": "sightseeing",
+          "notes": "The iconic stone staircase at the end of Yanaka Ginza — famous for its view of the shopping street below. Best at golden hour when the alley glows. Symbol of Yanaka and one of Tokyo's most photogenic lesser-known spots.",
+          "place": "Yuyake Dandan, Yanaka, Tokyo, Japan",
+          "coords": [
+            35.7261,
+            139.7699
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yuyake+Dandan+Yanaka+Tokyo"
+        },
+        {
+          "time": "16:00",
+          "timeEnd": "17:30",
+          "name": "Nezu Shrine",
+          "type": "sightseeing",
+          "notes": "Beautiful Shinto shrine near Yanaka with rows of small vermilion torii gates — mini Fushimi Inari vibes without the crowds. Free entry. Koi pond garden inside.",
+          "place": "Nezu Shrine, Tokyo, Japan",
+          "coords": [
+            35.7199,
+            139.7618
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nezu+Shrine+Tokyo"
+        },
+        {
+          "time": "18:00",
+          "name": "🍴 Dinner",
+          "type": "food",
+          "notes": "Head back to Asakusa (10 min by subway) for dinner near the hotel, or try the izakaya scene around Ueno/Okachimachi — very local, very cheap.",
+          "place": "Ueno, Tokyo, Japan",
+          "coords": [
+            35.7092,
+            139.7748
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "note": "Odaiba & Ikebukuro",
+      "activities": [
+        {
+          "time": "10:00",
+          "timeEnd": "11:00",
+          "name": "Odaiba — Unicorn Gundam & Waterfront",
+          "type": "sightseeing",
+          "notes": "Take Yurikamome monorail from Shimbashi for a scenic bay crossing. Life-size Unicorn Gundam statue (free, transformations at set times), Rainbow Bridge views, DiverCity Mall.",
+          "place": "Odaiba, Tokyo, Japan",
+          "coords": [
+            35.6267,
+            139.7756
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Unicorn+Gundam+Odaiba+Tokyo"
+        },
+        {
+          "time": "11:00",
+          "timeEnd": "12:00",
+          "name": "Miraikan — Museum of Emerging Science",
+          "type": "sightseeing",
+          "notes": "Hidden gem in Odaiba — Japan's national science museum with hands-on exhibits on robotics (ASIMO demos), the International Space Station, genomics, and the future of AI. Surprisingly excellent and rarely packed. ~¥630 entry.",
+          "place": "Miraikan, Odaiba, Tokyo, Japan",
+          "coords": [
+            35.6199,
+            139.7755
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Miraikan+Odaiba+Tokyo"
+        },
+        {
+          "time": "12:00",
+          "timeEnd": "12:30",
+          "name": "Odaiba Marine Park Beach",
+          "type": "sightseeing",
+          "notes": "A sandy beach right on Tokyo Bay — surreal to have a beach with the Rainbow Bridge and skyline as your backdrop. Great for a short stroll and photos before lunch.",
+          "place": "Odaiba Marine Park, Tokyo, Japan",
+          "coords": [
+            35.6253,
+            139.7753
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Odaiba+Marine+Park+Beach+Tokyo"
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "14:00",
+          "name": "🍴 Lunch in Odaiba",
+          "type": "food",
+          "notes": "DiverCity or Aqua City malls have food courts with bay views. Or try Odaiba Takoyaki Museum — multiple Osaka-style takoyaki stalls under one roof.",
+          "place": "Odaiba, Tokyo, Japan",
+          "coords": [
+            35.6253,
+            139.7753
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeEnd": "17:00",
+          "name": "Ikebukuro — Pokémon Center Mega Tokyo + Animate",
+          "type": "shopping",
+          "notes": "Sunshine City mall: Pokémon Center Mega Tokyo — one of the largest in Japan, full exclusive merch. Also Namja Town (food theme park, gyoza stadium). Then Animate Ikebukuro — 9-floor anime/manga/merchandise megastore, Japan's largest Animate. Both within a 5-min walk of each other. 20 min by JR from Shimbashi.",
+          "place": "Sunshine City, Ikebukuro, Tokyo, Japan",
+          "coords": [
+            35.7292,
+            139.7192
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sunshine+City+Ikebukuro+Tokyo"
+        },
+        {
+          "time": "18:00",
+          "name": "🍴 Dinner — Ikebukuro",
+          "type": "food",
+          "notes": "Ramen Street in Sunshine City basement or the yakitori alleys near Ikebukuro Station west side — very local, very cheap.",
+          "place": "Ikebukuro, Tokyo, Japan",
+          "coords": [
+            35.7295,
+            139.7109
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "note": "Day trip — Kamakura",
+      "activities": [
+        {
+          "time": "07:30",
+          "name": "Train: Asakusa → Kamakura",
+          "type": "transport",
+          "notes": "Take Tokyo Metro to Shinjuku/Tokyo Station, then Yokosuka Line direct to Kamakura Station (~55 min, ¥940). Leave early to beat the crowds — Kamakura gets packed by 10am on weekends."
+        },
+        {
+          "time": "09:00",
+          "timeEnd": "10:00",
+          "name": "Tsurugaoka Hachimangu Shrine",
+          "type": "sightseeing",
+          "notes": "Kamakura's most important Shinto shrine, at the end of the main boulevard. Wide approach lined with ponds and cherry trees. The main hall sits on a hill with great views over the town. Free entry.",
+          "place": "Tsurugaoka Hachimangu Shrine, Kamakura, Japan",
+          "coords": [
+            35.326,
+            139.5563
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tsurugaoka+Hachimangu+Kamakura"
+        },
+        {
+          "time": "10:00",
+          "timeEnd": "11:30",
+          "name": "Kotoku-in — Great Buddha",
+          "type": "sightseeing",
+          "notes": "Japan's most famous giant bronze Buddha — 11.4m tall, sitting in the open air since its hall was washed away by a tsunami in 1498. You can go inside the statue for ¥20 extra. The scale is genuinely awe-inspiring in person. ¥300 entry.",
+          "place": "Kotoku-in Great Buddha, Kamakura, Japan",
+          "coords": [
+            35.3167,
+            139.5353
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kotoku-in+Great+Buddha+Kamakura"
+        },
+        {
+          "time": "11:30",
+          "timeEnd": "12:30",
+          "name": "Hasedera Temple",
+          "type": "sightseeing",
+          "notes": "10-min walk from the Great Buddha. One of Kamakura's most beautiful temples — tiered gardens, koi ponds, a sea view terrace overlooking the Pacific. The main hall houses an 11-headed gilt wooden Kannon statue. ¥400 entry.",
+          "place": "Hasedera Temple, Kamakura, Japan",
+          "coords": [
+            35.3156,
+            139.5337
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hasedera+Temple+Kamakura"
+        },
+        {
+          "time": "12:30",
+          "timeEnd": "13:30",
+          "name": "🍴 Lunch in Kamakura",
+          "type": "food",
+          "notes": "Kamakura's local specialty: shirasu (whitebait/baby sardines). Try shirasu-don at a restaurant near Hase Station or Kamakura Station. Very local, very fresh, very cheap.",
+          "place": "Kamakura, Kanagawa, Japan",
+          "coords": [
+            35.3192,
+            139.5501
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeEnd": "15:30",
+          "name": "Hokokuji Temple — Bamboo Grove",
+          "type": "sightseeing",
+          "notes": "Hidden gem — a small Zen temple with a private bamboo forest behind it. Way less crowded than Arashiyama in Kyoto, and you can have matcha tea inside the grove at a small teahouse. ¥500 entry + ¥600 for tea. One of Kamakura's best kept secrets.",
+          "place": "Hokokuji Temple, Kamakura, Japan",
+          "coords": [
+            35.3223,
+            139.5626
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hokokuji+Temple+Kamakura+bamboo"
+        },
+        {
+          "time": "16:00",
+          "name": "Train: Kamakura → Tokyo",
+          "type": "transport",
+          "notes": "Yokosuka Line back to Tokyo Station (~55 min). Back in Asakusa by ~18:00."
+        },
+        {
+          "time": "19:00",
+          "name": "🍴 Dinner — Asakusa",
+          "type": "food",
+          "notes": "Relax near the hotel. Asakusa has great tempura (Daikokuya, founded 1887 — queue worth it), soba, and izakaya options all within walking distance of the Gate Hotel.",
+          "place": "Asakusa, Tokyo, Japan",
+          "coords": [
+            35.7119,
+            139.7946
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "note": "Last day — Harajuku + Kagurazaka + airport",
+      "activities": [
+        {
+          "time": "09:00",
+          "timeEnd": "12:00",
+          "name": "Harajuku — Ura-Harajuku, Cat Street & Sneaker Stores",
+          "type": "shopping",
+          "notes": "35 min from Asakusa on the Tokyo Metro Ginza Line. Start on Cat Street (from Omotesando to Harajuku Station): Kith Tokyo, Beams, Adidas Originals Japan flagship — Samba/Campus/Gazelle colorways not in global rotation. Then into Ura-Harajuku back streets (Jingumae 3–4 chome): Atmos (legendary Nike collab store — produced exclusive Air Max colorways for decades, walk-in stock always available), Nanamica, Neighbourhood, Kapital (Japanese indigo and patchwork, impossible to find at sane prices outside Japan). Also: Design Festa Gallery (3-20-18 Jingumae) — free entry, two buildings of small gallery rooms rented by individual artists, always changing.",
+          "place": "Harajuku, Shibuya, Tokyo, Japan",
+          "coords": [
+            35.6702,
+            139.7028
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Harajuku+Tokyo"
+        },
+        {
+          "time": "12:30",
+          "timeEnd": "15:00",
+          "name": "Kagurazaka",
+          "type": "sightseeing",
+          "notes": "Tokyo's French-Japanese neighborhood — cobblestone alleys (Kakurega) lined with traditional Japanese restaurants hidden behind bamboo fences, French bakeries, and boutiques. Known as 'Little Paris of Tokyo'. Almost no foreign tourists. Hidden geisha alley (Hyogo Yokocho) is beautiful and quiet. 20 min from Harajuku by subway.",
+          "place": "Kagurazaka, Shinjuku, Tokyo, Japan",
+          "coords": [
+            35.7022,
+            139.7396
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kagurazaka+Tokyo"
+        },
+        {
+          "time": "20:00",
+          "name": "🍴 Last dinner in Tokyo",
+          "type": "food",
+          "notes": "One final meal — revisit your favorite spot in Asakusa or try Daikokuya tempura (1887-founded, walk-in only, worth the small wait).",
+          "place": "Asakusa, Tokyo, Japan",
+          "coords": [
+            35.7119,
+            139.7946
+          ]
+        },
+        {
+          "time": "22:00",
+          "name": "Travel to Narita Airport",
+          "type": "transport",
+          "notes": "Narita Express from Tokyo Station (~1h20) or Skyliner from Ueno/Nippori (~41 min, ¥2,570, faster). Flight at 03:05 on June 1 — aim to be at airport by 00:30.",
+          "coords": [
+            35.7629,
+            140.3869
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "himeji",
+  "name": "Himeji",
+  "hotel": null,
+  "center": [
+    34.839,
+    134.694
+  ],
+  "zoom": 14,
+  "days": [
+    {
+      "date": "2026-05-22",
+      "note": "Day stop en route Osaka → Hiroshima",
+      "activities": [
+        {
+          "time": "12:30",
+          "name": "Train: Osaka → Himeji",
+          "type": "transport",
+          "notes": "JR Special Rapid or Shinkansen from Shin-Osaka to Himeji — ~30–40 min. Arrive ~13:00. Himeji Castle is a 15-min walk straight up the main boulevard from the station.",
+          "place": "Himeji Station, Himeji, Japan",
+          "coords": [
+            34.826,
+            134.6936
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Himeji+Station+Japan"
+        },
+        {
+          "time": "13:00",
+          "timeEnd": "16:00",
+          "name": "Himeji Castle",
+          "type": "sightseeing",
+          "notes": "Japan's finest original castle and a UNESCO World Heritage Site — nicknamed 'White Heron Castle' for its brilliant white exterior. Never destroyed, never reconstructed. Walk the six floors of the keep for panoramic views over the city. The bailey, inner moat, and gardens are extraordinary even from outside. Afternoon is less crowded as day-trippers leave by 15:30. Summer hours (Apr 27–Aug 31): last entry 16:00, closes 17:00. ¥1,000 entry.",
+          "place": "Himeji Castle, Himeji, Hyogo, Japan",
+          "coords": [
+            34.8394,
+            134.6939
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Himeji+Castle/@34.8394,134.6939,17z",
+          "photo": "photos/osaka/himeji-castle-day-stop.jpg"
+        },
+        {
+          "time": "16:00",
+          "timeEnd": "16:30",
+          "name": "Koko-en Garden",
+          "type": "sightseeing",
+          "notes": "Nine traditional Japanese garden spaces reconstructed on the former site of the castle's west compound — right next to the castle walls. Teahouse, koi ponds, and pine groves. Lovely 30-min stroll. ¥310 entry, or ¥1,050 combined with castle.",
+          "place": "Koko-en Garden, Himeji, Hyogo, Japan",
+          "coords": [
+            34.8378,
+            134.6888
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Koko-en+Garden+Himeji+Japan",
+          "photo": "photos/himeji/koko-en-garden.png"
+        },
+        {
+          "time": "16:30",
+          "name": "Shinkansen: Himeji → Hiroshima",
+          "type": "transport",
+          "notes": "Shinkansen Nozomi or Hikari from Himeji to Hiroshima — ~50 min. Arrive Hiroshima ~17:30.",
+          "place": "Himeji Station, Himeji, Japan",
+          "coords": [
+            34.826,
+            134.6936
+          ]
+        }
+      ]
+    }
+  ]
+}
