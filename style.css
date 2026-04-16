@@ -1306,8 +1306,9 @@ body {
     flex-direction: column;
   }
 
-  /* Map takes top portion */
+  /* Map takes top portion — order: -1 pushes it above the act-panel in the DOM */
   .city-map-area {
+    order: -1;
     flex: none;
     height: 42vh;
     min-height: 140px;
