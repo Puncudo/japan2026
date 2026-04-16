@@ -2,6 +2,9 @@
    city.js — City detail view with map + daily activities
 ═══════════════════════════════════════════════════════ */
 
+/* View-only mode when served from GitHub Pages */
+const IS_VIEW_ONLY = location.hostname.endsWith('.github.io');
+
 let cityMap      = null;
 let cityMarkers  = [];   // array of { marker, act, color, num }
 let _previewMarker  = null;
@@ -175,12 +178,17 @@ function buildCityDOM(data) {
     <div class="city-header">
       <button class="city-back" onclick="closeCity()">‹ Back</button>
       <span class="city-hname">${data.name}</span>
-      ${data.hotel ? `<button class="city-hotel" onclick="openHotelPanel()">🏨 ${data.hotel.name}</button>` : '<span class="city-daytrip">📍 Day trip</span>'}
+      ${data.hotel
+        ? (IS_VIEW_ONLY
+          ? `<span class="city-hotel city-hotel-view">🏨 ${data.hotel.name}</span>`
+          : `<button class="city-hotel" onclick="openHotelPanel()">🏨 ${data.hotel.name}</button>`)
+        : '<span class="city-daytrip">📍 Day trip</span>'}
     </div>
 
     <div class="city-map-wrap">
       <!-- Left sidebar: vertical tabs | content -->
       <div class="act-panel" id="act-panel">
+        <div class="sheet-handle" onclick="toggleMobileSheet()"></div>
         <!-- Vertical day-tab strip -->
         <div class="city-day-tabs">${tabsHTML}</div>
 
@@ -208,7 +216,7 @@ function buildCityDOM(data) {
                   <button class="rte-btn" onclick="execRteCmd('italic')" title="Italic"><i>I</i></button>
                   <button class="rte-btn" onclick="execRteCmd('insertUnorderedList')" title="Bullets">•</button>
                 </div>
-                <button class="day-note-edit-btn" id="day-note-edit-btn" onclick="toggleNoteEdit()">Edit</button>
+                ${IS_VIEW_ONLY ? '' : '<button class="day-note-edit-btn" id="day-note-edit-btn" onclick="toggleNoteEdit()">Edit</button>'}
               </div>
             </div>
             <div class="day-note-body">
@@ -516,7 +524,7 @@ function renderActivityList(activities, container) {
       foot.appendChild(link);
     }
 
-    if (act.type !== 'transport') {
+    if (act.type !== 'transport' && !IS_VIEW_ONLY) {
       const locBtn = document.createElement('button');
       locBtn.className = `act-icon-btn ${act.coords ? '' : 'act-icon-btn-missing'}`;
       locBtn.title = act.coords ? 'Edit location' : 'Set location';
@@ -1217,6 +1225,17 @@ document.addEventListener('paste', e => {
   const imgItem = Array.from(e.clipboardData?.items || []).find(i => i.type.startsWith('image/'));
   if (imgItem) { e.preventDefault(); _setPhotoBlob(imgItem.getAsFile()); }
 });
+
+/* ══════════════════════════════════════════════════════
+   MOBILE BOTTOM SHEET
+══════════════════════════════════════════════════════ */
+function toggleMobileSheet() {
+  const wrap = document.querySelector('.city-map-wrap');
+  if (!wrap) return;
+  wrap.classList.toggle('sheet-expanded');
+  // Let map redraw after CSS transition finishes
+  if (cityMap) setTimeout(() => cityMap.invalidateSize(), 320);
+}
 
 /* ══════════════════════════════════════════════════════
    UTILS

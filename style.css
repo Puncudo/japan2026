@@ -1254,3 +1254,88 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* ═══════════════════════════════════════════════════════
+   MOBILE — bottom sheet layout
+═══════════════════════════════════════════════════════ */
+
+/* Sheet handle — hidden on desktop */
+.sheet-handle { display: none; }
+
+/* View-only hotel badge (no click) */
+.city-hotel-view { cursor: default !important; pointer-events: none; }
+
+@media (max-width: 700px) {
+
+  /* Stack map above, panel below */
+  .city-map-wrap {
+    flex-direction: column;
+  }
+
+  /* Map takes top portion */
+  .city-map-area {
+    flex: none;
+    height: 42vh;
+    min-height: 140px;
+    transition: height .3s cubic-bezier(.4,0,.2,1);
+  }
+
+  /* When sheet is expanded, map shrinks */
+  .city-map-wrap.sheet-expanded .city-map-area {
+    height: 18vh;
+    min-height: 80px;
+  }
+
+  /* Panel takes remaining space, rounded top corners like a sheet */
+  .act-panel {
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    border-right: none;
+    border-top: 1.5px solid rgba(0,0,0,0.08);
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -4px 24px rgba(0,0,0,0.10);
+    overflow: hidden;
+  }
+
+  /* Show the drag handle pill on mobile */
+  .sheet-handle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0 2px;
+    flex-shrink: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .sheet-handle::before {
+    content: '';
+    width: 36px;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+  }
+
+  /* Day tabs go horizontal and scroll */
+  .city-day-tabs {
+    flex-direction: row !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(0,0,0,0.07) !important;
+    height: auto !important;
+    padding: 5px 10px !important;
+    align-items: center !important;
+    gap: 6px !important;
+    scrollbar-width: none;
+  }
+
+  .city-day-tabs::-webkit-scrollbar { display: none; }
+  .cdt { flex-shrink: 0; }
+
+  /* Slightly tighter activity cards on mobile */
+  .act-card { padding: 6px 8px; }
+  .act-photo-thumb { width: 64px; height: 64px; }
+}
