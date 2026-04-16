@@ -20,10 +20,10 @@ let geoCache = JSON.parse(localStorage.getItem('geocache') || '{}');
 function saveGeoCache() { localStorage.setItem('geocache', JSON.stringify(geoCache)); }
 
 const TYPE = {
-  sightseeing: { color: '#d94f7a', icon: '🏛️' },
+  sightseeing: { color: '#c8003a', icon: '🏛️' },
   food:        { color: '#d97706', icon: '🍽️' },
   transport:   { color: '#9ca3af', icon: '🚇' },
-  hotel:       { color: '#7c3aed', icon: '🏨' },
+  hotel:       { color: '#f0607a', icon: '🏨' },
 };
 
 /* ── Adjacent stop finder ───────────────────────────── */
@@ -135,21 +135,38 @@ async function openCity(stopItem) {
   currentCity   = data;
   currentCityId = filename;
 
+  const overlay   = document.getElementById('city-overlay');
+  const wasOpen   = overlay.classList.contains('open');
+
   buildCityDOM(data);
-  document.getElementById('city-overlay').classList.add('open');
+  overlay.classList.add('open');
   document.body.style.overflow = 'hidden';
 
-  /* Wait for slide-up transition (350ms) to finish before init-ing the map,
-     otherwise Leaflet measures wrong container dimensions on mobile */
-  const overlay = document.getElementById('city-overlay');
-  const onTransitionEnd = e => {
-    if (e.propertyName !== 'transform') return;
-    overlay.removeEventListener('transitionend', onTransitionEnd);
+  /* Block taps on activity links for 600ms after opening — prevents ghost-clicks
+     from the timeline tap landing on a 🗺️ link inside the freshly-rendered overlay */
+  overlay.classList.add('city-opening');
+  setTimeout(() => overlay.classList.remove('city-opening'), 600);
+
+  const initAndSelect = () => {
     initMap(data);
     const first = data.days.find(d => d.activities?.length);
     if (first) selectDay(first.date);
   };
-  overlay.addEventListener('transitionend', onTransitionEnd);
+
+  if (wasOpen) {
+    /* Navigating between cities — overlay already visible, no transition fires.
+       Small rAF delay lets buildCityDOM paint before Leaflet measures the container. */
+    requestAnimationFrame(() => setTimeout(initAndSelect, 30));
+  } else {
+    /* Fresh open — wait for the slide-up transition (350ms) to finish so Leaflet
+       measures correct dimensions, especially on mobile. */
+    const onTransitionEnd = e => {
+      if (e.propertyName !== 'transform') return;
+      overlay.removeEventListener('transitionend', onTransitionEnd);
+      initAndSelect();
+    };
+    overlay.addEventListener('transitionend', onTransitionEnd);
+  }
 }
 
 /* ── Close city ─────────────────────────────────────── */
@@ -182,13 +199,20 @@ function buildCityDOM(data) {
 
   overlay.innerHTML = `
     <div class="city-header">
-      <button class="city-back" onclick="closeCity()">‹ Back</button>
-      <span class="city-hname">${data.name}</span>
+      <button class="city-back" onclick="closeCity()">‹</button>
+      <div class="city-title-block">
+        <span class="city-hname">${(PLACES[currentStopItem?.image]?.emoji || '') + ' ' + data.name}</span>
+        ${arrStr && depStr ? `<span class="city-hdates">${arrStr} – ${depStr}</span>` : ''}
+      </div>
+      <div class="city-header-nav">
+        ${prev ? `<button class="dest-nav-btn" onclick="openCity(${JSON.stringify(prev).replace(/"/g,'&quot;')})">‹ <span class="city-nav-label">${prev.name}</span></button>` : ''}
+        ${next ? `<button class="dest-nav-btn" onclick="openCity(${JSON.stringify(next).replace(/"/g,'&quot;')})"><span class="city-nav-label">${next.name}</span> ›</button>` : ''}
+      </div>
       ${data.hotel
         ? (IS_VIEW_ONLY
-          ? `<span class="city-hotel city-hotel-view">🏨 ${data.hotel.name}</span>`
-          : `<button class="city-hotel" onclick="openHotelPanel()">🏨 ${data.hotel.name}</button>`)
-        : '<span class="city-daytrip">📍 Day trip</span>'}
+          ? `<span class="city-hotel city-hotel-view" title="${data.hotel.name}">🏨</span>`
+          : `<button class="city-hotel" onclick="openHotelPanel()" title="${data.hotel.name}">🏨</button>`)
+        : '<span class="city-daytrip" title="Day trip">📍</span>'}
     </div>
 
     <div class="city-map-wrap">
@@ -200,18 +224,6 @@ function buildCityDOM(data) {
 
         <!-- Right content -->
         <div class="act-panel-content">
-          <!-- City name + nav on one row -->
-          <div class="dest-context">
-            <div class="dest-context-row">
-              <div class="dest-context-name">${(PLACES[currentStopItem?.image]?.emoji || '') + ' ' + data.name}</div>
-              <div class="dest-context-nav">
-                ${prev ? `<button class="dest-nav-btn" onclick="openCity(${JSON.stringify(prev).replace(/"/g,'&quot;')})">‹ ${prev.name}</button>` : ''}
-                ${next ? `<button class="dest-nav-btn" onclick="openCity(${JSON.stringify(next).replace(/"/g,'&quot;')})"> ${next.name} ›</button>` : ''}
-              </div>
-            </div>
-            ${arrStr && depStr ? `<div class="dest-context-dates">${arrStr} → ${depStr}</div>` : ''}
-          </div>
-
           <!-- Collapsible day theme -->
           <div class="day-note-wrap" id="day-note-wrap">
             <div class="day-note-header">
@@ -378,6 +390,10 @@ async function selectDay(dateStr) {
 
   document.querySelectorAll('.cdt').forEach(b =>
     b.classList.toggle('cdt-active', b.dataset.date === dateStr));
+
+  // Scroll active tab into view (important on mobile with many days)
+  const activeTab = document.querySelector('.cdt-active');
+  if (activeTab) activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
 
   // Load saved note for this day (sanitize in case of pasted HTML)
   const noteContent = document.getElementById('day-note-content');
@@ -1144,8 +1160,9 @@ async function saveHotel() {
   if (_hotelCoords)  hotel.coords  = _hotelCoords;
   if (_hotelMapsUrl) hotel.mapsUrl = _hotelMapsUrl;
 
-  /* Update header button text */
-  document.querySelector('.city-hotel').textContent = `🏨 ${hotel.name}`;
+  /* Update header button tooltip */
+  const hotelBtn = document.querySelector('.city-hotel');
+  if (hotelBtn) hotelBtn.title = hotel.name;
 
   /* Persist via server */
   try {

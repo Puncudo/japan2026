@@ -3,18 +3,18 @@
 
 /* ── Tokens ──────────────────────────────────────── */
 :root {
-  --bg:           #f5f0eb;
+  --bg:           #fff8f8;          /* warm white, faint sakura tint */
   --surface:      #ffffff;
-  --surface2:     #f0ebe4;
-  --border:       #e0d6cc;
-  --pink:         #d94f7a;
-  --pink-dim:     rgba(217,79,122,0.2);
-  --pink-glow:    rgba(217,79,122,0.08);
-  --purple:       #7c3aed;
-  --purple-dim:   rgba(124,58,237,0.2);
+  --surface2:     #fff0f2;          /* blush surface */
+  --border:       #f5cdd5;          /* sakura border */
+  --pink:         #c8003a;          /* Japan red — torii / flag */
+  --pink-dim:     rgba(200,0,58,0.14);
+  --pink-glow:    rgba(200,0,58,0.06);
+  --purple:       #f0607a;          /* sakura pink — secondary */
+  --purple-dim:   rgba(240,96,122,0.16);
   --gold:         #d97706;
-  --text:         #1a1410;
-  --muted:        #8a7a6a;
+  --text:         #1a0808;          /* near-black with red warmth */
+  --muted:        #8a6060;          /* muted red-brown */
   --header-h:     108px;
 }
 
@@ -159,14 +159,14 @@ body {
   padding: 2.5px;
   background: linear-gradient(135deg, var(--pink), var(--purple));
   box-shadow:
-    0 3px 14px rgba(217,79,122,0.22),
+    0 3px 14px rgba(200,0,58,0.22),
     0 1px 4px rgba(0,0,0,0.08);
   transition: transform .22s cubic-bezier(.34,1.56,.64,1), box-shadow .2s;
 }
 
 .tl-dot-major:hover {
   box-shadow:
-    0 5px 20px rgba(217,79,122,0.32),
+    0 5px 20px rgba(200,0,58,0.32),
     0 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -273,12 +273,12 @@ body {
   border-radius: 50%;
   padding: 2px;
   background: linear-gradient(135deg, var(--purple), var(--pink));
-  box-shadow: 0 3px 10px rgba(124,58,237,0.18);
+  box-shadow: 0 3px 10px rgba(240,96,122,0.18);
   transition: box-shadow .2s;
 }
 
 .tl-wp-ring:hover {
-  box-shadow: 0 5px 16px rgba(124,58,237,0.28);
+  box-shadow: 0 5px 16px rgba(240,96,122,0.28);
 }
 
 .tl-wp-inner {
@@ -324,7 +324,7 @@ body {
   height: 38px;
   border-radius: 50%;
   border: none;
-  background: rgba(124,58,237,0.15);
+  background: rgba(240,96,122,0.15);
   color: var(--purple);
   font-size: 18px;
   line-height: 1;
@@ -334,7 +334,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-#hard-refresh-btn:hover { background: rgba(124,58,237,0.25); }
+#hard-refresh-btn:hover { background: rgba(240,96,122,0.25); }
 #hard-refresh-btn:active { transform: rotate(180deg); }
 
 /* ── Scrollbar ───────────────────────────────────── */
@@ -366,14 +366,14 @@ body {
 .city-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 12px 16px;
-  background: rgba(245,240,235,0.88);
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(255,248,248,0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
-  min-height: 52px;
+  min-height: 48px;
   position: relative;
   z-index: 600;
 }
@@ -381,53 +381,85 @@ body {
 .city-back {
   background: none;
   border: none;
-  font-size: 22px;
+  font-size: 24px;
   color: var(--pink);
   cursor: pointer;
-  padding: 4px 8px 4px 0;
+  padding: 4px 6px 4px 0;
   font-weight: 700;
   line-height: 1;
+  flex-shrink: 0;
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Title block — name + dates stacked */
+.city-title-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  overflow: hidden;
+}
+
 .city-hname {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 800;
   color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.city-hdates {
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 1px;
+  white-space: nowrap;
+}
+
+/* Nav buttons in header */
+.city-header-nav {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
 }
 
 .city-hotel {
-  margin-left: auto;
-  font-size: 11px;
-  color: var(--muted);
+  flex-shrink: 0;
+  font-size: 18px;
+  line-height: 1;
   background: rgba(255,255,255,0.7);
   border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 3px 10px;
-  white-space: nowrap;
-  max-width: 160px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   transition: background .15s, border-color .15s;
   font-family: inherit;
+  padding: 0;
   -webkit-tap-highlight-color: transparent;
 }
 .city-hotel:hover {
   background: rgba(255,255,255,0.95);
   border-color: var(--pink);
-  color: var(--pink);
 }
 
 .city-daytrip {
-  margin-left: auto;
-  font-size: 11px;
+  flex-shrink: 0;
+  font-size: 18px;
+  line-height: 1;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--muted);
   background: var(--surface2);
   border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 4px 10px;
-  white-space: nowrap;
+  border-radius: 50%;
 }
 
 /* ── Map wrap — side-by-side layout ─────── */
@@ -483,7 +515,7 @@ body {
 .cdt-active {
   background: var(--pink);
   border-color: var(--pink);
-  box-shadow: 0 4px 12px rgba(217,79,122,0.4);
+  box-shadow: 0 4px 12px rgba(200,0,58,0.4);
 }
 
 .cdt-active .cdt-dow,
@@ -544,8 +576,8 @@ body {
   font-size: 10px;
   font-weight: 700;
   color: var(--pink);
-  background: rgba(217,79,122,0.08);
-  border: 1px solid rgba(217,79,122,0.2);
+  background: rgba(200,0,58,0.08);
+  border: 1px solid rgba(200,0,58,0.2);
   border-radius: 20px;
   padding: 2px 8px;
   cursor: pointer;
@@ -555,7 +587,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.dest-nav-btn:hover { background: rgba(217,79,122,0.18); }
+.dest-nav-btn:hover { background: rgba(200,0,58,0.18); }
 
 /* ── Day theme note (collapsible) ────────── */
 .day-note-wrap {
@@ -578,21 +610,21 @@ body {
   font-size: 10px;
   font-weight: 700;
   color: var(--pink);
-  background: rgba(217,79,122,0.08);
-  border: 1px solid rgba(217,79,122,0.2);
+  background: rgba(200,0,58,0.08);
+  border: 1px solid rgba(200,0,58,0.2);
   border-radius: 12px;
   padding: 2px 9px;
   cursor: pointer;
   transition: background .15s;
   white-space: nowrap;
 }
-.day-note-edit-btn:hover { background: rgba(217,79,122,0.18); }
+.day-note-edit-btn:hover { background: rgba(200,0,58,0.18); }
 .day-note-edit-btn-active {
   background: var(--pink);
   color: white;
   border-color: var(--pink);
 }
-.day-note-edit-btn-active:hover { background: #c43d6a; }
+.day-note-edit-btn-active:hover { background: #a3002f; }
 
 .day-note-label {
   font-size: 10px;
@@ -709,18 +741,35 @@ body {
 }
 
 .act-panel-title {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  padding: 10px 14px 6px;
+  padding: 5px 10px 4px;
   flex-shrink: 0;
   border-bottom: 1px solid rgba(0,0,0,0.06);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 6px;
+}
+
+.act-title-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.act-trip-dates {
+  font-size: 10px;
+  color: var(--muted);
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: nowrap;
+  opacity: 0.8;
 }
 
 /* ── Compact toggle button ────────────────── */
@@ -782,9 +831,9 @@ body {
 }
 
 .act-card-active {
-  background: rgba(217,79,122,0.10) !important;
+  background: rgba(200,0,58,0.10) !important;
   border-color: var(--pink) !important;
-  box-shadow: 0 2px 14px rgba(217,79,122,0.22) !important;
+  box-shadow: 0 2px 14px rgba(200,0,58,0.22) !important;
 }
 
 
@@ -861,7 +910,7 @@ body {
   color: var(--pink);
   font-weight: 600;
   text-decoration: none;
-  background: rgba(217,79,122,0.1);
+  background: rgba(200,0,58,0.1);
   border-radius: 20px;
   padding: 2px 10px;
 }
@@ -886,7 +935,7 @@ body {
 }
 .act-icon-btn:hover { background: rgba(255,255,255,0.85); }
 .act-icon-btn-missing { opacity: 0.4; }
-.act-icon-btn-danger:hover { background: rgba(217,79,122,0.15); }
+.act-icon-btn-danger:hover { background: rgba(200,0,58,0.15); }
 
 /* ── Activity link chips ─────────────────── */
 .act-links {
@@ -902,13 +951,13 @@ body {
   font-weight: 600;
   color: var(--pink);
   text-decoration: none;
-  background: rgba(217,79,122,0.09);
-  border: 1px solid rgba(217,79,122,0.18);
+  background: rgba(200,0,58,0.09);
+  border: 1px solid rgba(200,0,58,0.18);
   border-radius: 20px;
   padding: 3px 10px;
   transition: background .15s;
 }
-.act-link-chip:hover { background: rgba(217,79,122,0.18); }
+.act-link-chip:hover { background: rgba(200,0,58,0.18); }
 
 /* ── Preview pin pulse animation ─────────── */
 @keyframes pulse-pin {
@@ -963,7 +1012,7 @@ body {
 }
 
 .map-pin-hotel {
-  background: #7c3aed !important;
+  background: #f0607a !important;
   border-color: white;
   font-size: 13px;
   width: 30px;
@@ -1027,7 +1076,7 @@ body {
 }
 
 .act-loc-missing {
-  background: rgba(217,79,122,0.12);
+  background: rgba(200,0,58,0.12);
   color: var(--pink);
 }
 
@@ -1321,11 +1370,14 @@ body {
     min-height: 80px;
   }
 
-  /* Panel takes remaining space, rounded top corners like a sheet */
+  /* Panel takes remaining space — tabs stay on the LEFT, same as desktop.
+     The handle floats above via absolute positioning. */
   .act-panel {
     width: 100%;
     flex: 1;
-    flex-direction: column;
+    flex-direction: row;   /* tabs left | content right — same as desktop */
+    position: relative;
+    padding-top: 18px;     /* room for the absolute handle pill */
     border-right: none;
     border-top: 1.5px solid rgba(0,0,0,0.08);
     border-radius: 16px 16px 0 0;
@@ -1333,14 +1385,18 @@ body {
     overflow: hidden;
   }
 
-  /* Show the drag handle pill on mobile */
+  /* Handle floats at the very top, doesn't push the row layout down */
   .sheet-handle {
     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     justify-content: center;
     align-items: center;
-    padding: 8px 0 2px;
-    flex-shrink: 0;
+    padding: 5px 0 3px;
     cursor: pointer;
+    z-index: 2;
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -1352,25 +1408,16 @@ body {
     border-radius: 2px;
   }
 
-  /* Day tabs go horizontal and scroll */
-  .city-day-tabs {
-    flex-direction: row !important;
-    width: 100% !important;
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
-    border-right: none !important;
-    border-bottom: 1px solid rgba(0,0,0,0.07) !important;
-    height: auto !important;
-    padding: 5px 10px !important;
-    align-items: center !important;
-    gap: 6px !important;
-    scrollbar-width: none;
-  }
-
-  .city-day-tabs::-webkit-scrollbar { display: none; }
-  .cdt { flex-shrink: 0; }
+  /* Day tabs stay vertical on mobile — just slightly narrower */
+  .cdt { width: 30px; padding: 3px 2px; }
+  .cdt-dow { font-size: 7px; }
+  .cdt-num { font-size: 14px; }
 
   /* Slightly tighter activity cards on mobile */
   .act-card { padding: 6px 8px; }
   .act-photo-thumb { width: 64px; height: 64px; }
 }
+
+/* Ghost-click guard — block taps on links/buttons for 600ms after overlay opens */
+#city-overlay.city-opening .act-list a,
+#city-overlay.city-opening .act-list button { pointer-events: none; }
