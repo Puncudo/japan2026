@@ -157,6 +157,7 @@ function initTabs() {
       document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
       btn.classList.add('active');
       document.getElementById(`view-${btn.dataset.tab}`).classList.add('active');
+      if (btn.dataset.tab === 'notes' && typeof renderNotesTab === 'function') renderNotesTab();
     });
   });
 }
@@ -177,6 +178,7 @@ async function init() {
     const data = await res.json();
     window._tripData = data;
     buildTimeline(data);
+    if (typeof renderNotesTab === 'function') renderNotesTab();
   } catch (err) {
     document.getElementById('timeline').innerHTML =
       `<p style="color:#d94f7a;padding:20px;text-align:center">Failed to load trip data</p>`;

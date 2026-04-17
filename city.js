@@ -224,6 +224,18 @@ function buildCityDOM(data) {
 
         <!-- Right content -->
         <div class="act-panel-content">
+          <!-- City-level note (persisted in localStorage, shared with Notes tab) -->
+          <div class="city-note-wrap" id="city-note-wrap">
+            <div class="city-note-hdr" onclick="toggleCityNoteWrap()">
+              <span>📝 City Notes</span>
+              <span class="day-note-arrow" id="city-note-arrow">▼</span>
+            </div>
+            <div class="city-note-body" id="city-note-body">
+              <div class="city-note-el" id="city-note-el" contenteditable="true"
+                data-placeholder="Tips, reminders, things to buy…"></div>
+            </div>
+          </div>
+
           <!-- Collapsible day theme -->
           <div class="day-note-wrap" id="day-note-wrap">
             <div class="day-note-header">
@@ -333,6 +345,29 @@ function buildCityDOM(data) {
       </div>
     </div>
   `;
+
+  /* ── Populate city note (after innerHTML set, to avoid XSS) ── */
+  const _cnEl = document.getElementById('city-note-el');
+  if (_cnEl) {
+    _cnEl.innerHTML = localStorage.getItem(`city-note-${currentCityId}`) || '';
+    _cnEl.addEventListener('input', () => {
+      const v = _cnEl.innerHTML.trim();
+      if (v && v !== '<br>') localStorage.setItem(`city-note-${currentCityId}`, v);
+      else localStorage.removeItem(`city-note-${currentCityId}`);
+    });
+    _cnEl.addEventListener('paste', e => {
+      e.preventDefault();
+      document.execCommand('insertText', false, e.clipboardData.getData('text/plain'));
+    });
+  }
+}
+
+function toggleCityNoteWrap() {
+  const body  = document.getElementById('city-note-body');
+  const arrow = document.getElementById('city-note-arrow');
+  if (!body) return;
+  const collapsed = body.classList.toggle('collapsed');
+  if (arrow) arrow.textContent = collapsed ? '▶' : '▼';
 }
 
 /* ══════════════════════════════════════════════════════

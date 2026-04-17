@@ -1,10 +1,11 @@
-const CACHE_NAME = 'japan-trip-v16';
+const CACHE_NAME = 'japan-trip-v17';
 const ASSETS = [
   '/',
   '/index.html',
   '/style.css',
   '/app.js',
   '/city.js',
+  '/notes.js',
   '/manifest.json',
   '/icon.svg',
   '/data/trip.json',

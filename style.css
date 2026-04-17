@@ -359,6 +359,105 @@ body {
 
 .notes-placeholder .big-icon { font-size: 52px; }
 
+/* ── Notes tab ───────────────────────────────────── */
+.notes-tab-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 80px;
+}
+
+.note-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.note-card-global .note-card-hdr {
+  background: var(--pink-glow);
+}
+
+.note-card-hdr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.note-card-icon { font-size: 16px; }
+
+.note-card-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.note-card-body {
+  min-height: 56px;
+  padding: 10px 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+  outline: none;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.note-card-body:empty::before {
+  content: attr(data-placeholder);
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.note-card-body:focus {
+  background: var(--surface2);
+}
+
+/* ── City note (inside city overlay) ────────────── */
+.city-note-wrap {
+  border-bottom: 1px solid var(--border);
+}
+
+.city-note-hdr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+  letter-spacing: 0.02em;
+}
+
+.city-note-hdr:hover { background: var(--surface2); }
+
+.city-note-body.collapsed { display: none; }
+
+.city-note-el {
+  min-height: 48px;
+  padding: 8px 12px 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text);
+  outline: none;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.city-note-el:empty::before {
+  content: attr(data-placeholder);
+  color: var(--muted);
+  pointer-events: none;
+  font-style: italic;
+}
+
+.city-note-el:focus { background: var(--surface2); }
+
 /* ── Hard-refresh button ─────────────────────────── */
 #hard-refresh-btn {
   position: fixed;
