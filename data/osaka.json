@@ -8,10 +8,11 @@
   "hotel": {
     "name": "Hotel Forza Osaka Namba",
     "coords": [
-      34.6681,
-      135.5019
+      34.6685723,
+      135.5033617
     ],
-    "place": "Hotel Forza Osaka Namba, Namba, Osaka, Japan"
+    "place": "Hotel Forza Osaka Namba, Namba, Osaka, Japan",
+    "mapsUrl": "https://www.google.com/maps/place/Hotel+Forza+Osaka+Namba+Dotonbori/@34.6685723,135.5007868,17z/data=!3m1!5s0x6000e714dd0f166f:0x2fe46738caaccb0c!4m10!3m9!1s0x6000e7003222bc77:0xc4eda5f02d608981!5m3!1s2026-06-30!4m1!1i2!8m2!3d34.6685723!4d135.5033617!16s%2Fg%2F11m49bq7x9?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=1fb78393-fd70-411f-8b59-ae4345d46192"
   },
   "days": [
     {

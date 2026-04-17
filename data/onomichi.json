@@ -8,11 +8,11 @@
   "hotel": {
     "name": "Beacon Hotel Onomichi",
     "coords": [
-      34.4089,
-      133.2051
+      34.4048071,
+      133.1935959
     ],
     "place": "Beacon Hotel Onomichi, Onomichi, Hiroshima, Japan",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beacon+Hotel+Onomichi"
+    "mapsUrl": "https://www.google.com/maps/place/Hotel+Beacon+Onomichi/@34.4048071,133.191021,17z/data=!3m1!5s0x35510035e68862cf:0x5e0c9e506f1b2b0!4m10!3m9!1s0x355101413ef2e703:0x2b929b996c688dfb!5m3!1s2026-06-30!4m1!1i2!8m2!3d34.4048071!4d133.1935959!16s%2Fg%2F11t4km_0s2?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=b091acd5-0294-47cc-ab35-e7e465e997e1"
   },
   "days": [
     {
@@ -40,8 +40,8 @@
           "notes": "Onomichi is famous for its local ramen — soy sauce-based with pork back fat floating on top. Try shops along the Hondori Shopping Arcade near the station.",
           "place": "Onomichi Ramen, Onomichi, Hiroshima, Japan",
           "coords": [
-            34.4089,
-            133.204
+            34.4082,
+            133.1975
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onomichi+Ramen",
           "photo": "photos/onomichi/onomichi-ramen.png"
@@ -54,8 +54,8 @@
           "notes": "Narrow stone-paved lane with 108 hand-painted lucky stone cats, real cats lounging around, quirky art galleries and cafés. Stroke a stone cat's head 3 times for good luck.",
           "place": "Neko no Hosomichi, Onomichi, Hiroshima, Japan",
           "coords": [
-            34.407,
-            133.203
+            34.4112,
+            133.2024
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Neko+no+Hosomichi+Cat+Alley+Onomichi",
           "photo": "photos/onomichi/cat-alley-neko-no-hosomichi.png"
@@ -68,8 +68,8 @@
           "notes": "Walk up from Cat Alley (15 min) or take the ropeway (¥500 one-way). Panoramic views of Onomichi, the Seto Inland Sea, and surrounding islands from the observation deck. Senkoji Temple dates to 806 AD.",
           "place": "Senkoji Park, Onomichi, Hiroshima, Japan",
           "coords": [
-            34.4055,
-            133.201
+            34.4128,
+            133.2040
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Senkoji+Temple+Onomichi",
           "photo": "photos/onomichi/senkoji-temple-observatory.png"
@@ -82,8 +82,8 @@
           "notes": "Walk downhill from Senkoji through the hillside lanes connecting ancient temples. The full route is 2.5km / 25 temples — do as much as you like. Highlights: Tenneiji (3-tier pagoda with sea backdrop), Jodoji (oldest temple). Winding alleys through residential areas with daily life scenes.",
           "place": "Onomichi Temple Walk, Onomichi, Hiroshima, Japan",
           "coords": [
-            34.406,
-            133.21
+            34.4110,
+            133.2065
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onomichi+Temple+Walk",
           "photo": "photos/onomichi/temple-walk-partial.png"
@@ -96,8 +96,8 @@
           "notes": "Stroll the waterfront with views of Mukaishima Island across the narrow channel. Browse the retro Hondori Shopping Arcade — old-school covered shopping street.",
           "place": "Onomichi Waterfront, Onomichi, Hiroshima, Japan",
           "coords": [
-            34.4095,
-            133.205
+            34.4086,
+            133.1978
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onomichi+Hondori+Shopping+Arcade",
           "photo": "photos/onomichi/onomichi-waterfront-hondori-arcade.png"
@@ -109,8 +109,8 @@
           "notes": "Try local seafood — Onomichi is a port town. Onomichi Yokocho is a fun izakaya alley. Fresh sashimi, grilled fish, local sake.",
           "place": "Onomichi, Hiroshima, Japan",
           "coords": [
-            34.4089,
-            133.2051
+            34.4082,
+            133.1972
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Onomichi+Yokocho+izakaya"
         }
@@ -128,8 +128,8 @@
           "notes": "POUR Specialty Coffee opens at 7 AM — grab a coffee by the waterside. Or try the hotel breakfast at Beacon.",
           "place": "POUR Specialty Coffee, Onomichi",
           "coords": [
-            34.409,
-            133.2045
+            34.4085,
+            133.1968
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=POUR+Specialty+Coffee+Onomichi",
           "photo": "photos/onomichi/morning-waterfront-coffee.png"

@@ -8,11 +8,13 @@
   "hotel": {
     "name": "Hotel Koryu",
     "coords": [
-      35.5012,
-      138.7535
+      35.5093966,
+      138.7747069
     ],
-    "place": "Hotel Koryu, Fujikawaguchiko, Yamanashi, Japan"
+    "place": "Hotel Koryu, Fujikawaguchiko, Yamanashi, Japan",
+    "mapsUrl": "https://www.google.com/maps/place/Hotel+Koryu/@35.5093966,138.7747069,17z/data=!3m1!4b1!4m9!3m8!1s0x60195e23672fbcc7:0xea53f5f069795827!5m2!4m1!1i2!8m2!3d35.5093966!4d138.7747069!16s%2Fg%2F1v6p8xgn?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=da9404de-7b46-42c9-9acd-044fe6feb783"
   },
+  "cityNote": "🚌 Red Line Bus — buy 1-day pass (¥1,500) or 2-day (¥2,000) at Kawaguchiko Station on arrival. No booking needed. Covers full Lake Kawaguchi loop incl. Oishi Park. Blue Line covers Saiko area.\n\n📍 Fuji viewing spots nearby:\n• Kawaguchiko Station — right outside, 2 min walk\n• Lawson Town Office — lakeside reflections, ~10 min walk\n• 7-Eleven Kodachi (3894-5) — classic konbini+Fuji shot, ~5 min walk\n• Nikkawa Clock Shop — nostalgic backdrop, in town\n• Tourist Base Kawaguchiko — rooftop views, ¥1,000/30 min\n• Maison Lumière / Village Street — quiet streets, in town\n• Nishiri Street Sankou — hidden alley, near above\n• Gran Resort Princess — birdsnest house, check red line stop\n• Oishi Park — already in plan (May 14 evening) ✓",
   "days": [
     {
       "date": "2026-05-14",
@@ -31,12 +33,12 @@
           "name": "🍴 Houtou Fudou",
           "type": "food",
           "notes": "Famous local houtou (flat noodle miso stew) — the must-eat dish of Yamanashi. Great Mt Fuji views from the riverside branch.",
-          "place": "Houtou Fudou Kawaguchiko, Fujikawaguchiko, Yamanashi, Japan",
+          "place": "Houtou Fudou Kawaguchiko North Main Shop",
           "coords": [
-            35.505,
-            138.7617
+            35.5226775,
+            138.7738021
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Houtou+Fudou+Kawaguchiko",
+          "mapsUrl": "https://www.google.com/maps/place/Houtou+Fudou+Kawaguchiko+North+Main+Shop/@35.5226775,138.7547477,15z/data=!4m7!3m6!1s0x60195e46cea28b6f:0xcdc11d4beec44cd9!8m2!3d35.5226775!4d138.7738021!15sCgxIb3V0b3UgRnVkb3UiA4gBAVoOIgxob3V0b3UgZnVkb3WSARZob3RvX25vb2RsZV9yZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJRTlVweWN5MUJSUkFC4AEA-gEECB0QSQ!16s%2Fg%2F1tf5dt0h?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=e1a4ae84-2f23-4b21-bfca-eaa6749a254b",
           "photo": "photos/fujikawaguchiko/houtou-fudou.jpg"
         },
         {
@@ -61,10 +63,10 @@
           "notes": "Stunning kimono art museum on the lake shore. The architect's collection of Tsujigahana dyed silk kimonos is world-class.",
           "place": "Itchiku Kubota Art Museum, Fujikawaguchiko, Yamanashi, Japan",
           "coords": [
-            35.5141,
-            138.7281
+            35.527324,
+            138.7598324
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Itchiku+Kubota+Art+Museum",
+          "mapsUrl": "https://www.google.com/maps/place/Kubota+Itchiku+Art+Museum/@35.5210369,138.6939681,13z/data=!4m6!3m5!1s0x60195e54ac1214a9:0xa7d57c3639eb60dc!8m2!3d35.527324!4d138.7598324!16s%2Fg%2F1tg8jsnh?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=58db99dc-1f97-4dd6-88e8-23e2f97de0ef",
           "photo": "photos/fujikawaguchiko/itchiku-kubota-art-museum.jpg"
         },
         {
@@ -75,10 +77,10 @@
           "notes": "Lakeside park — best spot on Lake Kawaguchi for Mt Fuji views, especially at golden hour. Mid-May = tulips & canola flowers (lavender blooms late June–July).",
           "place": "Oishi Park, Fujikawaguchiko, Yamanashi, Japan",
           "coords": [
-            35.5231,
-            138.7416
+            35.522904,
+            138.7457522
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oishi+Park+Kawaguchiko",
+          "mapsUrl": "https://www.google.com/maps/place/Oishi+Park/@35.522904,138.7431773,17z/data=!3m1!4b1!4m6!3m5!1s0x60195fa68c0b2b95:0xa22e530b3a652904!8m2!3d35.522904!4d138.7457522!16s%2Fg%2F1tjpqk4h?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=3008a6fa-bc00-4317-8181-a6928870d371",
           "photo": "photos/fujikawaguchiko/oishi-park.jpg"
         },
         {
@@ -88,7 +90,11 @@
           "type": "sightseeing",
           "notes": "⚡ ADDED: Soak in the hotel's hot spring bath after a full day. Perfect wind-down before dinner.",
           "place": "Hotel Koryu, Fujikawaguchiko, Yamanashi, Japan",
-          "coords": [35.5012, 138.7535]
+          "coords": [
+            35.5093966,
+            138.7747069
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Hotel+Koryu/@35.5103049,138.7711878,15z/data=!4m9!3m8!1s0x60195e23672fbcc7:0xea53f5f069795827!5m2!4m1!1i2!8m2!3d35.5093966!4d138.7747069!16s%2Fg%2F1v6p8xgn?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=915eb633-d49c-49dc-81fb-f1bd2e26fbb5"
         },
         {
           "time": "19:00",

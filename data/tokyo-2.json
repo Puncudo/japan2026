@@ -460,7 +460,8 @@
             35.326,
             139.5563
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tsurugaoka+Hachimangu+Kamakura"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tsurugaoka+Hachimangu+Kamakura",
+          "photo": "photos/tokyo-2/tsurugaoka-hachimangu-shrine.png"
         },
         {
           "time": "10:00",
@@ -473,7 +474,8 @@
             35.3167,
             139.5353
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kotoku-in+Great+Buddha+Kamakura"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kotoku-in+Great+Buddha+Kamakura",
+          "photo": "photos/tokyo-2/kotoku-in-great-buddha.png"
         },
         {
           "time": "11:30",
@@ -486,7 +488,8 @@
             35.3156,
             139.5337
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hasedera+Temple+Kamakura"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hasedera+Temple+Kamakura",
+          "photo": "photos/tokyo-2/hasedera-temple.png"
         },
         {
           "time": "12:30",
@@ -511,7 +514,8 @@
             35.3223,
             139.5626
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hokokuji+Temple+Kamakura+bamboo"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hokokuji+Temple+Kamakura+bamboo",
+          "photo": "photos/tokyo-2/hokokuji-temple-bamboo-grove.png"
         },
         {
           "time": "16:00",

@@ -10,10 +10,10 @@
     "place": "KOKO HOTEL Kyoto Sanjo",
     "bookingUrl": "https://secure.booking.com/confirmation.en-us.html?label=gen173nr-10CAEoggI46AdIM1gEaGqIAQGYATO4ARfIARXYAQPoAQH4AQGIAgGoAgG4AprI6M4GwAIB0gIkYjFkN2JlNmMtM2M2MC00OTA5LWEwNTUtOThlMjQ3MjhlNGRj2AIB4AIB&sid=37fb3e0caa2f85c26399d55245ac882f&aid=304142&auth_key=mMGRas03YjvQzHAX&source=mytrips",
     "coords": [
-      35.000255,
-      135.7585288
+      35.0100811,
+      135.7759377
     ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KOKO%20HOTEL%20Kyoto%20Sanjo"
+    "mapsUrl": "https://www.google.com/maps/place/KOKO+HOTEL+Kyoto+Sanjo/@35.010081,135.7710668,17z/data=!4m10!3m9!1s0x600108e9549f1e79:0xba614ec7c4a60cba!5m3!1s2026-06-30!4m1!1i2!8m2!3d35.0100811!4d135.7759377!16s%2Fg%2F11hgs0tjzq?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=85f3d451-e55f-48c1-b389-cd8f02ef98a2"
   },
   "days": [
     {
@@ -34,10 +34,10 @@
           "notes": "Kyoto's 'Kitchen' — narrow covered market with tofu, pickles, street snacks, and local ingredients. 5 blocks long.",
           "place": "Nishiki Market, Kyoto, Japan",
           "coords": [
-            35.005,
-            135.7654
+            35.0050258,
+            135.764723
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Nishiki+Market/@35.0050,135.7654,17z",
+          "mapsUrl": "https://www.google.com/maps/place/Nishiki+Market/@35.0050258,135.7621481,17z/data=!3m1!4b1!4m6!3m5!1s0x6001089ccd8ccb4f:0xb69ea31001ec6c9c!8m2!3d35.0050258!4d135.764723!16s%2Fm%2F03d6_6p?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=c9a5d2e4-7318-443c-b3a5-29425014b79f",
           "photo": "photos/kyoto/nishiki-market.jpg"
         },
         {
@@ -48,10 +48,10 @@
           "notes": "One of Kyoto's best specialty coffee spots. Small, cozy, excellent pour-overs.",
           "place": "Weekenders Coffee Tominokoji, Kyoto, Japan",
           "coords": [
-            35.0054,
-            135.7631
+            35.0067836,
+            135.7644831
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Weekenders+Coffee+Tominokoji+Kyoto",
+          "mapsUrl": "https://www.google.com/maps/place/WEEKENDERS+COFFEE+TOMINOKOJI/@35.0028682,135.7601317,16z/data=!4m7!3m6!1s0x60010891057353a3:0x15acc52fb3708b76!8m2!3d35.0067836!4d135.7644831!15sChdXZWVrZW5kZXJzIENvZmZlZSBreW90b1oZIhd3ZWVrZW5kZXJzIGNvZmZlZSBreW90b5IBDGNvZmZlZV9zdGFuZOABAA!16s%2Fg%2F11c0r5h74k?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=042702ce-7054-4e9a-8f20-e2431da9958d",
           "photo": "photos/kyoto/weekenders-coffee.jpg"
         },
         {
@@ -62,10 +62,10 @@
           "notes": "Narrow lantern-lit alley along the Kamo River. One of Kyoto's most atmospheric streets.",
           "place": "Pontocho Alley, Kyoto, Japan",
           "coords": [
-            35.0065,
-            135.7693
+            35.0039339,
+            135.7710439
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Pontocho/@35.0065,135.7693,17z",
+          "mapsUrl": "https://www.google.com/maps/place/Pontocho+Alley/@35.0051808,135.7685551,17z/data=!4m7!3m6!1s0x6001091894db603f:0xaa4fd64b17e50202!8m2!3d35.0039339!4d135.7710439!15sChRwb250b2NobyBhbGxleSBreW90b1oWIhRwb250b2NobyBhbGxleSBreW90b5IBE2hpc3RvcmljYWxfbGFuZG1hcmuaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnN4ZVZSWFNsQk9hMVl4VkROa00xbHRWbXRsUlhkMFpHeEdlVkZ1WXhBQuABAPoBBAgAEDs!16s%2Fg%2F11t9bg369q?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=f35dcc40-9000-41f3-8141-51c0fdac2f86",
           "photo": "photos/kyoto/pontocho-alley-stroll.jpg"
         },
         {
@@ -75,10 +75,10 @@
           "notes": "Legendary Kyoto ramen — shoyu broth, thin noodles, char siu. Near Kyoto Station (20 min south from hotel — requires detour).",
           "place": "Honke Daiichi Asahi, Kyoto Station, Kyoto, Japan",
           "coords": [
-            34.9877,
-            135.7584
+            34.986696,
+            135.762502
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Honke+Daiichi+Asahi+Kyoto+Station",
+          "mapsUrl": "https://www.google.com/maps/place/Honke+Daiichi+Asahi+Honten/@34.9880056,135.7672656,15z/data=!4m6!3m5!1s0x600108b1f3db0001:0xa5ed2c875338968b!8m2!3d34.986696!4d135.762502!16s%2Fg%2F1tywxvxz",
           "photo": "photos/kyoto/honke-daiichi-asahi.jpg",
           "links": [
             {
@@ -94,15 +94,16 @@
           "notes": "⚡ ADDED: Kyoto-style shoyu ramen — light transparent chicken broth with Kujo green onions. On your street, open until 3 AM. ~¥800.",
           "place": "Ramen Kairikiya, Kawaramachi Sanjo, Kyoto, Japan",
           "coords": [
-            35.0088,
-            135.769
+            35.0092423,
+            135.7691765
           ],
           "links": [
             {
               "text": "📍 Google Maps",
               "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Kairikiya+Kawaramachi+Sanjo+Kyoto"
             }
-          ]
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Kairikiya+-+Kawaramachi+Sanjo/@35.0092423,135.7666016,17z/data=!3m2!4b1!5s0x60010893025ec0c3:0x4d5eaaa79600464d!4m6!3m5!1s0x6001089302e2036d:0x86948416b6ad80f9!8m2!3d35.0092423!4d135.7691765!16s%2Fg%2F1tfp2bxr?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=62e57321-f3a4-410d-b781-4ea96150c69f"
         },
         {
           "time": "19:00",
@@ -111,15 +112,16 @@
           "notes": "⚡ ADDED: Rich chicken paitan ramen topped with karaage fried chicken. Michelin Guide listed. 1-min walk from Kawaramachi Station.",
           "place": "Mendokoro Janomeya, Kyoto, Japan",
           "coords": [
-            35.004,
-            135.7685
+            35.004148,
+            135.7678897
           ],
           "links": [
             {
               "text": "📍 Google Maps",
               "url": "https://www.google.com/maps/search/?api=1&query=Mendokoro+Janomeya+Kyoto"
             }
-          ]
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Mendokoro+Janomeya/@35.004148,135.7653148,17z/data=!3m1!4b1!4m6!3m5!1s0x6001089455555555:0x4fef4edc7c353875!8m2!3d35.004148!4d135.7678897!16s%2Fg%2F11qnyj1cvf?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=a48e848b-1aa8-44a2-9e3a-87fd0cbe9d36"
         },
         {
           "time": "19:00",
@@ -128,15 +130,16 @@
           "notes": "⚡ ADDED: Refined Japanese-style ramen with delicate broth. Slightly upscale feel, highly rated. Near hotel.",
           "place": "Wajoryomen Sugari, Kyoto, Japan",
           "coords": [
-            35.0055,
-            135.766
+            35.0042697,
+            135.7573015
           ],
           "links": [
             {
               "text": "📍 Google Maps",
               "url": "https://www.google.com/maps/search/?api=1&query=Wajoryomen+Sugari+Kyoto"
             }
-          ]
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Wajoryomen+Sugari/@35.0042697,135.7547266,17z/data=!3m1!4b1!4m6!3m5!1s0x6001089b7a340001:0x22fe0e7fbc6ba0db!8m2!3d35.0042697!4d135.7573015!16s%2Fg%2F12hl3n9td?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=4ccf53d9-944a-48cd-9bbc-afacfb03c121"
         },
         {
           "time": "21:00",
@@ -145,10 +148,10 @@
           "notes": "Late-night gyoza spot near Gion. Crispy pan-fried dumplings, cold beer.",
           "place": "Chao Chao Gyoza, Gion, Kyoto, Japan",
           "coords": [
-            35.0036,
-            135.7748
+            35.0084706,
+            135.7705683
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chao+Chao+Gyoza+Kyoto",
+          "mapsUrl": "https://www.google.com/maps/place/Chao+Chao+Gyoza+-+Sanjo+Kiyamachi/@35.0049611,135.7626868,16z/data=!4m7!3m6!1s0x600108934e45f8a7:0x2a048fba9a836b57!8m2!3d35.0084706!4d135.7705683!15sChVDaGFvIENoYW8gR3lvemEgS3lvdG9aFyIVY2hhbyBjaGFvIGd5b3phIGt5b3RvkgEbamFwYW5lc2VfaXpha2F5YV9yZXN0YXVyYW504AEA!16s%2Fg%2F1ydp7_36b?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=4a040abf-99fa-4aef-a927-3ccb22e03e70",
           "photo": "photos/kyoto/chao-chao-gyoza.jpg"
         }
       ]
@@ -164,7 +167,12 @@
           "type": "sightseeing",
           "notes": "⚡ CHANGED: Moved to 07:00 (was 09:00). Open 24/7, free entry. Arrive early to hike the thousands of vermilion torii gates before tour buses arrive at 9. The full loop is 2-3 hours but you can turn back at the viewpoint (~1h).",
           "place": "Fushimi Inari Taisha, Kyoto, Japan",
-          "photo": "photos/kyoto/fushimi-inari-taisha.jpg"
+          "photo": "photos/kyoto/fushimi-inari-taisha.jpg",
+          "coords": [
+            34.9676945,
+            135.7791876
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Fushimi+Inari+Taisha/@34.9697606,135.7521187,14z/data=!4m6!3m5!1s0x60010f153d2e6d21:0x7b1aca1c753ae2e9!8m2!3d34.9676945!4d135.7791876!16zL20vMDVsZHJt?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=d8c894c4-4830-40e2-8d0b-4df4986d631c"
         },
         {
           "time": "09:30",
@@ -409,7 +417,10 @@
           "type": "transport",
           "notes": "JR Saga-Arashiyama → Kyoto Station (~17 min). Grab something to eat before teamLab — Kyoto Station Ramen Koji (10th floor) or convenience store bento on the platform. teamLab is a 10-min walk from Hachijo East Gate.",
           "place": "Kyoto Station, Kyoto, Japan",
-          "coords": [34.9858, 135.7588]
+          "coords": [
+            34.9858,
+            135.7588
+          ]
         },
         {
           "time": "16:00",
@@ -418,7 +429,10 @@
           "type": "sightseeing",
           "notes": "Japan's largest teamLab — opened Oct 2025. 10,000 sqm, 50+ artworks. Much bigger and newer than anything in Tokyo. 10-min walk from Kyoto Station Hachijo East Gate. Book in advance, sells out. Allow 3 hours.",
           "place": "teamLab Biovortex Kyoto, Japan",
-          "coords": [34.9978, 135.7585],
+          "coords": [
+            34.9978,
+            135.7585
+          ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=teamLab+Biovortex+Kyoto",
           "links": [
             {
@@ -433,7 +447,10 @@
           "type": "food",
           "notes": "Head back toward the hotel — Pontocho, Nishiki area, or Kawaramachi for dinner. Plenty of options within 5-min walk of the hotel.",
           "place": "Pontocho Alley, Kyoto, Japan",
-          "coords": [35.0065, 135.7693]
+          "coords": [
+            35.0065,
+            135.7693
+          ]
         }
       ]
     },
@@ -482,7 +499,10 @@
           "type": "sightseeing",
           "notes": "Locals sit along the Kamo River banks at dusk — one of Kyoto's most beloved free experiences. Grab a convenience store drink, find a spot on the steps, and watch the city wind down. Completely free, completely local.",
           "place": "Kamo River, Kyoto, Japan",
-          "coords": [35.0065, 135.7714],
+          "coords": [
+            35.0065,
+            135.7714
+          ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kamo+River+Kyoto"
         },
         {
@@ -491,7 +511,10 @@
           "type": "food",
           "notes": "Last night — make it count. Revisit a favorite from earlier in the trip, or try somewhere new in Pontocho or Gion.",
           "place": "Pontocho Alley, Kyoto, Japan",
-          "coords": [35.0065, 135.7693]
+          "coords": [
+            35.0065,
+            135.7693
+          ]
         }
       ]
     },

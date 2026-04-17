@@ -209,9 +209,7 @@ function buildCityDOM(data) {
         ${next ? `<button class="dest-nav-btn" onclick="openCity(${JSON.stringify(next).replace(/"/g,'&quot;')})"><span class="city-nav-label">${next.name}</span> ›</button>` : ''}
       </div>
       ${data.hotel
-        ? (IS_VIEW_ONLY
-          ? `<span class="city-hotel city-hotel-view" title="${data.hotel.name}">🏨</span>`
-          : `<button class="city-hotel" onclick="openHotelPanel()" title="${data.hotel.name}">🏨</button>`)
+        ? `<button class="city-hotel" onclick="openHotelPanel()" title="${data.hotel.name}">🏨</button>`
         : '<span class="city-daytrip" title="Day trip">📍</span>'}
     </div>
 
@@ -349,7 +347,11 @@ function buildCityDOM(data) {
   /* ── Populate city note (after innerHTML set, to avoid XSS) ── */
   const _cnEl = document.getElementById('city-note-el');
   if (_cnEl) {
-    _cnEl.innerHTML = localStorage.getItem(`city-note-${currentCityId}`) || '';
+    const _cnStored = localStorage.getItem(`city-note-${currentCityId}`);
+    /* Use saved note if exists; otherwise fall back to the JSON default */
+    _cnEl.innerHTML = _cnStored || (data.cityNote
+      ? data.cityNote.replace(/\n/g, '<br>')
+      : '');
     _cnEl.addEventListener('input', () => {
       const v = _cnEl.innerHTML.trim();
       if (v && v !== '<br>') localStorage.setItem(`city-note-${currentCityId}`, v);
@@ -469,7 +471,7 @@ async function geocodeOne(place) {
   const queries = [place, place.split(',')[0] + ', Japan'];
   for (const q of queries) {
     try {
-      const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1&accept-language=en`;
+      const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1&accept-language=en&countrycodes=jp`;
       const res = await (await fetch(url)).json();
       if (res[0]) {
         const coords = [+res[0].lat, +res[0].lon];
@@ -502,7 +504,8 @@ function renderActivityList(activities, container) {
   let pinNum = 1;
 
   activities.forEach((act, i) => {
-    const t      = TYPE[act.type] || TYPE.sightseeing;
+    const isWalk = act.type === 'transport' && /walk/i.test(act.name || '');
+    const t      = isWalk ? { color: '#9ca3af', icon: '🚶' } : (TYPE[act.type] || TYPE.sightseeing);
     const hasPin = act.coords && act.type !== 'transport';
     const isLast = i === activities.length - 1;
     const time   = act.timeEnd ? `${act.time}–${act.timeEnd}` : (act.time || '');
@@ -758,14 +761,14 @@ let _hotelMapsUrl = null;
 
 function _extractCoordsFromUrl(url) {
   let m;
-  // @lat,lng
-  m = url.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/);
+  // !3dlat!4dlng — actual place/pin coords (highest priority)
+  m = url.match(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/);
   if (m) return [+m[1], +m[2]];
   // q=lat,lng or ll=lat,lng
   m = url.match(/[?&](?:q|ll)=(-?\d+\.\d+),(-?\d+\.\d+)/);
   if (m) return [+m[1], +m[2]];
-  // !3dlat!4dlng
-  m = url.match(/!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/);
+  // @lat,lng — viewport center only, last resort
+  m = url.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/);
   if (m) return [+m[1], +m[2]];
   return null;
 }
@@ -817,7 +820,7 @@ async function _geocodeWithFallbacks(rawName) {
     if (!q.trim()) continue;
     try {
       const res = await (await fetch(
-        `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1&accept-language=en`
+        `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=1&accept-language=en&countrycodes=jp`
       )).json();
       if (res[0]) return [+res[0].lat, +res[0].lon];
     } catch { /* continue */ }
@@ -903,8 +906,8 @@ function openLocModal(actName) {
 
   _locMapsUrl = _locAct.mapsUrl || null;
   document.getElementById('loc-modal-title').textContent = _locAct.name;
-  document.getElementById('loc-paste-input').value = '';
-  document.getElementById('loc-paste-input').style.borderColor = '';
+  document.getElementById('loc-paste-input').value = _locAct.mapsUrl || '';
+  document.getElementById('loc-paste-input').style.borderColor = _locAct.mapsUrl ? '#22c55e' : '';
   document.getElementById('loc-save-btn').disabled = !_locCoords;
   document.getElementById('loc-place-input').value = _locAct.place || '';
   document.getElementById('loc-gmaps-link').href =

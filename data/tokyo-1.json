@@ -8,10 +8,11 @@
   "hotel": {
     "name": "Kadoya Hotel",
     "coords": [
-      35.6907,
-      139.6957
+      35.68981,
+      139.69619
     ],
-    "place": "Kadoya Hotel, Nishi-Shinjuku 1-23-1, Tokyo, Japan"
+    "place": "Kadoya Hotel, Nishi-Shinjuku 1-23-1, Tokyo, Japan",
+    "mapsUrl": "https://www.google.com/maps/place/Kadoya+Hotel/@35.68981,139.6936151,17z/data=!4m10!3m9!1s0x60188cd3fe6d6497:0x5cc80ceb62aeba49!5m3!1s2026-06-30!4m1!1i2!8m2!3d35.68981!4d139.69619!16s%2Fg%2F1tnpff44?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=1a0c1b96-3c95-401e-a147-ec1d168ffa2b"
   },
   "days": [
     {
@@ -61,12 +62,12 @@
           "name": "Hanazono Shrine",
           "type": "sightseeing",
           "notes": "5-min walk from Shinjuku Station East Exit. Walk through the vermilion torii gates.",
-          "place": "Hanazono Shrine, Shinjuku, Tokyo, Japan",
+          "place": "Hanazono Shrine",
           "coords": [
-            35.6946,
-            139.7042
+            35.6933128,
+            139.7057555
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Hanazono+Shrine/@35.6946,139.7042,17z",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hanazono%20Shrine",
           "photo": "photos/tokyo-1/hanazono-shrine.jpg"
         },
         {
@@ -77,10 +78,10 @@
           "notes": "The iconic giant 3D cat billboard. Best viewed from across the street.",
           "place": "Cross Shinjuku Vision, Tokyo, Japan",
           "coords": [
-            35.6942,
-            139.7016
+            35.692642,
+            139.7008107
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cross+Shinjuku+Vision",
+          "mapsUrl": "https://www.google.com/maps/place/Cross+Shinjuku+Vision/@35.692642,139.6982358,17z/data=!3m1!4b1!4m6!3m5!1s0x60188d9bdf9105af:0xf3111a6d8fafb41b!8m2!3d35.692642!4d139.7008107!16s%2Fg%2F11pdmx7mcm?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=4a06ee21-9234-44c5-bc7f-f7036204c0a9",
           "photo": "photos/tokyo-1/cross-shinjuku-vision.jpg"
         },
         {
@@ -91,10 +92,10 @@
           "notes": "Ramen restaurant near Shinjuku. 10-min walk.",
           "place": "Tokyo Mentsu-dan, Shinjuku, Tokyo, Japan",
           "coords": [
-            35.6951,
-            139.7009
+            35.6947874,
+            139.6981912
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Mentsu-dan+Shinjuku",
+          "mapsUrl": "https://www.google.com/maps/place/Tokyo+Mentsu-dan/@35.6947873,139.6933203,17z/data=!3m2!4b1!5s0x60188cd630e44d1b:0x768b9f7c96ab39a6!4m6!3m5!1s0x60188cd630f2b1b9:0x4addc20ee0aa1415!8m2!3d35.6947874!4d139.6981912!16s%2Fg%2F11bytn4btl?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=9932524b-f12b-4378-b8c3-6aa16ba75c8c",
           "photo": "photos/tokyo-1/tokyo-mentsu-dan.jpg"
         },
         {
@@ -105,11 +106,17 @@
           "notes": "Walk 10 min north from Shinjuku Station. Tokyo's Korea Town — street food, K-pop shops, bubble tea.",
           "place": "Shin-Okubo, Shinjuku, Tokyo, Japan",
           "coords": [
-            35.701,
-            139.7007
+            35.701024,
+            139.7019359
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Shin-Okubo+Station/@35.7010,139.7007,17z",
+          "mapsUrl": "https://www.google.com/maps/place/Shin-Okubo+Korea+Town/@35.701024,139.699361,17z/data=!3m2!4b1!5s0x60188d2606a4cf0f:0x9abc46a3d5d7d6b3!4m6!3m5!1s0x60188d007b012f23:0xe9f0f5251f1b4960!8m2!3d35.701024!4d139.7019359!16s%2Fg%2F11y30cyp30?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=fd067c32-4d25-4e4b-8f22-23e9c6786ae7",
           "photo": "photos/tokyo-1/shin-okubo-korea-town.jpg"
+        },
+        {
+          "time": "14:30",
+          "name": "Walk to Isetan Shinjuku",
+          "type": "transport",
+          "notes": "13 min · 0.8 km"
         },
         {
           "time": "15:00",
@@ -117,13 +124,19 @@
           "name": "Isetan Shinjuku",
           "type": "shopping",
           "notes": "Tokyo's most famous department store. Great for Japanese cosmetics, food hall in the basement.",
-          "place": "Isetan Shinjuku, Tokyo, Japan",
+          "place": "Isetan Shinjuku",
           "coords": [
-            35.6937,
-            139.703
+            35.6916402,
+            139.704602
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Isetan+Shinjuku/@35.6937,139.7030,17z",
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Isetan%20Shinjuku",
           "photo": "photos/tokyo-1/isetan-shinjuku.jpg"
+        },
+        {
+          "time": "16:30",
+          "name": "Walk to Shinjuku Central Park",
+          "type": "transport",
+          "notes": "20 min · 1.3 km · Head west past the station"
         },
         {
           "time": "17:00",
@@ -133,11 +146,17 @@
           "notes": "15-min walk or 'We Bus' from West Exit. Nice breather before the observation deck.",
           "place": "Shinjuku Central Park, Tokyo, Japan",
           "coords": [
-            35.6921,
-            139.6889
+            35.6893011,
+            139.6898978
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Shinjuku+Central+Park/@35.6921,139.6889,17z",
+          "mapsUrl": "https://www.google.com/maps/place/Shinjuku+Ch%C5%AB%C5%8D+Park/@35.689717,139.6873894,17z/data=!4m7!3m6!1s0x6018f32ca605ba2f:0xe4650320bae9e91f!8m2!3d35.6893011!4d139.6898978!15sChVTaGluanVrdSBDZW50cmFsIFBhcmtaFyIVc2hpbmp1a3UgY2VudHJhbCBwYXJrkgEEcGFya-ABAA!16zL20vMDgxemZy?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=90334388-f933-45db-a96a-ebd6256a486e",
           "photo": "photos/tokyo-1/shinjuku-central-park.jpg"
+        },
+        {
+          "time": "17:35",
+          "name": "Walk to Tokyo Metropolitan Gov Building",
+          "type": "transport",
+          "notes": "6 min · 0.4 km"
         },
         {
           "time": "17:45",
@@ -147,11 +166,17 @@
           "notes": "Free observation deck on the 45th floor. South Tower open this day (North closed — 2nd Monday). Incredible city views.",
           "place": "Tokyo Metropolitan Government Building, Shinjuku, Tokyo, Japan",
           "coords": [
-            35.6895,
-            139.6917
+            35.6894807,
+            139.6916863
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Tokyo+Metropolitan+Government+Building/@35.6895,139.6917,17z",
+          "mapsUrl": "https://www.google.com/maps/place/Tokyo+Metropolitan+Government+Building+No.1/@35.688909,139.6898389,17z/data=!3m1!5s0x60188cd498eb5371:0x46cb7b987c5bc5b7!4m7!3m6!1s0x60188cd4b71a37a1:0xf1665c37f38661e8!8m2!3d35.6894807!4d139.6916863!15sCiZ0b2t5byBtZXRyb3BvbGl0YW4gZ292ZXJubWVudCBidWlsZGluZ1ooIiZ0b2t5byBtZXRyb3BvbGl0YW4gZ292ZXJubWVudCBidWlsZGluZ5IBHHByZWZlY3R1cmVfZ292ZXJubWVudF9vZmZpY2WaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTXpNSE5IV1ZWM0VBReABAPoBBAgAEDc!16zL20vMDNrNzh3?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=f2366fa6-ba1a-418c-8276-07153bb8c5f9",
           "photo": "photos/tokyo-1/tokyo-metropolitan-government-building.jpg"
+        },
+        {
+          "time": "18:50",
+          "name": "Walk to Kabukicho",
+          "type": "transport",
+          "notes": "18 min · 1.2 km · Head east through Nishi-Shinjuku toward the station, then north into Kabukicho"
         },
         {
           "time": "19:15",
@@ -165,7 +190,7 @@
             139.7035
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kabukicho+Shinjuku+izakaya",
-          "photo": "photos/tokyo-1/kabukicho-izakaya.jpg"
+          "photo": "photos/tokyo-1/kabukicho-izakaya-dinner.png"
         },
         {
           "time": "20:45",
@@ -174,11 +199,11 @@
           "notes": "Godzilla head on the Gracery Shinjuku hotel, then dive into Kabukicho arcades.",
           "place": "Godzilla Head, Kabukicho, Shinjuku, Tokyo, Japan",
           "coords": [
-            35.6943,
-            139.7038
+            35.6950521,
+            139.7019117
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Godzilla+Head+Shinjuku+Gracery",
-          "photo": "photos/tokyo-1/godzilla-head-arcade.jpg"
+          "mapsUrl": "https://www.google.com/maps/place/Godzilla+Head/@35.6950521,139.6993368,17z/data=!3m2!4b1!5s0x60188cd8241c6fb7:0xb49c0a492285a910!4m6!3m5!1s0x60188d74dcc81ccd:0x2d7e490be8560647!8m2!3d35.6950521!4d139.7019117!16s%2Fg%2F11rqz9_01n?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=362381d8-f92f-4853-87f2-5b543aa57aa8",
+          "photo": "photos/tokyo-1/godzilla-head-arcade.png"
         },
         {
           "name": "Golden-Gai",
@@ -186,10 +211,10 @@
           "notes": "Maze of tiny bars seating 5–8 people. Each has its own vibe. Perfect for a nightcap.",
           "place": "Golden Gai, Shinjuku, Tokyo, Japan",
           "coords": [
-            35.693,
-            139.7026
+            35.6941118,
+            139.7047611
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Shinjuku+Golden+Gai/@35.6930,139.7026,17z",
+          "mapsUrl": "https://www.google.com/maps/place/Shinjuku+Golden-Gai/@35.6941117,139.6998902,17z/data=!3m2!4b1!5s0x60188cd96fa71f47:0x17cc5dd6e0009ca!4m6!3m5!1s0x60188cd96586b9af:0x71a5c0e1150c1a8f!8m2!3d35.6941118!4d139.7047611!16s%2Fm%2F02vr6_3?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=32956329-210b-4936-b80c-1a0c2579aa66",
           "photo": "photos/tokyo-1/golden-gai.jpg"
         }
       ]
@@ -211,7 +236,7 @@
           "name": "PokéPark Kanto",
           "type": "sightseeing",
           "notes": "Tickets in mail. Check confirmation for exact entry time. Park opens 10:00, plan ~5 hours: Pokémon Forest trail (~500m walk with 600+ Pokémon), Sedge Town (Pokémon Center, Gym, shops), Pika Pika Sparks show (must-see!), parades (15:55 one is less crowded than 13:20). Grab the starter character drinks early — they sell out by afternoon. No lockers inside PokéPark, travel light. Download the official PokéPark app before arriving. Your ticket includes Yomiuriland admission too.",
-          "place": "PokéPark Kanto, Yomiuriland, Inagi, Tokyo",
+          "place": "PokéPark Kanto",
           "coords": [
             35.6261573,
             139.5203964
@@ -302,6 +327,12 @@
         },
         {
           "time": "12:00",
+          "name": "Walk to Takeshita Street",
+          "type": "transport",
+          "notes": "11 min · 0.75 km · Cross Harajuku Station"
+        },
+        {
+          "time": "12:00",
           "timeEnd": "13:00",
           "name": "Takeshita Street",
           "type": "shopping",
@@ -342,6 +373,12 @@
         },
         {
           "time": "15:30",
+          "name": "Walk to Miyashita Park",
+          "type": "transport",
+          "notes": "10 min · 0.7 km · Cat Street leads straight in"
+        },
+        {
+          "time": "15:30",
           "timeEnd": "16:30",
           "name": "Miyashita Park",
           "type": "sightseeing",
@@ -353,6 +390,12 @@
           ],
           "mapsUrl": "https://www.google.com/maps/place/MIYASHITA+PARK/@35.6610,139.6990,17z",
           "photo": "photos/tokyo-1/miyashita-park.jpg"
+        },
+        {
+          "time": "16:30",
+          "name": "Walk to SHIBUYA SKY",
+          "type": "transport",
+          "notes": "7 min · 0.4 km"
         },
         {
           "time": "17:00",
