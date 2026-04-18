@@ -1425,8 +1425,8 @@ body {
 }
 
 .act-photo-thumb {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   object-position: center;
   aspect-ratio: 1 / 1;
@@ -1461,18 +1461,22 @@ body {
   display: flex;
   gap: 9px;
   min-width: 150px;
-  max-width: 290px;
+  max-width: 348px;
 }
 
+/* tighten Leaflet's own popup wrapper padding */
+.leaflet-popup-content-wrapper { padding: 4px !important; }
+.leaflet-popup-content { margin: 0 !important; }
+
 .mpc-photo {
-  width: 110px;
-  height: 110px;
+  width: 172px;
+  height: 172px;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
 }
 
-.mpc-body { flex: 1; overflow: hidden; min-width: 0; }
+.mpc-body { flex: 1; overflow: hidden; min-width: 0; padding: 12px 16px 12px 4px; }
 
 .mpc-name {
   font-weight: 700;
@@ -1480,6 +1484,17 @@ body {
   line-height: 1.3;
   margin-bottom: 2px;
   color: #1a1410;
+}
+.mpc-name-tap {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.mpc-name-tap:hover { color: var(--pink); }
+.mpc-expand-hint {
+  font-size: 10px;
+  font-weight: 400;
+  opacity: 0.45;
+  vertical-align: middle;
 }
 
 .mpc-time {
@@ -1577,6 +1592,174 @@ body {
   .act-card { padding: 6px 8px; }
   .act-photo-thumb { width: 64px; height: 64px; }
 }
+
+/* ── Act detail card (from map pin) ─────────────── */
+#act-detail-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  background: rgba(0,0,0,0.72);
+  align-items: center;
+  justify-content: center;
+  padding: 20px 16px;
+  cursor: zoom-out;
+}
+#act-detail-overlay.open { display: flex; }
+
+.adc-card {
+  background: var(--surface);
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 480px;
+  max-height: calc(100dvh - 48px);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.45);
+  cursor: default;
+  overflow-y: auto;
+}
+
+.adc-photo-wrap {
+  width: 100%;
+  max-height: 52vh;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.adc-photo {
+  width: 100%;
+  height: 100%;
+  max-height: 52vh;
+  object-fit: cover;
+  display: block;
+}
+
+.adc-body {
+  padding: 18px 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.adc-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.25;
+}
+.adc-time {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--pink);
+  letter-spacing: .03em;
+}
+.adc-notes {
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.adc-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 2px;
+}
+.adc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--pink);
+  background: var(--pink-dim);
+  border-radius: 20px;
+  padding: 5px 12px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.adc-link:hover { background: var(--purple-dim); }
+.adc-link-maps { color: #0ea5e9; background: rgba(14,165,233,0.1); }
+.adc-link-maps:hover { background: rgba(14,165,233,0.18); }
+
+.adc-close {
+  position: absolute;
+  top: 28px;
+  right: 26px;
+  background: rgba(0,0,0,0.55);
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  z-index: 1;
+}
+.adc-close:hover { background: rgba(0,0,0,0.85); }
+
+/* ── Photo lightbox ──────────────────────────────── */
+#photo-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  background: rgba(0,0,0,0.88);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  padding: 20px;
+}
+#photo-lightbox.open { display: flex; }
+
+#photo-lb-img {
+  max-width: 94vw;
+  max-height: 78vh;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+  display: block;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+}
+
+#photo-lb-caption {
+  background: rgba(0,0,0,0.62);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 18px 12px;
+  max-width: 94vw;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+  /* make it sit flush under the image */
+  margin-top: 0;
+}
+
+.photo-lb-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transition: background 0.15s;
+}
+.photo-lb-close:hover { background: rgba(0,0,0,0.8); }
 
 /* Ghost-click guard — block taps on links/buttons for 600ms after overlay opens */
 #city-overlay.city-opening .act-list a,

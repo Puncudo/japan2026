@@ -702,12 +702,16 @@ function clearActiveMarker() {
   cityMap?.getContainer().classList.remove('has-active-pin');
 }
 
+const _popupActsMap = {};
+
 function makePopupContent(act) {
+  const key = '_a' + Math.random().toString(36).slice(2);
+  _popupActsMap[key] = act;
   const time = act.timeEnd ? `${act.time}–${act.timeEnd}` : (act.time || '');
   let html = `<div class="mpc">`;
-  if (act.photo) html += `<img class="mpc-photo" src="${act.photo}">`;
+  if (act.photo) html += `<img class="mpc-photo" src="${act.photo}" onclick="openActDetailCard('${key}')" style="cursor:zoom-in">`;
   html += `<div class="mpc-body">`;
-  html += `<div class="mpc-name">${act.name}</div>`;
+  html += `<div class="mpc-name mpc-name-tap" onclick="openActDetailCard('${key}')" title="View details">${act.name} <span class="mpc-expand-hint">↗</span></div>`;
   if (time) html += `<div class="mpc-time">${time}</div>`;
   if (act.notes) html += `<div class="mpc-notes">${act.notes}</div>`;
   html += `</div></div>`;
@@ -742,7 +746,7 @@ function renderMapMarkers(activities) {
     const entry = { act, color: t.color, num };
     const m = L.marker(act.coords, { icon: makePin(t.color, num) })
       .addTo(cityMap)
-      .bindPopup(makePopupContent(act), { maxWidth: 300 });
+      .bindPopup(makePopupContent(act), { maxWidth: 360 });
     entry.marker = m;
     m.on('popupopen',  () => { setActiveCard(act.name); setActiveMarker(entry); });
     m.on('popupclose', () => { clearActiveCard(); clearActiveMarker(); });
@@ -1328,6 +1332,81 @@ function toggleMobileSheet() {
   wrap.classList.toggle('sheet-expanded');
   // Let map redraw after CSS transition finishes
   if (cityMap) setTimeout(() => cityMap.invalidateSize(), 320);
+}
+
+/* ══════════════════════════════════════════════════════
+   ACT DETAIL CARD  (full-screen card from map pin popup)
+══════════════════════════════════════════════════════ */
+function openActDetailCard(key) {
+  const act = _popupActsMap[key];
+  if (!act) return;
+
+  const time = act.timeEnd ? `${act.time}–${act.timeEnd}` : (act.time || '');
+
+  const linksHtml = act.links?.length
+    ? `<div class="adc-links">${act.links.map(l =>
+        `<a class="adc-link" href="${l.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${l.text}</a>`
+      ).join('')}</div>`
+    : '';
+
+  const mapsHtml = act.mapsUrl
+    ? `<a class="adc-link adc-link-maps" href="${act.mapsUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">🗺️ Open in Maps</a>`
+    : '';
+
+  const html = `
+    <div class="adc-card" onclick="event.stopPropagation()">
+      ${act.photo ? `<div class="adc-photo-wrap"><img class="adc-photo" src="${act.photo}" alt="${act.name}"></div>` : ''}
+      <div class="adc-body">
+        <div class="adc-name">${act.name}</div>
+        ${time   ? `<div class="adc-time">${time}</div>` : ''}
+        ${act.notes ? `<div class="adc-notes">${act.notes}</div>` : ''}
+        ${linksHtml}
+        ${mapsHtml ? `<div class="adc-links">${mapsHtml}</div>` : ''}
+      </div>
+    </div>
+    <button class="adc-close" onclick="closeActDetailCard()">✕</button>
+  `;
+
+  let overlay = document.getElementById('act-detail-overlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'act-detail-overlay';
+    overlay.addEventListener('click', closeActDetailCard);
+    document.body.appendChild(overlay);
+  }
+  overlay.innerHTML = html;
+  overlay.classList.add('open');
+}
+
+function closeActDetailCard() {
+  document.getElementById('act-detail-overlay')?.classList.remove('open');
+}
+
+/* ══════════════════════════════════════════════════════
+   PHOTO LIGHTBOX
+══════════════════════════════════════════════════════ */
+function openPhotoLightbox(src, caption) {
+  let lb = document.getElementById('photo-lightbox');
+  if (!lb) {
+    lb = document.createElement('div');
+    lb.id = 'photo-lightbox';
+    lb.innerHTML = `
+      <button class="photo-lb-close">✕</button>
+      <img id="photo-lb-img" src="" alt="">
+      <div id="photo-lb-caption"></div>
+    `;
+    lb.addEventListener('click', e => {
+      if (e.target === lb || e.target.classList.contains('photo-lb-close')) {
+        lb.classList.remove('open');
+      }
+    });
+    document.body.appendChild(lb);
+  }
+  document.getElementById('photo-lb-img').src = src;
+  const cap = document.getElementById('photo-lb-caption');
+  cap.textContent = caption || '';
+  cap.style.display = caption ? '' : 'none';
+  lb.classList.add('open');
 }
 
 /* ══════════════════════════════════════════════════════
