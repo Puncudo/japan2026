@@ -33,6 +33,12 @@
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel+Gracery+Asakusa+Tokyo"
         },
         {
+          "time": "14:10",
+          "name": "TX: Asakusa → Akihabara",
+          "type": "transport",
+          "notes": "10 min · Tsukuba Express from Asakusa Station to Akihabara (1 stop, ~3 min), then 5 min walk"
+        },
+        {
           "time": "14:30",
           "timeEnd": "15:30",
           "name": "Yodobashi Akiba",
@@ -126,6 +132,9 @@
     {
       "date": "2026-05-27",
       "note": "Asakusa & East Tokyo",
+      "saved": [
+        { "text": "🍱 Fukuyoshi — elderly couple tonkatsu, Asakusa area", "url": "https://trulytokyo.com/fukuyoshi/" }
+      ],
       "activities": [
         {
           "time": "07:30",
@@ -255,6 +264,12 @@
       "note": "Ueno & Yanaka — old Tokyo vibes",
       "activities": [
         {
+          "time": "08:45",
+          "name": "Subway: Asakusa → Ueno",
+          "type": "transport",
+          "notes": "10 min · Tokyo Metro Ginza Line from Asakusa to Ueno (1 stop), then 5 min walk into the park"
+        },
+        {
           "time": "09:00",
           "timeEnd": "11:00",
           "name": "Ueno Park & Museums",
@@ -362,6 +377,12 @@
       "date": "2026-05-29",
       "note": "Odaiba & Ikebukuro",
       "activities": [
+        {
+          "time": "08:55",
+          "name": "Subway + Yurikamome: Asakusa → Odaiba",
+          "type": "transport",
+          "notes": "50 min · Tokyo Metro Ginza Line to Shimbashi (~20 min), then Yurikamome monorail to Odaiba-Kaihinkoen (~25 min)"
+        },
         {
           "time": "10:00",
           "timeEnd": "11:00",
@@ -540,6 +561,12 @@
       "date": "2026-05-31",
       "note": "Last day — Harajuku + Kagurazaka + airport",
       "activities": [
+        {
+          "time": "08:20",
+          "name": "Subway: Asakusa → Harajuku",
+          "type": "transport",
+          "notes": "35 min · Tokyo Metro Ginza Line from Asakusa to Shibuya (~25 min), then JR Yamanote Line to Harajuku (~3 min)"
+        },
         {
           "time": "09:00",
           "timeEnd": "12:00",

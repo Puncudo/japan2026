@@ -46,6 +46,12 @@
           "photo": "photos/osaka/kuromon-ichiba-market.jpg"
         },
         {
+          "time": "15:30",
+          "name": "Subway: Namba → Osaka-ko",
+          "type": "transport",
+          "notes": "25 min · Osaka Metro Chuo Line from Namba toward Cosmosquare, alight at Osaka-ko Station"
+        },
+        {
           "time": "16:00",
           "timeEnd": "18:00",
           "name": "Osaka Aquarium Kaiyukan",
@@ -66,6 +72,12 @@
           ]
         },
         {
+          "time": "18:05",
+          "name": "Subway: Osaka-ko → Namba",
+          "type": "transport",
+          "notes": "25 min · Osaka Metro Chuo Line back to Namba Station"
+        },
+        {
           "time": "19:00",
           "name": "🍴 Dotonbori",
           "type": "food",
@@ -82,7 +94,17 @@
     },
     {
       "date": "2026-05-20",
+      "saved": [
+        { "text": "🃏 Kirin Card Shop — best prices, Den Den Town", "url": "https://www.google.com/maps/search/?api=1&query=Kirin+card+shop+Nipponbashi+Osaka" },
+        { "text": "🃏 Preyz Hobby — best selection + discount singles", "url": "https://www.google.com/maps/search/?api=1&query=Preyz+Hobby+Nipponbashi+Osaka" }
+      ],
       "activities": [
+        {
+          "time": "08:30",
+          "name": "Subway: Namba → Osaka Castle",
+          "type": "transport",
+          "notes": "20 min · Osaka Metro Tanimachi Line from Namba-namba to Tanimachi 4-chome, then 10 min walk to the castle"
+        },
         {
           "time": "09:00",
           "timeEnd": "12:00",
@@ -111,6 +133,12 @@
         },
         {
           "time": "14:00",
+          "name": "Subway: Castle → Shinsaibashi",
+          "type": "transport",
+          "notes": "15 min · Osaka Metro Chuo Line from Tanimachi 4-chome toward Namba, alight at Shinsaibashi"
+        },
+        {
+          "time": "14:20",
           "timeEnd": "15:30",
           "name": "Shinsaibashi & Amerika-Mura + Nintendo OSAKA",
           "type": "shopping",
@@ -125,6 +153,12 @@
         },
         {
           "time": "15:30",
+          "name": "Walk to Den Den Town",
+          "type": "transport",
+          "notes": "20 min · 1.4 km · Head south along Midosuji then east on Nippombashi-suji"
+        },
+        {
+          "time": "16:00",
           "timeEnd": "17:00",
           "name": "Den Den Town / Nipponbashi",
           "type": "shopping",
@@ -139,7 +173,13 @@
         },
         {
           "time": "17:00",
-          "timeEnd": "18:00",
+          "name": "Subway: Nipponbashi → Tennoji",
+          "type": "transport",
+          "notes": "10 min · Osaka Metro Sakaisuji Line from Nipponbashi to Tennoji, then 5 min walk to Abeno Harukas"
+        },
+        {
+          "time": "17:20",
+          "timeEnd": "18:20",
           "name": "Abeno Harukas 300",
           "type": "sightseeing",
           "notes": "Tallest building in Japan (300m). Observation deck with panoramic views — great for pre-sunset views. 10-min walk to Shinsekai after. ¥1,500 at gate or book online.",
@@ -158,7 +198,13 @@
           "photo": "photos/osaka/abeno-harukas-300.png"
         },
         {
-          "time": "18:30",
+          "time": "18:25",
+          "name": "Walk to Tsutenkaku",
+          "type": "transport",
+          "notes": "10 min · 1 km · Head north through the Shinsekai streets"
+        },
+        {
+          "time": "18:40",
           "timeEnd": "19:30",
           "name": "Tsutenkaku Tower & Shinsekai",
           "type": "sightseeing",
@@ -190,6 +236,12 @@
       "date": "2026-05-21",
       "activities": [
         {
+          "time": "08:00",
+          "name": "Train: Namba → Universal City",
+          "type": "transport",
+          "notes": "25 min · JR from Namba to Osaka, then Osaka Loop Line + JR Yumesaki Line to Universal City Station"
+        },
+        {
           "time": "09:00",
           "timeEnd": "20:00",
           "name": "Universal Studios Japan",
@@ -204,7 +256,13 @@
           "photo": "photos/osaka/universal-studios-japan.jpg"
         },
         {
-          "time": "19:00",
+          "time": "20:05",
+          "name": "Train: USJ → Namba",
+          "type": "transport",
+          "notes": "25 min · JR Yumesaki Line from Universal City to Nishikujo, then Osaka Loop Line to Namba"
+        },
+        {
+          "time": "20:35",
           "name": "🍴 Namba Parks / Hozenji Yokocho",
           "type": "food",
           "notes": "End the night at Hozenji Yokocho — mossy lantern-lit alley with traditional Osaka dining.",
@@ -230,6 +288,12 @@
           "notes": "Late checkout from Hotel Forza Osaka Namba. Grab breakfast, pack up. No rush — Himeji is this afternoon."
         },
         {
+          "time": "12:05",
+          "name": "Subway: Namba → Shin-Osaka",
+          "type": "transport",
+          "notes": "20 min · Osaka Metro Midosuji Line (red line) direct from Namba to Shin-Osaka Station"
+        },
+        {
           "time": "12:30",
           "name": "Shinkansen: Osaka → Himeji",
           "type": "transport",
@@ -242,6 +306,12 @@
         },
         {
           "time": "13:00",
+          "name": "Walk to Himeji Castle",
+          "type": "transport",
+          "notes": "20 min · 1.5 km · Straight north up Otemae-dori from Himeji Station"
+        },
+        {
+          "time": "13:25",
           "timeEnd": "16:00",
           "name": "Himeji Castle",
           "type": "sightseeing",
@@ -253,6 +323,12 @@
           ],
           "mapsUrl": "https://www.google.com/maps/place/Himeji+Castle/@34.8394,134.6939,17z",
           "photo": "photos/osaka/himeji-castle-day-stop.jpg"
+        },
+        {
+          "time": "16:05",
+          "name": "Walk back to Himeji Station",
+          "type": "transport",
+          "notes": "20 min · 1.5 km · Head south back down Otemae-dori"
         },
         {
           "time": "16:30",

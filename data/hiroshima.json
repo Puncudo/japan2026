@@ -31,6 +31,12 @@
           ]
         },
         {
+          "time": "18:35",
+          "name": "Walk to Nagarekawa",
+          "type": "transport",
+          "notes": "20 min · 1.6 km · Head southwest from the hotel toward the city center"
+        },
+        {
           "time": "19:00",
           "name": "🍴 Dinner — Nagarekawa district",
           "type": "food",
@@ -48,7 +54,17 @@
     {
       "date": "2026-05-23",
       "note": "🎂 Birthday! Hiroshima city day",
+      "saved": [
+        { "text": "🥩 Wagyu Amiyaki Kaiseki Sizzler (reserve!)", "url": "https://www.google.com/maps/search/?api=1&query=Wagyu+Amiyaki+Kaiseki+Sizzler+Hiroshima" },
+        { "text": "🥩 Niku no Yamakkin", "url": "https://tabelog.com/en/hiroshima/rstLst/yakiniku/" }
+      ],
       "activities": [
+        {
+          "time": "08:50",
+          "name": "Walk to Shukkeien Garden",
+          "type": "transport",
+          "notes": "10 min · 0.7 km · Short walk west from the hotel"
+        },
         {
           "time": "09:00",
           "timeEnd": "10:00",
@@ -138,21 +154,27 @@
         },
         {
           "time": "20:00",
-          "name": "🎂 Birthday Dinner — Steak Kaiseki Miyako Kasuga",
+          "name": "🎂 Birthday Dinner — Wagyu",
           "type": "food",
-          "notes": "Special occasion teppanyaki — steak and sautéed lobster courses surrounded by a Japanese garden with antique European interior. One of Hiroshima's best special-occasion restaurants. Book in advance and mention it's your birthday.",
+          "notes": "Pick one of the saved wagyu options above and reserve in advance — mention it's a birthday. Both do table grill with local Hiroshima kuroge wagyu.",
           "place": "Hiroshima, Japan",
           "coords": [
             34.3853,
             132.4553
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Steak+Kaiseki+Miyako+Kasuga+Hiroshima"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=wagyu+yakiniku+Hiroshima"
         }
       ]
     },
     {
       "date": "2026-05-24",
       "activities": [
+        {
+          "time": "08:15",
+          "name": "JR + Ferry to Miyajima",
+          "type": "transport",
+          "notes": "45 min · JR San'yo Line from Hiroshima Station to Miyajimaguchi (~25 min), then JR Ferry to Miyajima (~10 min) · ¥410 total (JR Pass valid)"
+        },
         {
           "time": "09:30",
           "timeEnd": "11:30",

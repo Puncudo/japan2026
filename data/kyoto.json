@@ -19,12 +19,22 @@
     {
       "date": "2026-05-15",
       "note": "Arrival from Fujikawaguchiko",
+      "saved": [
+        { "text": "🃏 TCG shops — Teramachi-dori street", "url": "https://www.google.com/maps/search/?api=1&query=card+game+shop+Teramachi+Kyoto" },
+        { "text": "🍜 Omen — elderly-run udon, Philosopher's Path", "url": "https://www.google.com/maps/search/?api=1&query=Omen+noodles+Kyoto" }
+      ],
       "activities": [
         {
           "time": "13:30",
           "name": "Check in — Kyoto Hotel",
           "type": "transport",
           "notes": "Drop bags, freshen up."
+        },
+        {
+          "time": "14:45",
+          "name": "Walk to Nishiki Market",
+          "type": "transport",
+          "notes": "18 min · 1.2 km · Head southwest from the hotel toward the covered arcade"
         },
         {
           "time": "15:00",
@@ -53,6 +63,12 @@
           ],
           "mapsUrl": "https://www.google.com/maps/place/WEEKENDERS+COFFEE+TOMINOKOJI/@35.0028682,135.7601317,16z/data=!4m7!3m6!1s0x60010891057353a3:0x15acc52fb3708b76!8m2!3d35.0067836!4d135.7644831!15sChdXZWVrZW5kZXJzIENvZmZlZSBreW90b1oZIhd3ZWVrZW5kZXJzIGNvZmZlZSBreW90b5IBDGNvZmZlZV9zdGFuZOABAA!16s%2Fg%2F11c0r5h74k?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=042702ce-7054-4e9a-8f20-e2431da9958d",
           "photo": "photos/kyoto/weekenders-coffee.jpg"
+        },
+        {
+          "time": "17:35",
+          "name": "Walk to Pontocho Alley",
+          "type": "transport",
+          "notes": "10 min · 0.7 km · Head east toward the river"
         },
         {
           "time": "18:00",
@@ -161,6 +177,12 @@
       "note": "⚡ SWAPPED with May 17: Moved to Saturday, all spots open",
       "activities": [
         {
+          "time": "06:20",
+          "name": "Keihan Train: Sanjo → Fushimi Inari",
+          "type": "transport",
+          "notes": "20 min · Keihan Main Line from Sanjo Station to Fushimi Inari Station (2 stops south)"
+        },
+        {
           "time": "07:00",
           "timeEnd": "09:00",
           "name": "⛩ Fushimi Inari Taisha",
@@ -173,6 +195,12 @@
             135.7791876
           ],
           "mapsUrl": "https://www.google.com/maps/place/Fushimi+Inari+Taisha/@34.9697606,135.7521187,14z/data=!4m6!3m5!1s0x60010f153d2e6d21:0x7b1aca1c753ae2e9!8m2!3d34.9676945!4d135.7791876!16zL20vMDVsZHJt?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=d8c894c4-4830-40e2-8d0b-4df4986d631c"
+        },
+        {
+          "time": "09:00",
+          "name": "Walk to Tofuku-ji",
+          "type": "transport",
+          "notes": "15 min · 1.1 km · Head north through the residential lanes"
         },
         {
           "time": "09:30",
@@ -240,6 +268,12 @@
           ]
         },
         {
+          "time": "12:00",
+          "name": "Bus to Kiyomizu-dera",
+          "type": "transport",
+          "notes": "15 min · City Bus 202 toward Higashiyama, alight at Kiyomizumichi stop"
+        },
+        {
           "time": "12:30",
           "timeEnd": "14:00",
           "name": "Kiyomizu-dera",
@@ -268,6 +302,12 @@
         },
         {
           "time": "15:30",
+          "name": "Walk to Kennin-ji",
+          "type": "transport",
+          "notes": "10 min · 0.7 km · Follow the lane northwest from Sannenzaka into Gion"
+        },
+        {
+          "time": "15:45",
           "timeEnd": "16:30",
           "name": "Kennin-ji Temple",
           "type": "sightseeing",
@@ -298,6 +338,12 @@
             135.778403
           ],
           "photo": "photos/kyoto/gion-district.jpg"
+        },
+        {
+          "time": "18:05",
+          "name": "Walk to Pontocho",
+          "type": "transport",
+          "notes": "15 min · 0.9 km · Head west from Hanamikoji through Gion toward the river"
         },
         {
           "time": "18:30",
@@ -423,6 +469,12 @@
           ]
         },
         {
+          "time": "15:45",
+          "name": "Walk to teamLab Biovortex",
+          "type": "transport",
+          "notes": "15 min · 1.3 km · Exit Kyoto Station Hachijo East Gate, walk south"
+        },
+        {
           "time": "16:00",
           "timeEnd": "19:00",
           "name": "teamLab Biovortex Kyoto",
@@ -442,6 +494,12 @@
           ]
         },
         {
+          "time": "19:05",
+          "name": "Subway back to Sanjo",
+          "type": "transport",
+          "notes": "15 min · Subway Karasuma Line from Kyoto Station north to Marutamachi, then short walk east to hotel area"
+        },
+        {
           "time": "19:30",
           "name": "🍴 Dinner",
           "type": "food",
@@ -459,6 +517,12 @@
       "note": "⚡ CHANGED: Nara & Uji day trip (moved from May 19 for more time)",
       "activities": [
         {
+          "time": "07:10",
+          "name": "Train: Kyoto → Nara",
+          "type": "transport",
+          "notes": "45 min · JR Nara Line from Kyoto Station to JR Nara Station (~¥740)"
+        },
+        {
           "time": "08:00",
           "timeEnd": "13:00",
           "name": "Nara Day Trip",
@@ -471,6 +535,12 @@
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nara+Park+Nara+Japan",
           "photo": "photos/kyoto/nara-day-stop.jpg"
+        },
+        {
+          "time": "13:05",
+          "name": "Train: Nara → Uji",
+          "type": "transport",
+          "notes": "35 min · JR Nara Line from JR Nara Station to Uji Station (~¥470)"
         },
         {
           "time": "13:30",
@@ -491,6 +561,12 @@
           "name": "Return to Kyoto",
           "type": "transport",
           "notes": "JR from Uji back to Kyoto (~20 min). Last evening in Kyoto — relax and enjoy."
+        },
+        {
+          "time": "17:05",
+          "name": "Subway: Kyoto Station → Sanjo area",
+          "type": "transport",
+          "notes": "10 min · Subway Karasuma Line north to Marutamachi, then walk east to the river"
         },
         {
           "time": "18:00",
@@ -523,6 +599,12 @@
       "note": "⚡ CHANGED: Kinkakuji/Ryoanji morning → Departure to Osaka",
       "activities": [
         {
+          "time": "07:45",
+          "name": "Bus: Hotel → Kinkaku-ji",
+          "type": "transport",
+          "notes": "35 min · City Bus 12 from Kawaramachi-Sanjo stop toward Kinugasa, alight at Kinkakujicho"
+        },
+        {
           "time": "08:30",
           "timeEnd": "09:30",
           "name": "Kinkaku-ji (Golden Pavilion)",
@@ -537,7 +619,13 @@
           "photo": "photos/kyoto/kinkaku-ji-golden-pavilion.jpg"
         },
         {
-          "time": "09:45",
+          "time": "09:30",
+          "name": "Walk to Ryoan-ji",
+          "type": "transport",
+          "notes": "15 min · 1.1 km · Head southwest along the wooded path"
+        },
+        {
+          "time": "09:50",
           "timeEnd": "10:30",
           "name": "Ryoan-ji Temple",
           "type": "sightseeing",
@@ -549,6 +637,12 @@
           ],
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ryoanji+Temple+Kyoto",
           "photo": "photos/kyoto/ryoan-ji-temple.jpg"
+        },
+        {
+          "time": "10:35",
+          "name": "Bus: Ryoan-ji → Kyoto Station",
+          "type": "transport",
+          "notes": "30 min · City Bus 50 or 205 from Ryoanji-mae stop south to Kyoto Station"
         },
         {
           "time": "11:30",

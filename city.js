@@ -226,18 +226,18 @@ function buildCityDOM(data) {
           <div class="city-note-wrap" id="city-note-wrap">
             <div class="city-note-hdr" onclick="toggleCityNoteWrap()">
               <span>📝 City Notes</span>
-              <span class="day-note-arrow" id="city-note-arrow">▼</span>
+              <span class="day-note-arrow" id="city-note-arrow">▶</span>
             </div>
-            <div class="city-note-body" id="city-note-body">
+            <div class="city-note-body collapsed" id="city-note-body">
               <div class="city-note-el" id="city-note-el" contenteditable="true"
                 data-placeholder="Tips, reminders, things to buy…"></div>
             </div>
           </div>
 
           <!-- Collapsible day theme -->
-          <div class="day-note-wrap" id="day-note-wrap">
+          <div class="day-note-wrap day-note-collapsed" id="day-note-wrap">
             <div class="day-note-header">
-              <span class="day-note-label" onclick="toggleDayNote()" style="cursor:pointer;flex:1">Day theme <span class="day-note-arrow" id="day-note-arrow">▼</span></span>
+              <span class="day-note-label" onclick="toggleDayNote()" style="cursor:pointer;flex:1">Day theme <span class="day-note-arrow" id="day-note-arrow">▶</span></span>
               <div class="day-note-header-right">
                 <div class="day-note-toolbar" id="day-note-toolbar" style="display:none">
                   <button class="rte-btn" onclick="execRteCmd('bold')" title="Bold"><b>B</b></button>
@@ -258,6 +258,7 @@ function buildCityDOM(data) {
             <span id="act-panel-date">— select a day —</span>
             <button class="act-compact-btn" id="act-compact-btn" onclick="toggleCompact()" title="Compact view">⊟</button>
           </div>
+          <div id="day-saved-links"></div>
           <div class="act-list" id="act-list"></div>
         </div>
       </div>
@@ -444,6 +445,20 @@ async function selectDay(dateStr) {
 
   const dateSpan = document.getElementById('act-panel-date');
   if (dateSpan) dateSpan.textContent = fmtDate(dateStr);
+
+  // Saved links bar
+  const savedEl = document.getElementById('day-saved-links');
+  if (savedEl) {
+    if (day?.saved?.length) {
+      savedEl.innerHTML = day.saved.map(l =>
+        `<a class="saved-link" href="${l.url}" target="_blank" rel="noopener">${l.text}</a>`
+      ).join('');
+      savedEl.style.display = '';
+    } else {
+      savedEl.innerHTML = '';
+      savedEl.style.display = 'none';
+    }
+  }
 
   if (!day?.activities?.length) {
     listEl.innerHTML = `<p class="act-empty">${day?.note || 'No activities planned for this day yet.'}</p>`;

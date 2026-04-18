@@ -1,0 +1,12 @@
+[
+  { "id":"1",  "name":"טיסה",          "category":"flights",       "amount":8555, "currency":"ILS", "paid":true,  "paidByOther":false },
+  { "id":"2",  "name":"",              "category":"accommodation", "amount":1891, "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"3",  "name":"",              "category":"accommodation", "amount":975,  "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"4",  "name":"",              "category":"accommodation", "amount":1971, "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"5",  "name":"BOOKING",       "category":"accommodation", "amount":1696, "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"6",  "name":"",              "category":"accommodation", "amount":2295, "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"7",  "name":"",              "category":"accommodation", "amount":1114, "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"8",  "name":"",              "category":"accommodation", "amount":3623, "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"9",  "name":"USJ",           "category":"activities",    "amount":1378, "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"10", "name":"פוקימון",       "category":"activities",    "amount":565,  "currency":"ILS", "paid":false, "paidByOther":false }
+]

@@ -121,6 +121,12 @@
       "note": "Morning in Onomichi → Travel to Tokyo",
       "activities": [
         {
+          "time": "07:50",
+          "name": "Walk to waterfront",
+          "type": "transport",
+          "notes": "8 min · 0.5 km · Head east along the shore from the hotel"
+        },
+        {
           "time": "08:00",
           "timeEnd": "09:00",
           "name": "Morning waterfront coffee",

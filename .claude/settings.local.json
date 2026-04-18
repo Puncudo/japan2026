@@ -12,7 +12,10 @@
       "WebFetch(domain:maps.app.goo.gl)",
       "Bash(grep -E '\"coords\":|\"mapsUrl\":' *.json)",
       "WebFetch(domain:nominatim.openstreetmap.org)",
-      "Bash(python -c ':*)"
+      "Bash(python -c ':*)",
+      "WebSearch",
+      "WebFetch(domain:www.tripadvisor.com)",
+      "WebFetch(domain:www.byfood.com)"
     ]
   }
 }

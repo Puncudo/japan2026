@@ -55,6 +55,9 @@
     },
     {
       "date": "2026-05-11",
+      "saved": [
+        { "text": "🥩 Yoroniku (よろにく) — wagyu table grill, Minami-Aoyama", "url": "https://www.google.com/maps/search/?api=1&query=Yoroniku+yakiniku+Tokyo" }
+      ],
       "activities": [
         {
           "time": "09:30",
@@ -359,6 +362,12 @@
         },
         {
           "time": "14:00",
+          "name": "Walk to Cat Street",
+          "type": "transport",
+          "notes": "11 min · 0.8 km · Head south down Meiji-dori from Harajuku Station"
+        },
+        {
+          "time": "14:15",
           "timeEnd": "15:30",
           "name": "Cat Street",
           "type": "shopping",
