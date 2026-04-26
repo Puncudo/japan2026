@@ -60,22 +60,34 @@
       ],
       "activities": [
         {
-          "time": "09:30",
-          "timeEnd": "10:30",
-          "name": "Hanazono Shrine",
-          "type": "sightseeing",
-          "notes": "5-min walk from Shinjuku Station East Exit. Walk through the vermilion torii gates.",
-          "place": "Hanazono Shrine",
-          "coords": [
-            35.6933128,
-            139.7057555
-          ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hanazono%20Shrine",
-          "photo": "photos/tokyo-1/hanazono-shrine.jpg"
+          "time": "07:30",
+          "name": "JR Chuo Line: Shinjuku → Tachikawa",
+          "type": "transport",
+          "notes": "40 min · JR Chuo Special Rapid from Shinjuku Station to Tachikawa Station, then 10 min walk north to park entrance. ¥473."
         },
         {
-          "time": "10:30",
+          "time": "08:15",
           "timeEnd": "11:00",
+          "name": "Showa Kinen Park",
+          "type": "sightseeing",
+          "notes": "✅ Sleep in ok — opens 09:30, but early arrival = emptier paths.\nMassive former airfield turned park in Tachikawa, ~40 min from Shinjuku. Mid-May peak: nemophila (baby blue eyes) on Herb Hill, poppies, roses. 1.6 million flowers. Herb Hill is the main photo spot — blue field stretching toward the sky. Also: rainbow pool, cycling paths, and Silver Wing fountain plaza. ¥450 entry.",
+          "place": "Showa Memorial Park, Tachikawa, Tokyo, Japan",
+          "coords": [
+            35.7044,
+            139.4136
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Showa+Memorial+Park+Tachikawa+Tokyo",
+          "photo": "photos/tokyo-1/showa-kinen-park.jpg"
+        },
+        {
+          "time": "11:05",
+          "name": "JR Chuo Line: Tachikawa → Shinjuku",
+          "type": "transport",
+          "notes": "40 min · JR Chuo Special Rapid back to Shinjuku Station. ¥473."
+        },
+        {
+          "time": "11:50",
+          "timeEnd": "12:15",
           "name": "Cross Shinjuku Vision (3D Cat)",
           "type": "sightseeing",
           "notes": "The iconic giant 3D cat billboard. Best viewed from across the street.",
@@ -88,8 +100,8 @@
           "photo": "photos/tokyo-1/cross-shinjuku-vision.jpg"
         },
         {
-          "time": "11:30",
-          "timeEnd": "12:30",
+          "time": "12:30",
+          "timeEnd": "13:30",
           "name": "🍴 Tokyo Mentsu-dan",
           "type": "food",
           "notes": "Ramen restaurant near Shinjuku. 10-min walk.",
@@ -102,8 +114,8 @@
           "photo": "photos/tokyo-1/tokyo-mentsu-dan.jpg"
         },
         {
-          "time": "13:00",
-          "timeEnd": "14:30",
+          "time": "14:00",
+          "timeEnd": "15:30",
           "name": "Shin-Okubo (Korea Town)",
           "type": "sightseeing",
           "notes": "Walk 10 min north from Shinjuku Station. Tokyo's Korea Town — street food, K-pop shops, bubble tea.",
@@ -116,14 +128,14 @@
           "photo": "photos/tokyo-1/shin-okubo-korea-town.jpg"
         },
         {
-          "time": "14:30",
+          "time": "15:30",
           "name": "Walk to Isetan Shinjuku",
           "type": "transport",
           "notes": "13 min · 0.8 km"
         },
         {
-          "time": "15:00",
-          "timeEnd": "16:30",
+          "time": "16:00",
+          "timeEnd": "17:30",
           "name": "Isetan Shinjuku",
           "type": "shopping",
           "notes": "Tokyo's most famous department store. Great for Japanese cosmetics, food hall in the basement.",
@@ -136,14 +148,14 @@
           "photo": "photos/tokyo-1/isetan-shinjuku.jpg"
         },
         {
-          "time": "16:30",
+          "time": "17:30",
           "name": "Walk to Shinjuku Central Park",
           "type": "transport",
           "notes": "20 min · 1.3 km · Head west past the station"
         },
         {
-          "time": "17:00",
-          "timeEnd": "17:35",
+          "time": "18:00",
+          "timeEnd": "18:30",
           "name": "Shinjuku Central Park",
           "type": "sightseeing",
           "notes": "15-min walk or 'We Bus' from West Exit. Nice breather before the observation deck.",
@@ -156,14 +168,14 @@
           "photo": "photos/tokyo-1/shinjuku-central-park.jpg"
         },
         {
-          "time": "17:35",
+          "time": "18:35",
           "name": "Walk to Tokyo Metropolitan Gov Building",
           "type": "transport",
           "notes": "6 min · 0.4 km"
         },
         {
-          "time": "17:45",
-          "timeEnd": "18:45",
+          "time": "18:45",
+          "timeEnd": "19:45",
           "name": "Tokyo Metropolitan Government Building",
           "type": "sightseeing",
           "notes": "Free observation deck on the 45th floor. South Tower open this day (North closed — 2nd Monday). Incredible city views.",
@@ -176,14 +188,14 @@
           "photo": "photos/tokyo-1/tokyo-metropolitan-government-building.jpg"
         },
         {
-          "time": "18:50",
+          "time": "19:50",
           "name": "Walk to Kabukicho",
           "type": "transport",
           "notes": "18 min · 1.2 km · Head east through Nishi-Shinjuku toward the station, then north into Kabukicho"
         },
         {
-          "time": "19:15",
-          "timeEnd": "20:30",
+          "time": "20:15",
+          "timeEnd": "21:30",
           "name": "🍴 Kabukicho Izakaya Dinner",
           "type": "food",
           "notes": "⚡ CHANGED: Was Omoide Yokocho again — swapped to avoid repeat. Try Torikizoku (cheap yakitori chain, fun vibe) or explore the izakaya alleys around Kabukicho for a different atmosphere than night 1.",
@@ -196,7 +208,7 @@
           "photo": "photos/tokyo-1/kabukicho-izakaya-dinner.png"
         },
         {
-          "time": "20:45",
+          "time": "21:45",
           "name": "Godzilla Head & Arcade",
           "type": "sightseeing",
           "notes": "Godzilla head on the Gracery Shinjuku hotel, then dive into Kabukicho arcades.",
@@ -231,7 +243,7 @@
           "timeEnd": "09:30",
           "name": "Travel to PokéPark Kanto",
           "type": "transport",
-          "notes": "⚡ ADDED: Keio Line from Shinjuku → Keio Yomiuriland Station (~25 min), then Sky Shuttle gondola up to the park. Total ~45-60 min door-to-door."
+          "notes": "✅ Sleep in ok — park opens at 10:00, no benefit to leaving before 08:30.\n⚡ ADDED: Keio Line from Shinjuku → Keio Yomiuriland Station (~25 min), then Sky Shuttle gondola up to the park. Total ~45-60 min door-to-door."
         },
         {
           "time": "10:00",
