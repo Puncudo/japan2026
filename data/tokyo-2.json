@@ -256,6 +256,25 @@
             35.6717,
             139.765
           ]
+        },
+        {
+          "time": "20:30",
+          "timeEnd": "22:30",
+          "name": "🥋 Asakusa Sumo Club",
+          "type": "sightseeing",
+          "notes": "Evening sumo entertainment show — 2 hours of professional sumo bouts, cultural explanation, and audience interaction. 8:30 PM slot. Book in advance. Back at hotel 5 min walk.",
+          "place": "Asakusa Sumo Club, Asakusa, Tokyo, Japan",
+          "coords": [
+            35.7119,
+            139.7966
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Asakusa+Sumo+Club+Tokyo",
+          "links": [
+            {
+              "text": "🥋 Book tickets",
+              "url": "https://www.asakusasumoclub.com/"
+            }
+          ]
         }
       ]
     },
@@ -435,8 +454,39 @@
           ]
         },
         {
-          "time": "15:00",
-          "timeEnd": "17:00",
+          "time": "14:15",
+          "name": "Yurikamome: Odaiba → Ariake",
+          "type": "transport",
+          "notes": "5 min · One stop on Yurikamome to Ariake Station, then 3 min walk to Tokyo Dream Park"
+        },
+        {
+          "time": "14:20",
+          "timeEnd": "16:00",
+          "name": "100% Doraemon & Friends in Tokyo",
+          "type": "sightseeing",
+          "notes": "Largest Doraemon exhibition ever — manga artwork, recreated scenes, all 17 feature films screened, projection mapping, and exclusive merchandise. Open 10:00–18:00. Check official site for ticket prices.",
+          "place": "Tokyo Dream Park, 3-3-8 Ariake, Koto-ku, Tokyo",
+          "coords": [
+            35.6302,
+            139.7924
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Dream+Park+Ariake",
+          "links": [
+            {
+              "text": "🤖 Event info & tickets",
+              "url": "https://en.japantravel.com/tokyo/100-doraemon-and-friends-in-tokyo/72494"
+            }
+          ]
+        },
+        {
+          "time": "16:10",
+          "name": "Train: Ariake → Ikebukuro",
+          "type": "transport",
+          "notes": "30 min · Rinkai Line from Kokusai-Tenjijo to Osaki, then Yamanote Line to Ikebukuro"
+        },
+        {
+          "time": "16:45",
+          "timeEnd": "18:00",
           "name": "Ikebukuro — Pokémon Center Mega Tokyo + Animate",
           "type": "shopping",
           "notes": "Sunshine City mall: Pokémon Center Mega Tokyo — one of the largest in Japan, full exclusive merch. Also Namja Town (food theme park, gyoza stadium). Then Animate Ikebukuro — 9-floor anime/manga/merchandise megastore, Japan's largest Animate. Both within a 5-min walk of each other. 20 min by JR from Shimbashi.",
@@ -448,7 +498,7 @@
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sunshine+City+Ikebukuro+Tokyo"
         },
         {
-          "time": "18:00",
+          "time": "19:00",
           "name": "🍴 Dinner — Ikebukuro",
           "type": "food",
           "notes": "Ramen Street in Sunshine City basement or the yakitori alleys near Ikebukuro Station west side — very local, very cheap.",
@@ -545,15 +595,50 @@
           "notes": "Yokosuka Line back to Tokyo Station (~55 min). Back in Asakusa by ~18:00."
         },
         {
-          "time": "19:00",
+          "time": "18:00",
           "name": "🍴 Dinner — Asakusa",
           "type": "food",
-          "notes": "Relax near the hotel. Asakusa has great tempura (Daikokuya, founded 1887 — queue worth it), soba, and izakaya options all within walking distance of the Gate Hotel.",
+          "notes": "Quick dinner near hotel before fireworks. Asakusa has great tempura (Daikokuya, founded 1887 — queue worth it), soba, and izakaya options all within walking distance.",
           "place": "Asakusa, Tokyo, Japan",
           "coords": [
             35.7119,
             139.7946
           ]
+        },
+        {
+          "time": "18:45",
+          "name": "TX: Asakusa → Kitasenju",
+          "type": "transport",
+          "notes": "6 min · Tsukuba Express from Asakusa Station to Kitasenju (1 stop, ¥270), then 20 min walk west to Arakawa riverbank. Arrive by 19:00 to claim good blanket spot."
+        },
+        {
+          "time": "19:20",
+          "timeEnd": "20:20",
+          "name": "🎆 48th Adachi Fireworks Festival",
+          "type": "sightseeing",
+          "notes": "13,000 shells over Arakawa River — one of Tokyo's biggest summer fireworks. Free general viewing on riverbank grass (bring blanket). Finale choreographed to Elgar's Pomp and Circumstance. Cancelled if wind >7m/s.",
+          "place": "Arakawa Riverbed, Adachi, Tokyo, Japan",
+          "coords": [
+            35.7717,
+            139.7942
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Adachi+Fireworks+Arakawa+Tokyo",
+          "links": [
+            {
+              "text": "🎆 Official event info",
+              "url": "https://www.adachikanko.net/en/5event_2026"
+            },
+            {
+              "text": "🎫 Paid seats (CN Playguide)",
+              "url": "https://www.cnplayguide.com/adachikanko/"
+            }
+          ]
+        },
+        {
+          "time": "20:30",
+          "name": "TX: Kitasenju → Asakusa",
+          "type": "transport",
+          "notes": "6 min back. Crowds exit fast — wait 10 min after end for lighter crush."
         }
       ]
     },
