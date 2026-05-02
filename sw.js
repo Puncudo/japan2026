@@ -1,4 +1,4 @@
-const CACHE_NAME = 'japan-trip-v32';
+const CACHE_NAME = 'japan-trip-v33';
 const ASSETS = [
   '/',
   '/index.html',
@@ -40,6 +40,20 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   // Never intercept POST requests or API calls
   if (e.request.method !== 'GET' || e.request.url.includes('/api/')) return;
+
+  // JSON data files — network first so edits are picked up without bumping SW version
+  if (e.request.url.includes('/data/') && e.request.url.endsWith('.json')) {
+    e.respondWith(
+      fetch(e.request)
+        .then(res => {
+          const clone = res.clone();
+          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+          return res;
+        })
+        .catch(() => caches.match(e.request))
+    );
+    return;
+  }
 
   // HTML navigations — network first so updates are picked up immediately
   if (e.request.mode === 'navigate' || e.request.url.endsWith('.html')) {
