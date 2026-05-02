@@ -46,15 +46,18 @@ async function renderPaymentsTab() {
   const view = document.getElementById('view-payments');
   if (!view) return;
 
-  if (!_pays) {
-    _pays = _loadPays();
-    if (!_pays) {
-      try {
-        const res = await fetch(`data/payments.json?_=${Date.now()}`);
-        _pays = await res.json();
-        _savePays();
-      } catch { _pays = []; }
-    }
+  // Always fetch fresh JSON so edits to payments.json are reflected immediately.
+  // Preserve any entries added via the modal (their IDs won't exist in the JSON file).
+  try {
+    const res   = await fetch(`data/payments.json?_=${Date.now()}`);
+    const fresh = await res.json();
+    const freshIds  = new Set(fresh.map(p => p.id));
+    const stored    = _loadPays() || [];
+    const userAdded = stored.filter(p => !freshIds.has(p.id));
+    _pays = [...fresh, ...userAdded];
+    _savePays();
+  } catch {
+    if (!_pays) _pays = _loadPays() || [];
   }
   _drawPayments(view);
 }
