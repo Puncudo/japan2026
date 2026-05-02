@@ -26,19 +26,44 @@
       "activities": [
         {
           "time": "13:30",
-          "name": "Check in — Kyoto Hotel",
+          "name": "Bus: Kyoto Station → Kamigamo Shrine",
           "type": "transport",
-          "notes": "Drop bags, freshen up."
+          "notes": "40 min · Bus #9 from Kyoto Station to Kamigamo Shrine. Go straight from train — parade procession arrives at the shrine ~15:00, gives you a 90 min window to catch the finale. Drop bags at hotel after."
         },
         {
-          "time": "14:45",
+          "time": "14:15",
+          "timeEnd": "15:30",
+          "name": "🎌 Aoi Matsuri — Kamigamo Shrine Finale",
+          "type": "sightseeing",
+          "notes": "One of Kyoto's 3 greatest festivals (since 6th century). Heian-era court procession of 500 people in ancient imperial garments. Parade departs Imperial Palace 10:30, arrives Kamigamo Shrine ~15:00. Catch the procession entering the shrine grounds — free standing along the route. Paid reserved seats available at shrine (book ahead). ⚠️ Rain = postponed 1 day.",
+          "place": "Kamigamo Shrine, Kyoto, Japan",
+          "coords": [
+            35.0593,
+            135.7527
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kamigamo+Shrine+Kyoto",
+          "links": [
+            {
+              "text": "🎌 Event info",
+              "url": "https://en.japantravel.com/kyoto/aoi-matsuri-festival/44242"
+            }
+          ]
+        },
+        {
+          "time": "15:45",
+          "name": "Bus: Kamigamo → Hotel",
+          "type": "transport",
+          "notes": "40 min · Bus back to Sanjo area. Check in, drop bags, freshen up."
+        },
+        {
+          "time": "16:30",
           "name": "Walk to Nishiki Market",
           "type": "transport",
           "notes": "18 min · 1.2 km · Head southwest from the hotel toward the covered arcade"
         },
         {
-          "time": "15:00",
-          "timeEnd": "16:30",
+          "time": "16:45",
+          "timeEnd": "18:00",
           "name": "Nishiki Market",
           "type": "food",
           "notes": "Kyoto's 'Kitchen' — narrow covered market with tofu, pickles, street snacks, and local ingredients. 5 blocks long.",
@@ -51,8 +76,8 @@
           "photo": "photos/kyoto/nishiki-market.jpg"
         },
         {
-          "time": "16:30",
-          "timeEnd": "17:30",
+          "time": "18:05",
+          "timeEnd": "18:45",
           "name": "Weekenders Coffee",
           "type": "food",
           "notes": "One of Kyoto's best specialty coffee spots. Small, cozy, excellent pour-overs.",
@@ -65,14 +90,14 @@
           "photo": "photos/kyoto/weekenders-coffee.jpg"
         },
         {
-          "time": "17:35",
+          "time": "18:50",
           "name": "Walk to Pontocho Alley",
           "type": "transport",
           "notes": "10 min · 0.7 km · Head east toward the river"
         },
         {
-          "time": "18:00",
-          "timeEnd": "19:00",
+          "time": "19:00",
+          "timeEnd": "20:00",
           "name": "Pontocho Alley Stroll",
           "type": "sightseeing",
           "notes": "Narrow lantern-lit alley along the Kamo River. One of Kyoto's most atmospheric streets.",
@@ -85,7 +110,7 @@
           "photo": "photos/kyoto/pontocho-alley-stroll.jpg"
         },
         {
-          "time": "19:00",
+          "time": "20:00",
           "name": "🍴 Option A: Honke Daiichi-Asahi",
           "type": "food",
           "notes": "Legendary Kyoto ramen — shoyu broth, thin noodles, char siu. Near Kyoto Station (20 min south from hotel — requires detour).",
@@ -104,7 +129,7 @@
           ]
         },
         {
-          "time": "19:00",
+          "time": "20:00",
           "name": "🍴 Option B: Ramen Kairikiya Kawaramachi Sanjo",
           "type": "food",
           "notes": "⚡ ADDED: Kyoto-style shoyu ramen — light transparent chicken broth with Kujo green onions. On your street, open until 3 AM. ~¥800.",
@@ -537,17 +562,17 @@
           "photo": "photos/kyoto/nara-day-stop.jpg"
         },
         {
-          "time": "13:05",
+          "time": "13:20",
           "name": "Train: Nara → Uji",
           "type": "transport",
-          "notes": "35 min · JR Nara Line from JR Nara Station to Uji Station (~¥470)"
+          "notes": "35 min · JR Nara Line from JR Nara Station to Uji Station (~¥470). Grab lunch in Uji on arrival."
         },
         {
-          "time": "13:30",
-          "timeEnd": "16:00",
+          "time": "14:00",
+          "timeEnd": "17:00",
           "name": "Uji Day Trip",
           "type": "sightseeing",
-          "notes": "⚡ MOVED from May 19. JR Nara Line from Nara to Uji (~30 min). Byodoin Temple (10-yen coin), Uji Bridge, matcha street, matcha ice cream. More relaxed than the original 1.5h slot.",
+          "notes": "Byodoin Temple (10-yen coin, closes 17:30), Uji Bridge, matcha street, matcha ice cream. 3h is the perfect amount — small walkable town.",
           "place": "Byodoin Temple, Uji, Kyoto, Japan",
           "coords": [
             34.8884,
@@ -557,32 +582,32 @@
           "photo": "photos/kyoto/uji-day-stop.jpg"
         },
         {
-          "time": "17:00",
-          "name": "Return to Kyoto",
+          "time": "17:05",
+          "name": "Train: Uji → Kyoto Station",
           "type": "transport",
-          "notes": "JR from Uji back to Kyoto (~20 min). Last evening in Kyoto — relax and enjoy."
+          "notes": "20 min · JR Nara Line from Uji to Kyoto Station"
         },
         {
-          "time": "17:05",
-          "name": "Subway: Kyoto Station → Sanjo area",
+          "time": "17:30",
+          "name": "Subway: Kyoto Station → teamLab",
           "type": "transport",
-          "notes": "10 min · Subway Karasuma Line north to Marutamachi, then walk east to the river"
+          "notes": "15 min · Karasuma Line northbound to Kitaoji Station, then 10 min walk to Kyoto Botanical Garden"
         },
         {
           "time": "18:00",
-          "timeEnd": "19:30",
-          "name": "Kamo River sunset stroll",
+          "timeEnd": "21:00",
+          "name": "✨ teamLab Botanical Garden Kyoto",
           "type": "sightseeing",
-          "notes": "Locals sit along the Kamo River banks at dusk — one of Kyoto's most beloved free experiences. Grab a convenience store drink, find a spot on the steps, and watch the city wind down. Completely free, completely local.",
-          "place": "Kamo River, Kyoto, Japan",
+          "notes": "Digital art installation inside Kyoto Botanical Garden at night. Monday evening = lightest crowds. Timed entry — 18:00 slot booked.",
+          "place": "Kyoto Botanical Garden, Kitaoji, Kyoto, Japan",
           "coords": [
-            35.0065,
-            135.7714
+            35.0447,
+            135.7721
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kamo+River+Kyoto"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=teamLab+Botanical+Garden+Kyoto"
         },
         {
-          "time": "19:30",
+          "time": "21:15",
           "name": "🍴 Last dinner in Kyoto",
           "type": "food",
           "notes": "Last night — make it count. Revisit a favorite from earlier in the trip, or try somewhere new in Pontocho or Gion.",

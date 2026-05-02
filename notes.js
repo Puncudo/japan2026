@@ -11,9 +11,9 @@ function renderNotesTab() {
   if (data) {
     data.timeline.forEach(item => {
       if (item.type === 'major') {
-        stops.push({ id: item.id, name: item.name, image: item.image });
+        stops.push({ id: item.id, name: item.name, image: item.image, defaultNote: item.defaultNote || '' });
       } else if (item.type === 'waypoints') {
-        item.items.forEach(wp => stops.push({ id: wp.id, name: wp.name, image: wp.image }));
+        item.items.forEach(wp => stops.push({ id: wp.id, name: wp.name, image: wp.image, defaultNote: wp.defaultNote || '' }));
       }
     });
   }
@@ -45,10 +45,11 @@ function renderNotesTab() {
   view.innerHTML = html;
 
   /* ── Wire up each note area ── */
-  function wireNote(el, storageKey) {
+  function wireNote(el, storageKey, defaultContent = '') {
     if (!el) return;
-    /* Load saved content */
-    el.innerHTML = localStorage.getItem(storageKey) || '';
+    /* Load saved content, fall back to defaultContent from trip data */
+    const seed = defaultContent ? defaultContent.replace(/\n/g, '<br>') : '';
+    el.innerHTML = localStorage.getItem(storageKey) || seed;
     /* Save on input */
     el.addEventListener('input', () => {
       const v = el.innerHTML.trim();
@@ -63,5 +64,5 @@ function renderNotesTab() {
   }
 
   wireNote(document.getElementById('gnote'), 'global-note');
-  stops.forEach(s => wireNote(document.getElementById(`cnote-${s.id}`), `city-note-${s.id}`));
+  stops.forEach(s => wireNote(document.getElementById(`cnote-${s.id}`), `city-note-${s.id}`, s.defaultNote));
 }

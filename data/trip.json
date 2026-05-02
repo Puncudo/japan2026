@@ -16,7 +16,8 @@
       "arrival": "2026-05-10",
       "arrivalTime": "17:35",
       "departure": "2026-05-14",
-      "transit": "🛬 Narita Express (NEX) from Narita · 90 min · ¥3,070"
+      "transit": "🛬 Narita Express (NEX) from Narita · 90 min · ¥3,070",
+      "defaultNote": "🚌 Bus to Kawaguchiko — May 14, departs 09:05\nShinjuku Expressway Bus Terminal → Kawaguchiko Station\nReservation: 180683609 · Bus 1405 · Seats 10A & 10B · 2 adults"
     },
     {
       "type": "major",

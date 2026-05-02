@@ -21,21 +21,47 @@
       "note": "Arrival from Tokyo",
       "activities": [
         {
-          "time": "09:00",
-          "timeEnd": "10:30",
+          "time": "09:05",
+          "timeEnd": "10:50",
           "name": "Bus: Shinjuku → Kawaguchiko",
           "type": "transport",
-          "notes": "Keio or Fujikyu Highway Bus from Shinjuku Bus Terminal (Busta Shinjuku). ~2h direct but can take up to 2.5h with traffic — stay flexible with lunch timing."
+          "notes": "Keio Fujikyu Highway Bus from Busta Shinjuku (Shinjuku Expressway Bus Terminal). Reservation 180683609 · Bus 1405 · Seats 10A & 10B. ~2h direct but can take up to 2.5h with traffic."
         },
         {
-          "time": "10:35",
+          "time": "10:55",
+          "name": "Walk: Kawaguchiko Station → Hotel Koryu",
+          "type": "transport",
+          "notes": "30 min · Flat lakeside road east along the south shore of Lake Kawaguchi. Scenic — lake on your left, possible Fuji views. Drop bags at hotel before heading out."
+        },
+        {
+          "time": "11:30",
+          "name": "Red Line Bus to Oishi Park",
+          "type": "transport",
+          "notes": "20 min · Red Line bus northbound from Kawaguchiko Station to Oishi Park stop. Buy 2-day pass (¥2,000) at station."
+        },
+        {
+          "time": "12:00",
+          "timeEnd": "13:30",
+          "name": "Oishi Park",
+          "type": "sightseeing",
+          "notes": "Best spot on Lake Kawaguchi for Mt Fuji views — morning = clearest air, fewest crowds. Mid-May = shibazakura, tulips & canola flowers. Closes 17:45. Free entry to park, shop/cafe open from 9:00.",
+          "place": "Oishi Park, Fujikawaguchiko, Yamanashi, Japan",
+          "coords": [
+            35.522904,
+            138.7457522
+          ],
+          "mapsUrl": "https://www.google.com/maps/place/Oishi+Park/@35.522904,138.7431773,17z/data=!3m1!4b1!4m6!3m5!1s0x60195fa68c0b2b95:0xa22e530b3a652904!8m2!3d35.522904!4d138.7457522!16s%2Fg%2F1tjpqk4h?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=3008a6fa-bc00-4317-8181-a6928870d371",
+          "photo": "photos/fujikawaguchiko/oishi-park.png"
+        },
+        {
+          "time": "13:35",
           "name": "Red Line Bus to Houtou Fudou",
           "type": "transport",
-          "notes": "10 min · Red Line bus from Kawaguchiko Station toward Ropeway stop"
+          "notes": "10 min · Red Line bus eastbound — Houtou Fudou is on the same north shore, nearby"
         },
         {
-          "time": "11:00",
-          "timeEnd": "12:30",
+          "time": "14:00",
+          "timeEnd": "15:30",
           "name": "🍴 Houtou Fudou",
           "type": "food",
           "notes": "Famous local houtou (flat noodle miso stew) — the must-eat dish of Yamanashi. Great Mt Fuji views from the riverside branch.",
@@ -48,37 +74,17 @@
           "photo": "photos/fujikawaguchiko/houtou-fudou.jpg"
         },
         {
-          "time": "12:35",
-          "name": "Red Line Bus to Panoramic Ropeway",
-          "type": "transport",
-          "notes": "15 min · Red Line bus westbound to Kachi Kachi Ropeway stop"
-        },
-        {
-          "time": "13:00",
-          "timeEnd": "15:00",
-          "name": "Mt Fuji Panoramic Ropeway",
-          "type": "sightseeing",
-          "notes": "Short gondola up Mt Tenjo. Stunning views of Mt Fuji and Lake Kawaguchi from the summit. Return by ropeway or hike down.",
-          "place": "Mt. Fuji Panoramic Ropeway, Fujikawaguchiko, Yamanashi, Japan",
-          "coords": [
-            35.5096,
-            138.7598
-          ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mt+Fuji+Panoramic+Ropeway+Kawaguchiko",
-          "photo": "photos/fujikawaguchiko/mt-fuji-panoramic-ropeway.jpg"
-        },
-        {
-          "time": "15:05",
+          "time": "15:35",
           "name": "Red Line Bus to Itchiku Kubota Museum",
           "type": "transport",
-          "notes": "15 min · Red Line bus northbound along the lake"
+          "notes": "15 min · Red Line bus westbound along the lake"
         },
         {
-          "time": "15:30",
+          "time": "16:00",
           "timeEnd": "17:00",
           "name": "Itchiku Kubota Art Museum",
           "type": "sightseeing",
-          "notes": "Stunning kimono art museum on the lake shore. The architect's collection of Tsujigahana dyed silk kimonos is world-class.",
+          "notes": "Stunning kimono art museum on the lake shore. Collection of Tsujigahana dyed silk kimonos is world-class. ⚠️ Leave by 17:00 to make last ropeway gondola.",
           "place": "Itchiku Kubota Art Museum, Fujikawaguchiko, Yamanashi, Japan",
           "coords": [
             35.527324,
@@ -89,29 +95,29 @@
         },
         {
           "time": "17:05",
-          "name": "Red Line Bus to Oishi Park",
+          "name": "Red Line Bus to Panoramic Ropeway",
           "type": "transport",
-          "notes": "10 min · Red Line bus westbound to Oishi Park stop"
+          "notes": "15 min · Red Line bus southbound to Kachi Kachi Ropeway stop"
         },
         {
-          "time": "17:30",
+          "time": "17:20",
           "timeEnd": "18:30",
-          "name": "Oishi Park",
+          "name": "Mt Fuji Panoramic Ropeway",
           "type": "sightseeing",
-          "notes": "Lakeside park — best spot on Lake Kawaguchi for Mt Fuji views, especially at golden hour. Mid-May = tulips & canola flowers (lavender blooms late June–July).",
-          "place": "Oishi Park, Fujikawaguchiko, Yamanashi, Japan",
+          "notes": "Short gondola up Mt Tenjo. Stunning views of Mt Fuji and Lake Kawaguchi from the summit. Golden hour from the top. ⚠️ Last gondola up ~17:30 in May — arrive by 17:20 at latest. Last down ~18:00.",
+          "place": "Mt. Fuji Panoramic Ropeway, Fujikawaguchiko, Yamanashi, Japan",
           "coords": [
-            35.522904,
-            138.7457522
+            35.5096,
+            138.7598
           ],
-          "mapsUrl": "https://www.google.com/maps/place/Oishi+Park/@35.522904,138.7431773,17z/data=!3m1!4b1!4m6!3m5!1s0x60195fa68c0b2b95:0xa22e530b3a652904!8m2!3d35.522904!4d138.7457522!16s%2Fg%2F1tjpqk4h?entry=tts&g_ep=EgoyMDI2MDQxNC4wIPu8ASoASAFQAw%3D%3D&skid=3008a6fa-bc00-4317-8181-a6928870d371",
-          "photo": "photos/fujikawaguchiko/oishi-park.png"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mt+Fuji+Panoramic+Ropeway+Kawaguchiko",
+          "photo": "photos/fujikawaguchiko/mt-fuji-panoramic-ropeway.jpg"
         },
         {
           "time": "18:35",
-          "name": "Red Line Bus back to Hotel",
+          "name": "Walk back to Hotel",
           "type": "transport",
-          "notes": "20 min · Red Line bus eastbound back to Kawaguchiko Station area"
+          "notes": "Ropeway station is near Kawaguchiko Station — 10 min walk to hotel area"
         },
         {
           "time": "19:00",
