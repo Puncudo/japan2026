@@ -1,4 +1,4 @@
-const CACHE_NAME = 'japan-trip-v33';
+const CACHE_NAME = 'japan-trip-v34';
 const ASSETS = [
   '/',
   '/index.html',
@@ -40,6 +40,20 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   // Never intercept POST requests or API calls
   if (e.request.method !== 'GET' || e.request.url.includes('/api/')) return;
+
+  // Hard refresh (Ctrl+Shift+R) — bypass SW cache entirely, fetch fresh and update cache
+  if (e.request.cache === 'reload') {
+    e.respondWith(
+      fetch(e.request)
+        .then(res => {
+          const clone = res.clone();
+          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+          return res;
+        })
+        .catch(() => caches.match(e.request))
+    );
+    return;
+  }
 
   // JSON data files — network first so edits are picked up without bumping SW version
   if (e.request.url.includes('/data/') && e.request.url.endsWith('.json')) {
