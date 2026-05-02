@@ -8,5 +8,6 @@
   { "id":"7",  "name":"",              "category":"accommodation", "amount":1114, "currency":"ILS", "paid":false, "paidByOther":false },
   { "id":"8",  "name":"",              "category":"accommodation", "amount":3623, "currency":"ILS", "paid":false, "paidByOther":false },
   { "id":"9",  "name":"USJ",           "category":"activities",    "amount":1378, "currency":"ILS", "paid":false, "paidByOther":false },
-  { "id":"10", "name":"פוקימון",       "category":"activities",    "amount":565,  "currency":"ILS", "paid":false, "paidByOther":false }
+  { "id":"10", "name":"פוקימון",       "category":"activities",    "amount":565,  "currency":"ILS", "paid":false, "paidByOther":false },
+  { "id":"11", "name":"אוטובוס שינג'וקו→קוואגוצ'יקו", "category":"transport", "amount":92, "currency":"ILS", "paid":false, "paidByOther":false }
 ]
