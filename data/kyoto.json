@@ -589,22 +589,22 @@
         },
         {
           "time": "17:30",
-          "name": "Subway: Kyoto Station → teamLab",
+          "name": "Walk: Kyoto Station → teamLab Biovortex",
           "type": "transport",
-          "notes": "15 min · Karasuma Line northbound to Kitaoji Station, then 10 min walk to Kyoto Botanical Garden"
+          "notes": "7 min walk from Kyoto Station Hachijo East Gate"
         },
         {
           "time": "18:00",
           "timeEnd": "21:00",
-          "name": "✨ teamLab Botanical Garden Kyoto",
+          "name": "✨ teamLab Biovortex Kyoto",
           "type": "sightseeing",
-          "notes": "Digital art installation inside Kyoto Botanical Garden at night. Monday evening = lightest crowds. Timed entry — 18:00 slot booked.",
-          "place": "Kyoto Botanical Garden, Kitaoji, Kyoto, Japan",
+          "notes": "10,000㎡ immersive digital art museum — 50+ artworks across 4 floors. Opened Oct 2025, largest permanent teamLab in Japan. Monday evening = lightest crowds. Tickets online only (booked). Last entry 19:30.",
+          "place": "teamLab Biovortex Kyoto, Minami-ku, Kyoto",
           "coords": [
-            35.0447,
-            135.7721
+            34.9844,
+            135.7572
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=teamLab+Botanical+Garden+Kyoto"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=teamLab+Biovortex+Kyoto"
         },
         {
           "time": "21:15",
