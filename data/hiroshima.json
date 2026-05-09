@@ -153,16 +153,16 @@
           "photo": "photos/hiroshima/a-bomb-dome-at-night.png"
         },
         {
-          "time": "20:00",
-          "name": "🎂 Birthday Dinner — Wagyu",
+          "time": "20:15",
+          "name": "🎂 Birthday Dinner — Wagyu Grill Kaiseki Sizzler",
           "type": "food",
-          "notes": "Pick one of the saved wagyu options above and reserve in advance — mention it's a birthday. Both do table grill with local Hiroshima kuroge wagyu.",
-          "place": "Hiroshima, Japan",
+          "notes": "Booked @ 20:15.",
+          "place": "Wagyu Grill Kaiseki Sizzler, Hiroshima, Japan",
           "coords": [
             34.3853,
             132.4553
           ],
-          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=wagyu+yakiniku+Hiroshima"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wagyu+Amiyaki+Kaiseki+Sizzler+Hiroshima"
         }
       ]
     },

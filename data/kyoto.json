@@ -372,37 +372,15 @@
         },
         {
           "time": "18:30",
-          "name": "🍴 Dinner Option A: Pontocho Alley Izakaya",
+          "name": "🍴 Izutsuya Pontocho",
           "type": "food",
-          "notes": "⚡ ADDED: Pick any riverside izakaya along the lantern-lit alley. Yakitori, tempura, Kyoto cuisine with Kamo River views.",
-          "place": "Pontocho Alley, Kyoto, Japan",
+          "notes": "Booked @ 18:30.",
+          "place": "Izutsuya, Pontocho Alley, Kyoto, Japan",
           "coords": [
             35.0065,
             135.7693
           ],
-          "links": [
-            {
-              "text": "📍 Google Maps",
-              "url": "https://www.google.com/maps/search/?api=1&query=Pontocho+Alley+izakaya+Kyoto"
-            }
-          ]
-        },
-        {
-          "time": "18:30",
-          "name": "🍴 Dinner Option B: Gion Duck Noodles",
-          "type": "food",
-          "notes": "⚡ ADDED: Popular duck ramen spot right in Gion. Rich duck broth, always has a queue but worth the wait.",
-          "place": "Gion Duck Noodles, Kyoto, Japan",
-          "coords": [
-            35.004,
-            135.7755
-          ],
-          "links": [
-            {
-              "text": "📍 Google Maps",
-              "url": "https://www.google.com/maps/search/?api=1&query=Gion+Duck+Noodles+Kyoto"
-            }
-          ]
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Izutsuya+Pontocho+Kyoto"
         }
       ]
     },
