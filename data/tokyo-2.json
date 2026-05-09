@@ -380,15 +380,16 @@
           "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nezu+Shrine+Tokyo"
         },
         {
-          "time": "18:00",
-          "name": "🍴 Dinner",
+          "time": "18:30",
+          "name": "🍴 Teppanyaki THE Nanami",
           "type": "food",
-          "notes": "Head back to Asakusa (10 min by subway) for dinner near the hotel, or try the izakaya scene around Ueno/Okachimachi — very local, very cheap.",
-          "place": "Ueno, Tokyo, Japan",
+          "notes": "Booked @ 18:30.",
+          "place": "Teppanyaki THE Nanami, Tokyo, Japan",
           "coords": [
             35.7092,
             139.7748
-          ]
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Teppanyaki+THE+Nanami+Tokyo"
         }
       ]
     },

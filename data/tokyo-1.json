@@ -454,14 +454,15 @@
         },
         {
           "time": "20:00",
-          "name": "🍴 Dinner",
+          "name": "🍴 KINKA Sushi Bar Izakaya Shibuya",
           "type": "food",
-          "notes": "Option A: Shibuya Hikarie food floors. Option B: Shibuya Yokocho alley.",
-          "place": "Shibuya, Tokyo, Japan",
+          "notes": "Booked @ 20:00.",
+          "place": "KINKA Sushi Bar Izakaya, Shibuya, Tokyo, Japan",
           "coords": [
             35.659,
             139.7022
-          ]
+          ],
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KINKA+Sushi+Bar+Izakaya+Shibuya+Tokyo"
         }
       ]
     }
