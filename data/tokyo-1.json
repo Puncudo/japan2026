@@ -420,27 +420,20 @@
         },
         {
           "time": "16:30",
-          "name": "Walk to SHIBUYA SKY",
-          "type": "transport",
-          "notes": "7 min · 0.4 km"
-        },
-        {
-          "time": "17:00",
           "timeEnd": "18:30",
-          "name": "SHIBUYA SKY",
-          "type": "sightseeing",
-          "notes": "Book 4 weeks in advance! Open-air rooftop observation deck on top of Shibuya Scramble Square. Perfect timing for sunset (~18:30-18:45 in mid-May). NEEDS TICKET IF WANT TO GO.",
-          "place": "SHIBUYA SKY, Shibuya Scramble Square, Tokyo, Japan",
+          "name": "Shibuya Shopping",
+          "type": "shopping",
+          "notes": "2 hours in the heart of Shibuya. Shibuya 109 (iconic youth fashion, 10 floors), PARCO (fashion, art, Nintendo Tokyo on B1), Hikarie (upscale, ShinQs basement food hall), Loft (huge lifestyle/stationery store). All within a few minutes of each other.",
+          "place": "Shibuya, Tokyo, Japan",
           "coords": [
-            35.6582,
-            139.7024
+            35.6595,
+            139.7004
           ],
-          "mapsUrl": "https://www.google.com/maps/place/SHIBUYA+SKY/@35.6582,139.7024,17z",
-          "photo": "photos/tokyo-1/shibuya-sky.jpg"
+          "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shibuya+109+Tokyo"
         },
         {
           "time": "18:30",
-          "timeEnd": "19:30",
+          "timeEnd": "19:00",
           "name": "Shibuya Crossing",
           "type": "sightseeing",
           "notes": "The world's busiest pedestrian crossing. Best viewed from Mag's Park rooftop (less crowded than the Starbucks).",
