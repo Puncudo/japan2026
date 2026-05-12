@@ -21,6 +21,12 @@
       "note": "Arrival from Tokyo",
       "activities": [
         {
+          "time": "08:00",
+          "name": "📦 Ship Luggage to Kyoto",
+          "type": "transport",
+          "notes": "At Kadoya Hotel front desk — Yamato TA-Q-BIN (黒猫) form. Ship main bags to Kyoto hotel (KOKO HOTEL Kyoto Sanjo) — arrives May 15. Keep only small bag for Fujikawaguchiko overnight. Cost: ¥1,500–2,500 per bag. Must drop off before ~12:00 for next-day delivery."
+        },
+        {
           "time": "09:05",
           "timeEnd": "10:50",
           "name": "Bus: Shinjuku → Kawaguchiko",

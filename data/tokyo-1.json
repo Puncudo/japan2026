@@ -306,12 +306,6 @@
       "date": "2026-05-13",
       "activities": [
         {
-          "time": "08:00",
-          "name": "📦 Ship Luggage to Kyoto",
-          "type": "transport",
-          "notes": "Ask Kadoya Hotel front desk for Yamato TA-Q-BIN (黒猫) form. Ship main bags to Kyoto hotel — arrives May 15. Keep only small bag for Fujikawaguchiko overnight. Cost: ¥1,500–2,500 per bag. Must drop off before ~12:00 for next-day delivery."
-        },
-        {
           "time": "08:30",
           "timeEnd": "10:00",
           "name": "Shinjuku Gyoen National Garden",
